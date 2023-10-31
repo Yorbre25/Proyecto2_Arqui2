@@ -1,8 +1,8 @@
-module ALU #(parameter N = 4)(
-	input [N-1:0] a,
-	input [N-1:0] b,
+module ALUVect #(parameter N = 24,parameter M=6)(
+	input [M*N-1:0] a,
+	input [M*N-1:0] b,
 	input [3:0] select,
-	output [N-1:0] result,
+	output [M*N-1:0] result,
 	output [1:0] flags
 );
 	

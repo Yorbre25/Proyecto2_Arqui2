@@ -1,0 +1,18 @@
+# system info SRAM on 2023.10.30.20:56:44
+system_info:
+name,value
+DEVICE,EP4CGX150DF31C7
+DEVICE_FAMILY,Cyclone IV GX
+GENERATION_ID,1698721004
+#
+#
+# Files generated for SRAM on 2023.10.30.20:56:44
+files:
+filepath,kind,attributes,module,is_top
+simulation/SRAM.v,VERILOG,,SRAM,true
+simulation/submodules/SRAM_sram_0.v,VERILOG,,SRAM_sram_0,false
+#
+# Map from instance-path to kind of module
+instances:
+instancePath,module
+SRAM.sram_0,SRAM_sram_0

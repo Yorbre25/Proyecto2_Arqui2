@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<simPackage>
+ <file
+   path="simulation/submodules/SRAM_sram_0.v"
+   type="VERILOG"
+   library="sram_0" />
+ <file path="simulation/SRAM.v" type="VERILOG" />
+ <topLevel name="SRAM" />
+ <deviceFamily name="cycloneivgx" />
+</simPackage>

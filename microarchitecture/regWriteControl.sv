@@ -4,13 +4,13 @@ module regWriteControl(input [1:0] opType,input [3:0] opCode,Rd,output logic reg
 			regWrite=0;
 			regWriteV=0;
 		end
-		else if(!opType[1] && (opCode>=4'b0000 && opCode<=4'b1011))begin //operaciones de arit/log con y sin inmediato para el caso de las operaciones escalares
+		else if(!opType[1] && (opCode>=4'b0000 && opCode<=4'b1001))begin //operaciones de arit/log con y sin inmediato para el caso de las operaciones escalares
 		
 			regWrite=1; 
 			regWriteV=0;
 		
 		end
-		else if(!opType[1] &&  opCode>4'b1011)begin //operaciones de arit/log con y sin inmediato para el caso de las operaciones vectoriales
+		else if(!opType[1] &&  opCode>4'b1001)begin //operaciones de arit/log con y sin inmediato para el caso de las operaciones vectoriales
 		
 			regWrite=0; 
 			regWriteV=1;
@@ -21,7 +21,7 @@ module regWriteControl(input [1:0] opType,input [3:0] opCode,Rd,output logic reg
 			regWriteV=0;
 		
 		end
-		else if(opType==2'b10 && opCode==4'b1111)begin //operacion load para registros escalares
+		else if(opType==2'b10 && opCode==4'b0010)begin //operacion load para registros escalares
 			regWrite=0;
 			regWriteV=1;
 		

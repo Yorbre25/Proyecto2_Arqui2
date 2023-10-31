@@ -1,11 +1,13 @@
 parameter setValuesBuffer = 16;
-module exec #(parameter N= 24, parameter BW=setValuesBuffer + 2*N)(
-	input clk, rst, en, //clock, flush, stall
-	input [N-1:0] rd1, rd2, pc, imm, Forward1, Forward2,Forward3, // Posible Alu entries
+module exec #(parameter N= 24,parameter M=6, parameter BW=setValuesBuffer + 2*N)(
+	input clk, rst, en, //clock, flush, stall,
+	input [N-1:0] rd1, rd2, pc, imm, // Alu entries
+	input [M*N-1:0] rdv1,rdv2, Forward1, Forward2,Forward3, 
 	input [N-1:0] rd3,
+	input [M*N-1:0] rdv3,
 	input [3:0] aluControl,
 	input [3:0] Rc, // Register number
-	input immSrc, branchFlag, memWrite, memToReg, regWrite,
+	input immSrc, branchFlag, memWrite, memToReg, regWrite,modeSel,// modeSel(if its scalar or vectorial)
 	input Fa, Fb,Fc,
 	input [1:0] opType,
 	input [3:0] opCode,
@@ -14,31 +16,40 @@ module exec #(parameter N= 24, parameter BW=setValuesBuffer + 2*N)(
 	
 	//sub modules output
 	logic [1:0] flags;
-	logic [N-1:0] aluCurrentResult,RD3Out;
+	logic [M*N-1:0] aluCurrentResult,RD3Out,aluCurrentResultVectorial,RD3OutVectorial;
 	logic [BW-1:0] bufferInput;
 	logic [1:0]currentFlag;
 	logic zeroFlag, negFlag;
 	
-	//Alu entry selector
-	ALUMux #(.N(N)) AluMux1(
-		.rd1(rd1), 
-		.rd2(rd2), 
-		.rd3(rd3),
-		.pc(pc), 
-		.imm(imm), 
-		.Forward1(Forward1), 
-		.Forward2(Forward2), 
-		.Forward3(Forward3),
-		.aluControl(aluControl), 
-		.immSrc(immSrc), 
-		.branchFlag(branchFlag), 
-		.Fa(Fa), 
-		.Fb(Fb), 
-		.Fc(Fc),
-		.flags(flags), 
-		.aluCurrentResult(aluCurrentResult),
-		.RD3Out(RD3Out)
+	execScalar #(.N(N)) myExecScalar(
+	.rd1(rd1), 
+	.rd2(rd2), 
+	.pc(pc), 
+	.imm(imm),
+	.Forward1(Forward1[N-1:0]),
+	.Forward2(Forward2[N-1:0]), 
+	.Forward3(Forward3[N-1:0]),
+	.rd3(rd3), .aluControl(aluControl), 
+	.immSrc(immSrc), .branchFlag(branchFlag), 
+	.Fa(Fa), 
+	.Fb(Fb), 
+	.Fc(Fc), 
+	.aluCurrentResult(aluCurrentResult[N-1:0]),
+	.RD3Out(RD3Out[N-1:0]),
+	.flags(flags));
+	
+	/*
+	
+	execVect #(.N24)(
+	input [M*N-1:0] rd1, rd2, imm, Forward1, Forward2,Forward3, // Posible Alu entries
+	input [6*N-1:0] rd3,
+	input [3:0] aluControl,
+	input immSrc,
+	input Fa, Fb,Fc,
+	output  [6*N-1:0] aluCurrentResult,RD3Out,
+
 	);
+	*/
 	
 	flagRegister myFlagRegister(
 		.opType(opType), 
@@ -46,7 +57,7 @@ module exec #(parameter N= 24, parameter BW=setValuesBuffer + 2*N)(
 		.newFlags(flags),
 		.currentFlag(currentFlag),
 		.rst(rst)
-);	
+	);	
 
 	
 	//buffer setup
@@ -55,6 +66,10 @@ module exec #(parameter N= 24, parameter BW=setValuesBuffer + 2*N)(
 	
 	assign zeroFlag = currentFlag[0];
 	assign negFlag = currentFlag[1];
+	
+	//setting void spaces for vectorial input
+	assign aluCurrentResult[M*N-1:N] = {(M-1)*N{1'b0}};
+	assign RD3Out[M*N-1:N] = {(M-1)*N{1'b0}};
 	
 	
 	
