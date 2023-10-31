@@ -9,246 +9,53 @@ z2
 !i10f 100
 cModel Technology
 Z0 dC:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture/simulation/modelsim
-valuControl
-Z1 DXx6 sv_std 3 std 0 22 VYECXdT12H8WgbUP_5Y6:3
-Z2 !s110 1698347319
+vSRAM
+Z1 !s110 1698727387
 !i10b 1
-!s100 ?]=V]:k`b8]KDQSaZiik@1
-Z3 !s11b Dg1SIo80bB@j0V0VzS_@n1
-IMOQ8YHTIIJ]l8@DX18<_`1
-Z4 VDg1SIo80bB@j0V0VzS_@n1
-S1
+!s100 Y[K>laJF8N2YbcHSLk1I>3
+Z2 !s11b Dg1SIo80bB@j0V0VzS_@n1
+IDOkkIhgoIYGfB69z@J_?:3
+Z3 VDg1SIo80bB@j0V0VzS_@n1
 R0
-w1698031921
-8C:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture/aluControl.sv
-FC:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture/aluControl.sv
-!i122 3
-Z5 L0 1 9
-Z6 OV;L;2020.1;71
+w1698722828
+8C:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture/SRAM/simulation/SRAM.v
+FC:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture/SRAM/simulation/SRAM.v
+!i122 0
+L0 6 39
+Z4 OV;L;2020.1;71
 r1
 !s85 0
 31
-Z7 !s108 1698347319.000000
-!s107 C:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture/aluControl.sv|
-!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture|C:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture/aluControl.sv|
+!s108 1698727386.000000
+!s107 C:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture/SRAM/simulation/SRAM.v|
+!s90 -reportprogress|300|C:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture/SRAM/simulation/SRAM.v|
 !i113 1
-Z8 o-sv -work work
-Z9 !s92 -sv -work work +incdir+C:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture
-Z10 tCvgOpt 0
-nalu@control
-vbranchFlagControl
+Z5 tCvgOpt 0
+n@s@r@a@m
+vSRAM_tb
+DXx6 sv_std 3 std 0 22 VYECXdT12H8WgbUP_5Y6:3
 R1
+!i10b 1
+!s100 :fK?]6leng3fhc_N;79]Z1
 R2
-!i10b 1
-!s100 _G9gRk4<GlgM?CgnZflW[1
+IzV`FONYf3X8H10INcUKl_1
 R3
-IhkbniZom`^[0RkT8gg^bF1
-R4
 S1
 R0
-w1698031500
-8C:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture/branchFlagControl.sv
-FC:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture/branchFlagControl.sv
-!i122 2
-L0 1 4
-R6
-r1
-!s85 0
-31
-R7
-!s107 C:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture/branchFlagControl.sv|
-!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture|C:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture/branchFlagControl.sv|
-!i113 1
-R8
-R9
-R10
-nbranch@flag@control
-vcontrolUnit
-R1
-Z11 !s110 1698347320
-!i10b 1
-!s100 MBR1cl7f225nXTS3?]2kC1
-R3
-I2G8kZ9M>JgC[9N=m[n8Be3
-R4
-S1
-R0
-w1698342722
-8C:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture/controlUnit.sv
-FC:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture/controlUnit.sv
-!i122 8
-L0 1 21
-R6
-r1
-!s85 0
-31
-Z12 !s108 1698347320.000000
-!s107 C:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture/controlUnit.sv|
-!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture|C:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture/controlUnit.sv|
-!i113 1
-R8
-R9
-R10
-ncontrol@unit
-vcontrolUnit_tb
-R1
-R11
-!i10b 1
-!s100 8zQEIeTaYbb<GJa^MJ<X:3
-R3
-I<9b^Q0Io>2^5YSIVPVgZF1
-R4
-S1
-R0
-w1698347272
-8C:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture/controlUnit_tb.sv
-FC:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture/controlUnit_tb.sv
-!i122 9
-L0 1 309
-R6
-r1
-!s85 0
-31
-R12
-!s107 C:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture/controlUnit_tb.sv|
-!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture|C:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture/controlUnit_tb.sv|
-!i113 1
-R8
-R9
-R10
-ncontrol@unit_tb
-vimmSrcControl
-R1
-R2
-!i10b 1
-!s100 8MRgZhbSUF=XDO3HILClb0
-R3
-IojJHgGGBe[fUP0SERPNEd1
-R4
-S1
-R0
-w1698342669
-8C:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture/immSrcControl.sv
-FC:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture/immSrcControl.sv
+w1698727204
+8C:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture/SRAM_tb.sv
+FC:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture/SRAM_tb.sv
 !i122 1
-L0 1 8
-R6
+L0 2 92
+R4
 r1
 !s85 0
 31
-R7
-!s107 C:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture/immSrcControl.sv|
-!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture|C:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture/immSrcControl.sv|
+!s108 1698727387.000000
+!s107 C:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture/SRAM_tb.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture|C:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture/SRAM_tb.sv|
 !i113 1
-R8
-R9
-R10
-nimm@src@control
-vmemToRegControl
-R1
-R11
-!i10b 1
-!s100 6:ZM5Rd94[oZ;FfEln_680
-R3
-Ic<R?_CAQNYoO<SE_Wk<Rb1
-R4
-S1
-R0
-w1698032311
-8C:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture/memToRegControl.sv
-FC:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture/memToRegControl.sv
-!i122 5
-L0 1 10
-R6
-r1
-!s85 0
-31
-R7
-!s107 C:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture/memToRegControl.sv|
-!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture|C:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture/memToRegControl.sv|
-!i113 1
-R8
-R9
-R10
-nmem@to@reg@control
-vmemWriteControl
-R1
-R2
-!i10b 1
-!s100 50CWfcP>bVkKUZ[:OH6Nn2
-R3
-Ib;GXU1_Vfbhl=<ZgAaDU>0
-R4
-S1
-R0
-w1698032047
-8C:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture/memWriteControl.sv
-FC:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture/memWriteControl.sv
-!i122 4
+o-sv -work work
+!s92 -sv -work work +incdir+C:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture
 R5
-R6
-r1
-!s85 0
-31
-R7
-!s107 C:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture/memWriteControl.sv|
-!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture|C:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture/memWriteControl.sv|
-!i113 1
-R8
-R9
-R10
-nmem@write@control
-vmodeSelectorUnit
-R1
-R11
-!i10b 1
-!s100 G>7EoIc`mTFLDoP<RBX[O1
-R3
-IDzN=fPO:=9ngNjhMgAf011
-R4
-S1
-R0
-w1698338758
-8C:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture/modeSelectorUnit.sv
-FC:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture/modeSelectorUnit.sv
-!i122 7
-L0 1 17
-R6
-r1
-!s85 0
-31
-R12
-!s107 C:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture/modeSelectorUnit.sv|
-!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture|C:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture/modeSelectorUnit.sv|
-!i113 1
-R8
-R9
-R10
-nmode@selector@unit
-vregWriteControl
-R1
-R11
-!i10b 1
-!s100 3LHLb@VVl;mkOio8]e5<:2
-R3
-IIR55`@Jc2G43`SVlQP?=R3
-R4
-S1
-R0
-w1698346583
-8C:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture/regWriteControl.sv
-FC:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture/regWriteControl.sv
-!i122 6
-L0 1 34
-R6
-r1
-!s85 0
-31
-R12
-!s107 C:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture/regWriteControl.sv|
-!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture|C:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture/regWriteControl.sv|
-!i113 1
-R8
-R9
-R10
-nreg@write@control
+n@s@r@a@m_tb

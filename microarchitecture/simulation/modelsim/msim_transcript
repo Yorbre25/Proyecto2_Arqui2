@@ -1,5 +1,9 @@
 # Reading pref.tcl
 # do processor_run_msim_rtl_systemverilog.do
+# if ![file isdirectory processor_iputf_libs] {
+# 	file mkdir processor_iputf_libs
+# }
+# 
 # if {[file exists rtl_work]} {
 # 	vdel -lib rtl_work -all
 # }
@@ -10,197 +14,66 @@
 # Copying C:/intelFPGA_lite/20.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
 # Modifying modelsim.ini
 # 
-# vlog -sv -work work +incdir+C:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture {C:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture/controlUnit.sv}
+###### Libraries for IPUTF cores 
+# vlib processor_iputf_libs/sram_0
+# ** Warning: (vlib-34) Library already exists at "processor_iputf_libs/sram_0".
+# vmap sram_0 ./processor_iputf_libs/sram_0
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap sram_0 ./processor_iputf_libs/sram_0 
+# Modifying modelsim.ini
+###### End libraries for IPUTF cores 
+###### MIF file copy and HDL compilation commands for IPUTF cores 
+# 
+# 
+# vlog "C:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture/SRAM/simulation/submodules/SRAM_sram_0.v" -work sram_0
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 13:08:39 on Oct 26,2023
-# vlog -reportprogress 300 -sv -work work "+incdir+C:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture" C:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture/controlUnit.sv 
-# -- Compiling module controlUnit
+# Start time: 22:43:06 on Oct 30,2023
+# vlog -reportprogress 300 C:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture/SRAM/simulation/submodules/SRAM_sram_0.v -work sram_0 
+# -- Compiling module SRAM_sram_0
 # 
 # Top level modules:
-# 	controlUnit
-# End time: 13:08:39 on Oct 26,2023, Elapsed time: 0:00:00
+# 	SRAM_sram_0
+# End time: 22:43:06 on Oct 30,2023, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-# vlog -sv -work work +incdir+C:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture {C:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture/immSrcControl.sv}
+# vlog "C:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture/SRAM/simulation/SRAM.v"                               
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 13:08:39 on Oct 26,2023
-# vlog -reportprogress 300 -sv -work work "+incdir+C:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture" C:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture/immSrcControl.sv 
-# -- Compiling module immSrcControl
+# Start time: 22:43:06 on Oct 30,2023
+# vlog -reportprogress 300 C:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture/SRAM/simulation/SRAM.v 
+# -- Compiling module SRAM
 # 
 # Top level modules:
-# 	immSrcControl
-# End time: 13:08:39 on Oct 26,2023, Elapsed time: 0:00:00
+# 	SRAM
+# End time: 22:43:07 on Oct 30,2023, Elapsed time: 0:00:01
 # Errors: 0, Warnings: 0
-# vlog -sv -work work +incdir+C:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture {C:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture/branchFlagControl.sv}
+# 
+# 
+# vlog -sv -work work +incdir+C:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture {C:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture/SRAM_tb.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 13:08:39 on Oct 26,2023
-# vlog -reportprogress 300 -sv -work work "+incdir+C:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture" C:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture/branchFlagControl.sv 
-# -- Compiling module branchFlagControl
+# Start time: 22:43:07 on Oct 30,2023
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture" C:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture/SRAM_tb.sv 
+# -- Compiling module SRAM_tb
 # 
 # Top level modules:
-# 	branchFlagControl
-# End time: 13:08:39 on Oct 26,2023, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# vlog -sv -work work +incdir+C:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture {C:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture/aluControl.sv}
-# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 13:08:39 on Oct 26,2023
-# vlog -reportprogress 300 -sv -work work "+incdir+C:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture" C:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture/aluControl.sv 
-# -- Compiling module aluControl
-# 
-# Top level modules:
-# 	aluControl
-# End time: 13:08:39 on Oct 26,2023, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# vlog -sv -work work +incdir+C:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture {C:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture/memWriteControl.sv}
-# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 13:08:39 on Oct 26,2023
-# vlog -reportprogress 300 -sv -work work "+incdir+C:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture" C:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture/memWriteControl.sv 
-# -- Compiling module memWriteControl
-# 
-# Top level modules:
-# 	memWriteControl
-# End time: 13:08:39 on Oct 26,2023, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# vlog -sv -work work +incdir+C:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture {C:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture/memToRegControl.sv}
-# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 13:08:39 on Oct 26,2023
-# vlog -reportprogress 300 -sv -work work "+incdir+C:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture" C:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture/memToRegControl.sv 
-# -- Compiling module memToRegControl
-# 
-# Top level modules:
-# 	memToRegControl
-# End time: 13:08:40 on Oct 26,2023, Elapsed time: 0:00:01
-# Errors: 0, Warnings: 0
-# vlog -sv -work work +incdir+C:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture {C:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture/regWriteControl.sv}
-# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 13:08:40 on Oct 26,2023
-# vlog -reportprogress 300 -sv -work work "+incdir+C:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture" C:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture/regWriteControl.sv 
-# -- Compiling module regWriteControl
-# 
-# Top level modules:
-# 	regWriteControl
-# End time: 13:08:40 on Oct 26,2023, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# vlog -sv -work work +incdir+C:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture {C:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture/modeSelectorUnit.sv}
-# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 13:08:40 on Oct 26,2023
-# vlog -reportprogress 300 -sv -work work "+incdir+C:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture" C:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture/modeSelectorUnit.sv 
-# -- Compiling module modeSelectorUnit
-# 
-# Top level modules:
-# 	modeSelectorUnit
-# End time: 13:08:40 on Oct 26,2023, Elapsed time: 0:00:00
+# 	SRAM_tb
+# End time: 22:43:07 on Oct 30,2023, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # 
-# vlog -sv -work work +incdir+C:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture {C:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture/controlUnit.sv}
-# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 13:08:40 on Oct 26,2023
-# vlog -reportprogress 300 -sv -work work "+incdir+C:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture" C:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture/controlUnit.sv 
-# -- Compiling module controlUnit
-# 
-# Top level modules:
-# 	controlUnit
-# End time: 13:08:40 on Oct 26,2023, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# vlog -sv -work work +incdir+C:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture {C:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture/controlUnit_tb.sv}
-# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 13:08:40 on Oct 26,2023
-# vlog -reportprogress 300 -sv -work work "+incdir+C:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture" C:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture/controlUnit_tb.sv 
-# -- Compiling module controlUnit_tb
-# 
-# Top level modules:
-# 	controlUnit_tb
-# End time: 13:08:40 on Oct 26,2023, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# 
-# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs="+acc"  controlUnit_tb
-# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs=""+acc"" controlUnit_tb 
-# Start time: 13:08:40 on Oct 26,2023
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneiv_hssi_ver -L cycloneiv_pcie_hip_ver -L cycloneiv_ver -L rtl_work -L work -L sram_0 -voptargs="+acc"  SRAM_tb
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneiv_hssi_ver -L cycloneiv_pcie_hip_ver -L cycloneiv_ver -L rtl_work -L work -L sram_0 -voptargs=""+acc"" SRAM_tb 
+# Start time: 22:43:07 on Oct 30,2023
 # Loading sv_std.std
-# Loading work.controlUnit_tb
-# Loading work.controlUnit
-# Loading work.immSrcControl
-# Loading work.branchFlagControl
-# Loading work.aluControl
-# Loading work.memWriteControl
-# Loading work.memToRegControl
-# Loading work.regWriteControl
-# Loading work.modeSelectorUnit
+# Loading work.SRAM_tb
+# Loading work.SRAM
+# Loading sram_0.SRAM_sram_0
 # 
 # add wave *
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: luisA  Hostname: LAZH  ProcessID: 10232
+#           Attempting to use alternate WLF file "./wlft0r7ysq".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlft0r7ysq
 # view structure
 # .main_pane.structure.interior.cs.body.struct
 # view signals
 # .main_pane.objects.interior.cs.body.tree
 # run -all
-# Resta aritmetica escalar
-# Bandera immSrc en bajo
-# Bandera branchFlag en bajo
-# Bandera memWrite en bajo
-# Bandera memToReg en bajo
-# Bandera regWrite en alto
-# Bandera regWriteV en bajo
-# Bandera modeSel en bajo
-# Division aritmetica escalar
-# Bandera immSrc en bajo
-# Bandera branchFlag en bajo
-# Bandera memWrite en bajo
-# Bandera memToReg en bajo
-# Bandera regWrite en bajo
-# Bandera regWriteV en bajo
-# Bandera modeSel en bajo
-# Multiplicacion aritmetica escalar con inmediato
-# Bandera immSrc en alto
-# Bandera branchFlag en bajo
-# Bandera memWrite en bajo
-# Bandera memToReg en bajo
-# Bandera regWrite en alto
-# Bandera regWriteV en bajo
-# Bandera modeSel en bajo
-# Operacion de memoria escalar, load
-# Bandera immSrc en bajo
-# Bandera branchFlag en bajo
-# Bandera memWrite en bajo
-# Bandera memToReg en alto
-# Bandera regWrite en alto
-# Bandera regWriteV en bajo
-# Bandera modeSel en bajo
-# Operacion de memoria escalar, store
-# Bandera immSrc en bajo
-# Bandera branchFlag en bajo
-# Bandera memWrite en alto
-# Bandera memToReg en bajo
-# Bandera regWrite en bajo
-# Bandera regWriteV en bajo
-# Bandera modeSel en bajo
-# Operacion de salto, beq
-# Bandera immSrc en alto
-# Bandera branchFlag en alto
-# Bandera memWrite en bajo
-# Bandera memToReg en bajo
-# Bandera regWrite en bajo
-# Bandera regWriteV en bajo
-# Bandera modeSel en bajo
-# Operacion de memoria vectorial, load
-# Bandera immSrc en bajo
-# Bandera branchFlag en bajo
-# Bandera memWrite en bajo
-# Bandera memToReg en alto
-# Bandera regWrite en bajo
-# Bandera regWriteV en alto
-# Bandera modeSel en alto
-# Operacion de memoria vectorial, store
-# Bandera immSrc en bajo
-# Bandera branchFlag en bajo
-# Bandera memWrite en alto
-# Bandera memToReg en bajo
-# Bandera regWrite en bajo
-# Bandera regWriteV en bajo
-# Bandera modeSel en alto
-# suma aritmetica vectorial
-# Bandera immSrc en bajo
-# Bandera branchFlag en bajo
-# Bandera memWrite en bajo
-# Bandera memToReg en bajo
-# Bandera regWrite en bajo
-# Bandera regWriteV en alto
-# Bandera modeSel en alto
