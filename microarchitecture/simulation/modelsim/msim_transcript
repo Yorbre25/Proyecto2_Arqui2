@@ -1,9 +1,5 @@
 # Reading pref.tcl
-# do processor_run_msim_rtl_systemverilog.do
-# if ![file isdirectory processor_iputf_libs] {
-# 	file mkdir processor_iputf_libs
-# }
-# 
+# do processor_run_msim_rtl_verilog.do
 # if {[file exists rtl_work]} {
 # 	vdel -lib rtl_work -all
 # }
@@ -14,66 +10,156 @@
 # Copying C:/intelFPGA_lite/20.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
 # Modifying modelsim.ini
 # 
-###### Libraries for IPUTF cores 
-# vlib processor_iputf_libs/sram_0
-# ** Warning: (vlib-34) Library already exists at "processor_iputf_libs/sram_0".
-# vmap sram_0 ./processor_iputf_libs/sram_0
-# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
-# vmap sram_0 ./processor_iputf_libs/sram_0 
-# Modifying modelsim.ini
-###### End libraries for IPUTF cores 
-###### MIF file copy and HDL compilation commands for IPUTF cores 
-# 
-# 
-# vlog "C:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture/SRAM/simulation/submodules/SRAM_sram_0.v" -work sram_0
+# vlog -vlog01compat -work work +incdir+C:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture {C:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture/sinROM.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 22:43:06 on Oct 30,2023
-# vlog -reportprogress 300 C:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture/SRAM/simulation/submodules/SRAM_sram_0.v -work sram_0 
-# -- Compiling module SRAM_sram_0
+# Start time: 10:02:38 on Nov 05,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture" C:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture/sinROM.v 
+# -- Compiling module sinROM
 # 
 # Top level modules:
-# 	SRAM_sram_0
-# End time: 22:43:06 on Oct 30,2023, Elapsed time: 0:00:00
+# 	sinROM
+# End time: 10:02:38 on Nov 05,2023, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-# vlog "C:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture/SRAM/simulation/SRAM.v"                               
+# vlog -vlog01compat -work work +incdir+C:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture {C:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture/cosROM.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 22:43:06 on Oct 30,2023
-# vlog -reportprogress 300 C:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture/SRAM/simulation/SRAM.v 
-# -- Compiling module SRAM
+# Start time: 10:02:38 on Nov 05,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture" C:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture/cosROM.v 
+# -- Compiling module cosROM
 # 
 # Top level modules:
-# 	SRAM
-# End time: 22:43:07 on Oct 30,2023, Elapsed time: 0:00:01
+# 	cosROM
+# End time: 10:02:38 on Nov 05,2023, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-# 
-# 
-# vlog -sv -work work +incdir+C:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture {C:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture/SRAM_tb.sv}
+# vlog -sv -work work +incdir+C:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture {C:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture/mux21.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 22:43:07 on Oct 30,2023
-# vlog -reportprogress 300 -sv -work work "+incdir+C:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture" C:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture/SRAM_tb.sv 
-# -- Compiling module SRAM_tb
+# Start time: 10:02:38 on Nov 05,2023
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture" C:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture/mux21.sv 
+# -- Compiling module mux2_1
 # 
 # Top level modules:
-# 	SRAM_tb
-# End time: 22:43:07 on Oct 30,2023, Elapsed time: 0:00:00
+# 	mux2_1
+# End time: 10:02:38 on Nov 05,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture {C:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture/mux41.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 10:02:38 on Nov 05,2023
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture" C:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture/mux41.sv 
+# -- Compiling module mux41
+# 
+# Top level modules:
+# 	mux41
+# End time: 10:02:38 on Nov 05,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture {C:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture/execVect.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 10:02:38 on Nov 05,2023
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture" C:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture/execVect.sv 
+# -- Compiling package execVect_sv_unit
+# -- Compiling module execVect
+# 
+# Top level modules:
+# 	execVect
+# End time: 10:02:38 on Nov 05,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture {C:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture/ALUVect.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 10:02:38 on Nov 05,2023
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture" C:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture/ALUVect.sv 
+# -- Compiling module ALUVect
+# 
+# Top level modules:
+# 	ALUVect
+# End time: 10:02:38 on Nov 05,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture {C:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture/ALUElement.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 10:02:38 on Nov 05,2023
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture" C:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture/ALUElement.sv 
+# -- Compiling module ALUElement
+# 
+# Top level modules:
+# 	ALUElement
+# End time: 10:02:38 on Nov 05,2023, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # 
-# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneiv_hssi_ver -L cycloneiv_pcie_hip_ver -L cycloneiv_ver -L rtl_work -L work -L sram_0 -voptargs="+acc"  SRAM_tb
-# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneiv_hssi_ver -L cycloneiv_pcie_hip_ver -L cycloneiv_ver -L rtl_work -L work -L sram_0 -voptargs=""+acc"" SRAM_tb 
-# Start time: 22:43:07 on Oct 30,2023
+# vlog -sv -work work +incdir+C:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture {C:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture/ALUVect_tb.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 10:02:38 on Nov 05,2023
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture" C:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture/ALUVect_tb.sv 
+# -- Compiling module ALUVect_tb
+# 
+# Top level modules:
+# 	ALUVect_tb
+# End time: 10:02:38 on Nov 05,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture {C:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture/sinROM.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 10:02:38 on Nov 05,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture" C:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture/sinROM.v 
+# -- Compiling module sinROM
+# 
+# Top level modules:
+# 	sinROM
+# End time: 10:02:38 on Nov 05,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture {C:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture/cosROM.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 10:02:38 on Nov 05,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture" C:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture/cosROM.v 
+# -- Compiling module cosROM
+# 
+# Top level modules:
+# 	cosROM
+# End time: 10:02:38 on Nov 05,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneiv_hssi_ver -L cycloneiv_pcie_hip_ver -L cycloneiv_ver -L rtl_work -L work -voptargs="+acc"  ALUVect_tb
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneiv_hssi_ver -L cycloneiv_pcie_hip_ver -L cycloneiv_ver -L rtl_work -L work -voptargs=""+acc"" ALUVect_tb 
+# Start time: 10:02:38 on Nov 05,2023
 # Loading sv_std.std
-# Loading work.SRAM_tb
-# Loading work.SRAM
-# Loading sram_0.SRAM_sram_0
+# Loading work.ALUVect_tb
+# Loading work.ALUVect
+# Loading work.cosROM
+# Loading altera_mf_ver.altsyncram
+# Loading work.sinROM
+# Loading work.ALUElement
+# Loading altera_mf_ver.altsyncram_body
+# Loading altera_mf_ver.ALTERA_DEVICE_FAMILIES
+# Loading altera_mf_ver.ALTERA_MF_MEMORY_INITIALIZATION
 # 
 # add wave *
 # ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
 #           File in use by: luisA  Hostname: LAZH  ProcessID: 10232
-#           Attempting to use alternate WLF file "./wlft0r7ysq".
+#           Attempting to use alternate WLF file "./wlftjaaned".
 # ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
-#           Using alternate file: ./wlft0r7ysq
+#           Using alternate file: ./wlftjaaned
 # view structure
 # .main_pane.structure.interior.cs.body.struct
 # view signals
 # .main_pane.objects.interior.cs.body.tree
 # run -all
+# En mov la salida es el resultado del operando b
+# El resultado del sin corresponde a la tabla
+# El resultado del sin corresponde a la tabla
+# El resultado de la suma escalar 5 es correcto
+# El resultado de la suma escalar 4 es correcto
+# El resultado de la suma escalar 3 es correcto
+# El resultado de la suma escalar 2 es correcto
+# El resultado de la suma escalar 1 es correcto
+# El resultado de la suma escalar 0 es correcto
+# El resultado de la multiplicacion escalar 5 es correcto
+# El resultado de la multiplicacion escalar 4 es correcto
+# El resultado de la multiplicacion escalar 3 es correcto
+# El resultado de la multiplicacion escalar 2 es correcto
+# El resultado de la multiplicacion escalar 1 es correcto
+# El resultado de la multiplicacion escalar 0 es correcto
+# El resultado de la division escalar 5 es correcto
+# El resultado de la division escalar 4 es correcto
+# El resultado de la division escalar 3 es correcto
+# El resultado de la division escalar 2 es correcto
+# El resultado de la division escalar 1 es correcto
+# El resultado de la division escalar 0 es correcto
+# Break key hit
+# Break in Module ALUVect_tb at C:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture/ALUVect_tb.sv line 21
+# End time: 10:02:52 on Nov 05,2023, Elapsed time: 0:00:14
+# Errors: 0, Warnings: 2

@@ -1,8 +1,8 @@
 module ALUElement #(parameter N=24)(
 	input [N-1:0] a,b,
-	input [3:0] opCode,
+	input [3:0] select,
 	input [N-1:0] sinRead,cosRead,
-	output [N-1:0] out
+	output logic [N-1:0] out
 
 
 );
@@ -11,7 +11,7 @@ module ALUElement #(parameter N=24)(
 	
 	
 	always_comb begin
-		case(opCode)
+		case(select)
 			4'b1010:out=res_mov;
 			4'b1011:out=res_sin;
 			4'b1100:out=res_cos;
