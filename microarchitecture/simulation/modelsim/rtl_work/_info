@@ -8,33 +8,33 @@ z2
 !i10e 25
 !i10f 100
 cModel Technology
-Z0 dC:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture/simulation/modelsim
+Z0 dC:/Users/yraul/OneDrive/Documentos/GitHub/Proyecto2_Arqui2/microarchitecture/simulation/modelsim
 vALUElement
 Z1 DXx6 sv_std 3 std 0 22 VYECXdT12H8WgbUP_5Y6:3
-Z2 !s110 1699200158
+Z2 !s110 1699556722
 !i10b 1
 !s100 00<mV2`3fiSj;_?o`ol1G0
 Z3 !s11b Dg1SIo80bB@j0V0VzS_@n1
-IhoA`K<lWeo=Dc<YING6o13
+IjX=TAYIbD]A7[f7BNVO4W1
 Z4 VDg1SIo80bB@j0V0VzS_@n1
 S1
 R0
-w1698886270
-8C:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture/ALUElement.sv
-FC:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture/ALUElement.sv
+Z5 w1699546857
+8C:/Users/yraul/OneDrive/Documentos/GitHub/Proyecto2_Arqui2/microarchitecture/ALUElement.sv
+FC:/Users/yraul/OneDrive/Documentos/GitHub/Proyecto2_Arqui2/microarchitecture/ALUElement.sv
 !i122 6
 L0 1 35
-Z5 OV;L;2020.1;71
+Z6 OV;L;2020.1;71
 r1
 !s85 0
 31
-Z6 !s108 1699200158.000000
-!s107 C:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture/ALUElement.sv|
-!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture|C:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture/ALUElement.sv|
+Z7 !s108 1699556722.000000
+!s107 C:/Users/yraul/OneDrive/Documentos/GitHub/Proyecto2_Arqui2/microarchitecture/ALUElement.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/yraul/OneDrive/Documentos/GitHub/Proyecto2_Arqui2/microarchitecture|C:/Users/yraul/OneDrive/Documentos/GitHub/Proyecto2_Arqui2/microarchitecture/ALUElement.sv|
 !i113 1
-Z7 o-sv -work work
-Z8 !s92 -sv -work work +incdir+C:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture
-Z9 tCvgOpt 0
+Z8 o-sv -work work
+Z9 !s92 -sv -work work +incdir+C:/Users/yraul/OneDrive/Documentos/GitHub/Proyecto2_Arqui2/microarchitecture
+Z10 tCvgOpt 0
 n@a@l@u@element
 vALUVect
 R1
@@ -42,208 +42,236 @@ R2
 !i10b 1
 !s100 _XIQ8VARBQFJYJhD[kJgM1
 R3
-I^33cn>4Wn2e<XWf=_zOn40
+IaiV;aDa:l;9aS@VKT0VH[3
 R4
 S1
 R0
-w1699199280
-8C:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture/ALUVect.sv
-FC:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture/ALUVect.sv
+R5
+8C:/Users/yraul/OneDrive/Documentos/GitHub/Proyecto2_Arqui2/microarchitecture/ALUVect.sv
+FC:/Users/yraul/OneDrive/Documentos/GitHub/Proyecto2_Arqui2/microarchitecture/ALUVect.sv
 !i122 5
 L0 1 83
-R5
+R6
 r1
 !s85 0
 31
-R6
-!s107 C:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture/ALUVect.sv|
-!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture|C:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture/ALUVect.sv|
-!i113 1
 R7
+!s107 C:/Users/yraul/OneDrive/Documentos/GitHub/Proyecto2_Arqui2/microarchitecture/ALUVect.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/yraul/OneDrive/Documentos/GitHub/Proyecto2_Arqui2/microarchitecture|C:/Users/yraul/OneDrive/Documentos/GitHub/Proyecto2_Arqui2/microarchitecture/ALUVect.sv|
+!i113 1
 R8
 R9
+R10
 n@a@l@u@vect
-vALUVect_tb
-R1
-R2
-!i10b 1
-!s100 V24okz6n5MJR=MFoRT6hl0
-R3
-ICa7Ze8m;9>lW?D;bgAbS=1
-R4
-S1
-R0
-w1698887772
-8C:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture/ALUVect_tb.sv
-FC:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture/ALUVect_tb.sv
-!i122 7
-L0 2 170
-R5
-r1
-!s85 0
-31
-R6
-!s107 C:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture/ALUVect_tb.sv|
-!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture|C:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture/ALUVect_tb.sv|
-!i113 1
-R7
-R8
-R9
-n@a@l@u@vect_tb
 vcosROM
 R2
 !i10b 1
 !s100 m8_7oed]hF55BOPOS^m[[3
 R3
-ICd^NdKfG7`n<I`XN^U1o;3
+IkTGhj9X7]F[Vdh[hZZeB[2
 R4
 R0
-w1698730801
-8C:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture/cosROM.v
-FC:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture/cosROM.v
-!i122 9
-Z10 L0 40 61
 R5
+8C:/Users/yraul/OneDrive/Documentos/GitHub/Proyecto2_Arqui2/microarchitecture/cosROM.v
+FC:/Users/yraul/OneDrive/Documentos/GitHub/Proyecto2_Arqui2/microarchitecture/cosROM.v
+!i122 1
+Z11 L0 40 61
+R6
 r1
 !s85 0
 31
-R6
-!s107 C:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture/cosROM.v|
-!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture|C:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture/cosROM.v|
+R7
+!s107 C:/Users/yraul/OneDrive/Documentos/GitHub/Proyecto2_Arqui2/microarchitecture/cosROM.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/yraul/OneDrive/Documentos/GitHub/Proyecto2_Arqui2/microarchitecture|C:/Users/yraul/OneDrive/Documentos/GitHub/Proyecto2_Arqui2/microarchitecture/cosROM.v|
 !i113 1
-Z11 o-vlog01compat -work work
-Z12 !s92 -vlog01compat -work work +incdir+C:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture
-R9
+Z12 o-vlog01compat -work work
+Z13 !s92 -vlog01compat -work work +incdir+C:/Users/yraul/OneDrive/Documentos/GitHub/Proyecto2_Arqui2/microarchitecture
+R10
 ncos@r@o@m
 vexecVect
 R1
-DXx4 work 16 execVect_sv_unit 0 22 7N?:BoEY>0?GE6Cz:EIT52
+DXx4 work 16 execVect_sv_unit 0 22 2g6C0l;;i5Im:gOA8a7LP1
 R2
 R4
 r1
 !s85 0
 !i10b 1
-!s100 Zi>:C>H88;>=CTSdTjC8Q1
-IDImE_V4C5nGl:dY:T7>@?3
+!s100 Ei;[I5E=Rnj?NMMKm8djJ3
+IOGeceEhGeUNY8gTUWLXzP0
 !s105 execVect_sv_unit
 S1
 R0
-Z13 w1698889547
-Z14 8C:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture/execVect.sv
-Z15 FC:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture/execVect.sv
-!i122 4
-L0 2 52
-R5
-31
+Z14 w1699556695
+Z15 8C:/Users/yraul/OneDrive/Documentos/GitHub/Proyecto2_Arqui2/microarchitecture/execVect.sv
+Z16 FC:/Users/yraul/OneDrive/Documentos/GitHub/Proyecto2_Arqui2/microarchitecture/execVect.sv
+!i122 7
+L0 2 49
 R6
-Z16 !s107 C:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture/execVect.sv|
-Z17 !s90 -reportprogress|300|-sv|-work|work|+incdir+C:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture|C:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture/execVect.sv|
-!i113 1
+31
 R7
+Z17 !s107 C:/Users/yraul/OneDrive/Documentos/GitHub/Proyecto2_Arqui2/microarchitecture/execVect.sv|
+Z18 !s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/yraul/OneDrive/Documentos/GitHub/Proyecto2_Arqui2/microarchitecture|C:/Users/yraul/OneDrive/Documentos/GitHub/Proyecto2_Arqui2/microarchitecture/execVect.sv|
+!i113 1
 R8
 R9
+R10
 nexec@vect
 XexecVect_sv_unit
 R1
 R2
-V7N?:BoEY>0?GE6Cz:EIT52
+V2g6C0l;;i5Im:gOA8a7LP1
 r1
 !s85 0
 !i10b 1
-!s100 SSaN;j=@<]dR2=HjZOi>@1
-I7N?:BoEY>0?GE6Cz:EIT52
+!s100 OVo8LV`[Z7CllJdX9`fJe1
+I2g6C0l;;i5Im:gOA8a7LP1
 !i103 1
 S1
 R0
-R13
 R14
 R15
-!i122 4
-L0 1 0
-R5
-31
-R6
 R16
-R17
-!i113 1
+!i122 7
+L0 1 0
+R6
+31
 R7
+R17
+R18
+!i113 1
 R8
 R9
+R10
 nexec@vect_sv_unit
+vexecVect_tb
+R1
+DXx4 work 19 execVect_tb_sv_unit 0 22 ]9`HhM>XYDD;4LGGBSknY0
+R2
+R4
+r1
+!s85 0
+!i10b 1
+!s100 mOzo@`m[1cL5oH9TTcIDD3
+ITOP8Unh3g_fiaQM^]F8j:1
+!s105 execVect_tb_sv_unit
+S1
+R0
+Z19 w1699556023
+Z20 8C:/Users/yraul/OneDrive/Documentos/GitHub/Proyecto2_Arqui2/microarchitecture/execVect_tb.sv
+Z21 FC:/Users/yraul/OneDrive/Documentos/GitHub/Proyecto2_Arqui2/microarchitecture/execVect_tb.sv
+!i122 8
+L0 4 150
+R6
+31
+R7
+!s107 C:/Users/yraul/OneDrive/Documentos/GitHub/Proyecto2_Arqui2/microarchitecture/execVect_tb.sv|
+Z22 !s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/yraul/OneDrive/Documentos/GitHub/Proyecto2_Arqui2/microarchitecture|C:/Users/yraul/OneDrive/Documentos/GitHub/Proyecto2_Arqui2/microarchitecture/execVect_tb.sv|
+!i113 1
+R8
+R9
+R10
+nexec@vect_tb
+XexecVect_tb_sv_unit
+R1
+R2
+V]9`HhM>XYDD;4LGGBSknY0
+r1
+!s85 0
+!i10b 1
+!s100 nSbehe;[WB[fGP^F9289A0
+I]9`HhM>XYDD;4LGGBSknY0
+!i103 1
+S1
+R0
+R19
+R20
+R21
+!i122 8
+L0 2 0
+R6
+31
+R7
+Z23 !s107 C:/Users/yraul/OneDrive/Documentos/GitHub/Proyecto2_Arqui2/microarchitecture/execVect_tb.sv|
+R22
+!i113 1
+R8
+R9
+R10
+nexec@vect_tb_sv_unit
 vmux2_1
 R1
 R2
 !i10b 1
 !s100 1cNAE;B9jI]3Xd<ba9b8O1
 R3
-IdPdNJ]DSUT9?>WPHGEkQW0
+IIT<InDc9T=ZX;kSgR]_e53
 R4
 S1
 R0
-w1698026711
-8C:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture/mux21.sv
-FC:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture/mux21.sv
+R5
+8C:/Users/yraul/OneDrive/Documentos/GitHub/Proyecto2_Arqui2/microarchitecture/mux21.sv
+FC:/Users/yraul/OneDrive/Documentos/GitHub/Proyecto2_Arqui2/microarchitecture/mux21.sv
 !i122 2
 L0 1 9
-R5
+R6
 r1
 !s85 0
 31
-R6
-!s107 C:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture/mux21.sv|
-!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture|C:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture/mux21.sv|
-!i113 1
 R7
+!s107 C:/Users/yraul/OneDrive/Documentos/GitHub/Proyecto2_Arqui2/microarchitecture/mux21.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/yraul/OneDrive/Documentos/GitHub/Proyecto2_Arqui2/microarchitecture|C:/Users/yraul/OneDrive/Documentos/GitHub/Proyecto2_Arqui2/microarchitecture/mux21.sv|
+!i113 1
 R8
 R9
+R10
 vmux41
 R1
 R2
 !i10b 1
 !s100 _Me6:JXjfA6n6LI`E>6ek1
 R3
-IhkdXIzz>F]Y1YFZF@J3OE0
+IHjATXhQZbHBSWcGl^l8iT2
 R4
 S1
 R0
-w1698019799
-8C:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture/mux41.sv
-FC:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture/mux41.sv
+R5
+8C:/Users/yraul/OneDrive/Documentos/GitHub/Proyecto2_Arqui2/microarchitecture/mux41.sv
+FC:/Users/yraul/OneDrive/Documentos/GitHub/Proyecto2_Arqui2/microarchitecture/mux41.sv
 !i122 3
 L0 1 15
-R5
+R6
 r1
 !s85 0
 31
-R6
-!s107 C:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture/mux41.sv|
-!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture|C:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture/mux41.sv|
-!i113 1
 R7
+!s107 C:/Users/yraul/OneDrive/Documentos/GitHub/Proyecto2_Arqui2/microarchitecture/mux41.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/yraul/OneDrive/Documentos/GitHub/Proyecto2_Arqui2/microarchitecture|C:/Users/yraul/OneDrive/Documentos/GitHub/Proyecto2_Arqui2/microarchitecture/mux41.sv|
+!i113 1
 R8
 R9
+R10
 vsinROM
 R2
 !i10b 1
 !s100 1DPVPERINPYD<fkQMK9Fd1
 R3
-I2Ekh6QKz0FLI;K6994LBZ0
+ILfI9;3XJ[[V3OVJkc[iW92
 R4
 R0
-w1698730748
-8C:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture/sinROM.v
-FC:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture/sinROM.v
-!i122 8
-R10
 R5
+8C:/Users/yraul/OneDrive/Documentos/GitHub/Proyecto2_Arqui2/microarchitecture/sinROM.v
+FC:/Users/yraul/OneDrive/Documentos/GitHub/Proyecto2_Arqui2/microarchitecture/sinROM.v
+!i122 0
+R11
+R6
 r1
 !s85 0
 31
-R6
-!s107 C:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture/sinROM.v|
-!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture|C:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture/sinROM.v|
+R7
+!s107 C:/Users/yraul/OneDrive/Documentos/GitHub/Proyecto2_Arqui2/microarchitecture/sinROM.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/yraul/OneDrive/Documentos/GitHub/Proyecto2_Arqui2/microarchitecture|C:/Users/yraul/OneDrive/Documentos/GitHub/Proyecto2_Arqui2/microarchitecture/sinROM.v|
 !i113 1
-R11
 R12
-R9
+R13
+R10
 nsin@r@o@m

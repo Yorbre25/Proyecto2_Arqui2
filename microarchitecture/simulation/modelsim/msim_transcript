@@ -10,114 +10,111 @@
 # Copying C:/intelFPGA_lite/20.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
 # Modifying modelsim.ini
 # 
-# vlog -vlog01compat -work work +incdir+C:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture {C:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture/sinROM.v}
+# vlog -vlog01compat -work work +incdir+C:/Users/yraul/OneDrive/Documentos/GitHub/Proyecto2_Arqui2/microarchitecture {C:/Users/yraul/OneDrive/Documentos/GitHub/Proyecto2_Arqui2/microarchitecture/sinROM.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 10:02:38 on Nov 05,2023
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture" C:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture/sinROM.v 
+# Start time: 13:05:22 on Nov 09,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/yraul/OneDrive/Documentos/GitHub/Proyecto2_Arqui2/microarchitecture" C:/Users/yraul/OneDrive/Documentos/GitHub/Proyecto2_Arqui2/microarchitecture/sinROM.v 
 # -- Compiling module sinROM
 # 
 # Top level modules:
 # 	sinROM
-# End time: 10:02:38 on Nov 05,2023, Elapsed time: 0:00:00
+# End time: 13:05:22 on Nov 09,2023, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-# vlog -vlog01compat -work work +incdir+C:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture {C:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture/cosROM.v}
+# vlog -vlog01compat -work work +incdir+C:/Users/yraul/OneDrive/Documentos/GitHub/Proyecto2_Arqui2/microarchitecture {C:/Users/yraul/OneDrive/Documentos/GitHub/Proyecto2_Arqui2/microarchitecture/cosROM.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 10:02:38 on Nov 05,2023
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture" C:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture/cosROM.v 
+# Start time: 13:05:22 on Nov 09,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/yraul/OneDrive/Documentos/GitHub/Proyecto2_Arqui2/microarchitecture" C:/Users/yraul/OneDrive/Documentos/GitHub/Proyecto2_Arqui2/microarchitecture/cosROM.v 
 # -- Compiling module cosROM
 # 
 # Top level modules:
 # 	cosROM
-# End time: 10:02:38 on Nov 05,2023, Elapsed time: 0:00:00
+# End time: 13:05:22 on Nov 09,2023, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-# vlog -sv -work work +incdir+C:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture {C:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture/mux21.sv}
+# vlog -sv -work work +incdir+C:/Users/yraul/OneDrive/Documentos/GitHub/Proyecto2_Arqui2/microarchitecture {C:/Users/yraul/OneDrive/Documentos/GitHub/Proyecto2_Arqui2/microarchitecture/mux21.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 10:02:38 on Nov 05,2023
-# vlog -reportprogress 300 -sv -work work "+incdir+C:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture" C:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture/mux21.sv 
+# Start time: 13:05:22 on Nov 09,2023
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/yraul/OneDrive/Documentos/GitHub/Proyecto2_Arqui2/microarchitecture" C:/Users/yraul/OneDrive/Documentos/GitHub/Proyecto2_Arqui2/microarchitecture/mux21.sv 
 # -- Compiling module mux2_1
 # 
 # Top level modules:
 # 	mux2_1
-# End time: 10:02:38 on Nov 05,2023, Elapsed time: 0:00:00
+# End time: 13:05:22 on Nov 09,2023, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-# vlog -sv -work work +incdir+C:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture {C:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture/mux41.sv}
+# vlog -sv -work work +incdir+C:/Users/yraul/OneDrive/Documentos/GitHub/Proyecto2_Arqui2/microarchitecture {C:/Users/yraul/OneDrive/Documentos/GitHub/Proyecto2_Arqui2/microarchitecture/mux41.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 10:02:38 on Nov 05,2023
-# vlog -reportprogress 300 -sv -work work "+incdir+C:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture" C:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture/mux41.sv 
+# Start time: 13:05:22 on Nov 09,2023
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/yraul/OneDrive/Documentos/GitHub/Proyecto2_Arqui2/microarchitecture" C:/Users/yraul/OneDrive/Documentos/GitHub/Proyecto2_Arqui2/microarchitecture/mux41.sv 
 # -- Compiling module mux41
 # 
 # Top level modules:
 # 	mux41
-# End time: 10:02:38 on Nov 05,2023, Elapsed time: 0:00:00
+# End time: 13:05:22 on Nov 09,2023, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-# vlog -sv -work work +incdir+C:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture {C:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture/execVect.sv}
+# vlog -sv -work work +incdir+C:/Users/yraul/OneDrive/Documentos/GitHub/Proyecto2_Arqui2/microarchitecture {C:/Users/yraul/OneDrive/Documentos/GitHub/Proyecto2_Arqui2/microarchitecture/execVect.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 10:02:38 on Nov 05,2023
-# vlog -reportprogress 300 -sv -work work "+incdir+C:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture" C:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture/execVect.sv 
+# Start time: 13:05:22 on Nov 09,2023
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/yraul/OneDrive/Documentos/GitHub/Proyecto2_Arqui2/microarchitecture" C:/Users/yraul/OneDrive/Documentos/GitHub/Proyecto2_Arqui2/microarchitecture/execVect.sv 
 # -- Compiling package execVect_sv_unit
 # -- Compiling module execVect
 # 
 # Top level modules:
 # 	execVect
-# End time: 10:02:38 on Nov 05,2023, Elapsed time: 0:00:00
+# End time: 13:05:22 on Nov 09,2023, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-# vlog -sv -work work +incdir+C:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture {C:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture/ALUVect.sv}
+# vlog -sv -work work +incdir+C:/Users/yraul/OneDrive/Documentos/GitHub/Proyecto2_Arqui2/microarchitecture {C:/Users/yraul/OneDrive/Documentos/GitHub/Proyecto2_Arqui2/microarchitecture/ALUVect.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 10:02:38 on Nov 05,2023
-# vlog -reportprogress 300 -sv -work work "+incdir+C:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture" C:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture/ALUVect.sv 
+# Start time: 13:05:22 on Nov 09,2023
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/yraul/OneDrive/Documentos/GitHub/Proyecto2_Arqui2/microarchitecture" C:/Users/yraul/OneDrive/Documentos/GitHub/Proyecto2_Arqui2/microarchitecture/ALUVect.sv 
 # -- Compiling module ALUVect
 # 
 # Top level modules:
 # 	ALUVect
-# End time: 10:02:38 on Nov 05,2023, Elapsed time: 0:00:00
+# End time: 13:05:22 on Nov 09,2023, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-# vlog -sv -work work +incdir+C:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture {C:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture/ALUElement.sv}
+# vlog -sv -work work +incdir+C:/Users/yraul/OneDrive/Documentos/GitHub/Proyecto2_Arqui2/microarchitecture {C:/Users/yraul/OneDrive/Documentos/GitHub/Proyecto2_Arqui2/microarchitecture/ALUElement.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 10:02:38 on Nov 05,2023
-# vlog -reportprogress 300 -sv -work work "+incdir+C:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture" C:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture/ALUElement.sv 
+# Start time: 13:05:22 on Nov 09,2023
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/yraul/OneDrive/Documentos/GitHub/Proyecto2_Arqui2/microarchitecture" C:/Users/yraul/OneDrive/Documentos/GitHub/Proyecto2_Arqui2/microarchitecture/ALUElement.sv 
 # -- Compiling module ALUElement
 # 
 # Top level modules:
 # 	ALUElement
-# End time: 10:02:38 on Nov 05,2023, Elapsed time: 0:00:00
+# End time: 13:05:22 on Nov 09,2023, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # 
-# vlog -sv -work work +incdir+C:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture {C:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture/ALUVect_tb.sv}
+# vlog -sv -work work +incdir+C:/Users/yraul/OneDrive/Documentos/GitHub/Proyecto2_Arqui2/microarchitecture {C:/Users/yraul/OneDrive/Documentos/GitHub/Proyecto2_Arqui2/microarchitecture/execVect.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 10:02:38 on Nov 05,2023
-# vlog -reportprogress 300 -sv -work work "+incdir+C:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture" C:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture/ALUVect_tb.sv 
-# -- Compiling module ALUVect_tb
+# Start time: 13:05:22 on Nov 09,2023
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/yraul/OneDrive/Documentos/GitHub/Proyecto2_Arqui2/microarchitecture" C:/Users/yraul/OneDrive/Documentos/GitHub/Proyecto2_Arqui2/microarchitecture/execVect.sv 
+# -- Compiling package execVect_sv_unit
+# -- Compiling module execVect
 # 
 # Top level modules:
-# 	ALUVect_tb
-# End time: 10:02:38 on Nov 05,2023, Elapsed time: 0:00:00
+# 	execVect
+# End time: 13:05:22 on Nov 09,2023, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-# vlog -vlog01compat -work work +incdir+C:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture {C:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture/sinROM.v}
+# vlog -sv -work work +incdir+C:/Users/yraul/OneDrive/Documentos/GitHub/Proyecto2_Arqui2/microarchitecture {C:/Users/yraul/OneDrive/Documentos/GitHub/Proyecto2_Arqui2/microarchitecture/execVect_tb.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 10:02:38 on Nov 05,2023
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture" C:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture/sinROM.v 
-# -- Compiling module sinROM
+# Start time: 13:05:22 on Nov 09,2023
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/yraul/OneDrive/Documentos/GitHub/Proyecto2_Arqui2/microarchitecture" C:/Users/yraul/OneDrive/Documentos/GitHub/Proyecto2_Arqui2/microarchitecture/execVect_tb.sv 
+# -- Compiling package execVect_tb_sv_unit
+# -- Compiling module execVect_tb
 # 
 # Top level modules:
-# 	sinROM
-# End time: 10:02:38 on Nov 05,2023, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# vlog -vlog01compat -work work +incdir+C:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture {C:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture/cosROM.v}
-# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 10:02:38 on Nov 05,2023
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture" C:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture/cosROM.v 
-# -- Compiling module cosROM
-# 
-# Top level modules:
-# 	cosROM
-# End time: 10:02:38 on Nov 05,2023, Elapsed time: 0:00:00
+# 	execVect_tb
+# End time: 13:05:22 on Nov 09,2023, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # 
-# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneiv_hssi_ver -L cycloneiv_pcie_hip_ver -L cycloneiv_ver -L rtl_work -L work -voptargs="+acc"  ALUVect_tb
-# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneiv_hssi_ver -L cycloneiv_pcie_hip_ver -L cycloneiv_ver -L rtl_work -L work -voptargs=""+acc"" ALUVect_tb 
-# Start time: 10:02:38 on Nov 05,2023
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneiv_hssi_ver -L cycloneiv_pcie_hip_ver -L cycloneiv_ver -L rtl_work -L work -voptargs="+acc"  execVect_tb
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneiv_hssi_ver -L cycloneiv_pcie_hip_ver -L cycloneiv_ver -L rtl_work -L work -voptargs=""+acc"" execVect_tb 
+# Start time: 13:05:22 on Nov 09,2023
 # Loading sv_std.std
-# Loading work.ALUVect_tb
+# Loading work.execVect_tb_sv_unit
+# Loading work.execVect_tb
+# Loading work.execVect_sv_unit
+# Loading work.execVect
+# Loading work.mux2_1
+# Loading work.mux41
 # Loading work.ALUVect
 # Loading work.cosROM
 # Loading altera_mf_ver.altsyncram
@@ -126,40 +123,42 @@
 # Loading altera_mf_ver.altsyncram_body
 # Loading altera_mf_ver.ALTERA_DEVICE_FAMILIES
 # Loading altera_mf_ver.ALTERA_MF_MEMORY_INITIALIZATION
+# ** Warning: (vsim-3015) [PCDPC] - Port size (144) does not match connection size (48) for port 'rd1'. The port definition is at: C:/Users/yraul/OneDrive/Documentos/GitHub/Proyecto2_Arqui2/microarchitecture/execVect.sv(4).
+#    Time: 0 ps  Iteration: 0  Instance: /execVect_tb/myExecVect File: C:/Users/yraul/OneDrive/Documentos/GitHub/Proyecto2_Arqui2/microarchitecture/execVect_tb.sv Line: 16
+# ** Warning: (vsim-3015) [PCDPC] - Port size (144) does not match connection size (48) for port 'rd2'. The port definition is at: C:/Users/yraul/OneDrive/Documentos/GitHub/Proyecto2_Arqui2/microarchitecture/execVect.sv(4).
+#    Time: 0 ps  Iteration: 0  Instance: /execVect_tb/myExecVect File: C:/Users/yraul/OneDrive/Documentos/GitHub/Proyecto2_Arqui2/microarchitecture/execVect_tb.sv Line: 16
+# ** Warning: (vsim-3015) [PCDPC] - Port size (144) does not match connection size (48) for port 'Forward1'. The port definition is at: C:/Users/yraul/OneDrive/Documentos/GitHub/Proyecto2_Arqui2/microarchitecture/execVect.sv(4).
+#    Time: 0 ps  Iteration: 0  Instance: /execVect_tb/myExecVect File: C:/Users/yraul/OneDrive/Documentos/GitHub/Proyecto2_Arqui2/microarchitecture/execVect_tb.sv Line: 16
+# ** Warning: (vsim-3015) [PCDPC] - Port size (144) does not match connection size (48) for port 'Forward2'. The port definition is at: C:/Users/yraul/OneDrive/Documentos/GitHub/Proyecto2_Arqui2/microarchitecture/execVect.sv(4).
+#    Time: 0 ps  Iteration: 0  Instance: /execVect_tb/myExecVect File: C:/Users/yraul/OneDrive/Documentos/GitHub/Proyecto2_Arqui2/microarchitecture/execVect_tb.sv Line: 16
+# ** Warning: (vsim-3015) [PCDPC] - Port size (144) does not match connection size (48) for port 'Forward3'. The port definition is at: C:/Users/yraul/OneDrive/Documentos/GitHub/Proyecto2_Arqui2/microarchitecture/execVect.sv(4).
+#    Time: 0 ps  Iteration: 0  Instance: /execVect_tb/myExecVect File: C:/Users/yraul/OneDrive/Documentos/GitHub/Proyecto2_Arqui2/microarchitecture/execVect_tb.sv Line: 16
+# ** Warning: (vsim-3015) [PCDPC] - Port size (144) does not match connection size (48) for port 'rd3'. The port definition is at: C:/Users/yraul/OneDrive/Documentos/GitHub/Proyecto2_Arqui2/microarchitecture/execVect.sv(6).
+#    Time: 0 ps  Iteration: 0  Instance: /execVect_tb/myExecVect File: C:/Users/yraul/OneDrive/Documentos/GitHub/Proyecto2_Arqui2/microarchitecture/execVect_tb.sv Line: 16
+# ** Warning: (vsim-3015) [PCDPC] - Port size (144) does not match connection size (48) for port 'aluCurrentResult'. The port definition is at: C:/Users/yraul/OneDrive/Documentos/GitHub/Proyecto2_Arqui2/microarchitecture/execVect.sv(10).
+#    Time: 0 ps  Iteration: 0  Instance: /execVect_tb/myExecVect File: C:/Users/yraul/OneDrive/Documentos/GitHub/Proyecto2_Arqui2/microarchitecture/execVect_tb.sv Line: 16
+# ** Warning: (vsim-3015) [PCDPC] - Port size (144) does not match connection size (48) for port 'RD3Out'. The port definition is at: C:/Users/yraul/OneDrive/Documentos/GitHub/Proyecto2_Arqui2/microarchitecture/execVect.sv(10).
+#    Time: 0 ps  Iteration: 0  Instance: /execVect_tb/myExecVect File: C:/Users/yraul/OneDrive/Documentos/GitHub/Proyecto2_Arqui2/microarchitecture/execVect_tb.sv Line: 16
 # 
 # add wave *
 # ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
 #           File in use by: luisA  Hostname: LAZH  ProcessID: 10232
-#           Attempting to use alternate WLF file "./wlftjaaned".
+#           Attempting to use alternate WLF file "./wlft3gr4jz".
 # ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
-#           Using alternate file: ./wlftjaaned
+#           Using alternate file: ./wlft3gr4jz
 # view structure
 # .main_pane.structure.interior.cs.body.struct
 # view signals
 # .main_pane.objects.interior.cs.body.tree
 # run -all
-# En mov la salida es el resultado del operando b
-# El resultado del sin corresponde a la tabla
-# El resultado del sin corresponde a la tabla
-# El resultado de la suma escalar 5 es correcto
-# El resultado de la suma escalar 4 es correcto
-# El resultado de la suma escalar 3 es correcto
-# El resultado de la suma escalar 2 es correcto
-# El resultado de la suma escalar 1 es correcto
-# El resultado de la suma escalar 0 es correcto
-# El resultado de la multiplicacion escalar 5 es correcto
-# El resultado de la multiplicacion escalar 4 es correcto
-# El resultado de la multiplicacion escalar 3 es correcto
-# El resultado de la multiplicacion escalar 2 es correcto
-# El resultado de la multiplicacion escalar 1 es correcto
-# El resultado de la multiplicacion escalar 0 es correcto
-# El resultado de la division escalar 5 es correcto
-# El resultado de la division escalar 4 es correcto
-# El resultado de la division escalar 3 es correcto
-# El resultado de la division escalar 2 es correcto
-# El resultado de la division escalar 1 es correcto
-# El resultado de la division escalar 0 es correcto
+# En add la salida es el resultado de la operacion rd1+rd2
+# En add la salida es el resultado de la operacion forward1+rd2
+# En add la salida es el resultado de la operacion forward1+forward2
+# En add la salida es el resultado de la operacion rd1+imm
+# En add la salida es el resultado de la operacion rd1+0
+# Salida RD3Out tiene el valor de RD3
+# Salida RD3Out tiene el valor de forward3
 # Break key hit
-# Break in Module ALUVect_tb at C:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture/ALUVect_tb.sv line 21
-# End time: 10:02:52 on Nov 05,2023, Elapsed time: 0:00:14
-# Errors: 0, Warnings: 2
+# Break in Module altsyncram_body at $MODEL_TECH/../altera/verilog/src/altera_mf.v line 49250
+# End time: 13:05:29 on Nov 09,2023, Elapsed time: 0:00:07
+# Errors: 0, Warnings: 10
