@@ -14,6 +14,7 @@ module execVect #(parameter N= 24)(
 	//selectors
 	logic controlOp1,controlOp3;
 	logic [1:0] controlOp2;
+	logic [M*N-1:0] zero = 0;
 	
 	//operators output from the mux
 	logic [M*N-1:0] op1,op2;
@@ -21,7 +22,7 @@ module execVect #(parameter N= 24)(
 		
 	mux2_1 #(.N(M*N)) controlOp1Mux(.a(rd1),.b(Forward1),.c(op1), .sel(controlOp1));
 	
-	mux41 #(.N(M*N)) controlOp2Mux(.a(rd2),.b({imm,imm,imm,imm,imm,imm}),.c(Forward2),.d(0),.e(op2),.sel(controlOp2));
+	mux41 #(.N(M*N)) controlOp2Mux(.a(rd2),.b({imm,imm,imm,imm,imm,imm}),.c(Forward2),.d(zero),.e(op2),.sel(controlOp2));
 	
 	mux2_1 #(.N(M*N)) controlOp3Mux(.a(rd3),.b(Forward3),.c(RD3Out),.sel(controlOp3));
 	
@@ -32,10 +33,6 @@ module execVect #(parameter N= 24)(
 	.select(aluControl),
 	.result(aluCurrentResult)
 	);
-	
-	
-	
-	
 	
 	
 	
