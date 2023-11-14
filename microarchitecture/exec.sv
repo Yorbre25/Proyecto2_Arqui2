@@ -38,7 +38,7 @@ module exec #(parameter N= 24,parameter M=6, parameter BW=setValuesBuffer + 2*M*
 	.RD3Out(RD3Out[N-1:0]),
 	.flags(flags));
 	
-	execVect #(.N(N))(
+	execVect #(.N(N)) myExecVectorial(
 	.clk(clk),
 	.rd1(rdv1), .rd2(rdv2), .Forward1(Forward1), .Forward2(Forward2),.Forward3(Forward3),	// Posible Alu entries
 	.imm(imm),
