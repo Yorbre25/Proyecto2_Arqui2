@@ -12,154 +12,185 @@
 # 
 # vlog -vlog01compat -work work +incdir+C:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture {C:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture/mainMemorySegment.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 22:27:00 on Nov 18,2023
+# Start time: 12:04:19 on Nov 19,2023
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture" C:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture/mainMemorySegment.v 
 # -- Compiling module mainMemorySegment
 # 
 # Top level modules:
 # 	mainMemorySegment
-# End time: 22:27:00 on Nov 18,2023, Elapsed time: 0:00:00
+# End time: 12:04:19 on Nov 19,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture {C:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture/mux21.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 12:04:19 on Nov 19,2023
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture" C:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture/mux21.sv 
+# -- Compiling module mux2_1
+# 
+# Top level modules:
+# 	mux2_1
+# End time: 12:04:19 on Nov 19,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture {C:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture/IOMemory.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 12:04:19 on Nov 19,2023
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture" C:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture/IOMemory.sv 
+# -- Compiling module IOMemory
+# 
+# Top level modules:
+# 	IOMemory
+# End time: 12:04:19 on Nov 19,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture {C:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture/chipSet.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 12:04:19 on Nov 19,2023
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture" C:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture/chipSet.sv 
+# -- Compiling module chipSet
+# 
+# Top level modules:
+# 	chipSet
+# End time: 12:04:19 on Nov 19,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture {C:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture/dataMemory.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 12:04:19 on Nov 19,2023
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture" C:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture/dataMemory.sv 
+# -- Compiling module dataMemory
+# 
+# Top level modules:
+# 	dataMemory
+# End time: 12:04:19 on Nov 19,2023, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -sv -work work +incdir+C:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture {C:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture/mainMemory.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 22:27:00 on Nov 18,2023
+# Start time: 12:04:19 on Nov 19,2023
 # vlog -reportprogress 300 -sv -work work "+incdir+C:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture" C:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture/mainMemory.sv 
 # -- Compiling module mainMemory
 # 
 # Top level modules:
 # 	mainMemory
-# End time: 22:27:00 on Nov 18,2023, Elapsed time: 0:00:00
+# End time: 12:04:19 on Nov 19,2023, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -sv -work work +incdir+C:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture {C:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture/mux81.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 22:27:00 on Nov 18,2023
+# Start time: 12:04:19 on Nov 19,2023
 # vlog -reportprogress 300 -sv -work work "+incdir+C:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture" C:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture/mux81.sv 
 # -- Compiling module mux81
 # 
 # Top level modules:
 # 	mux81
-# End time: 22:27:00 on Nov 18,2023, Elapsed time: 0:00:00
+# End time: 12:04:19 on Nov 19,2023, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # 
-# vlog -vlog01compat -work work +incdir+C:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture {C:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture/mainMemory.v}
+# vlog -sv -work work +incdir+C:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture {C:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture/dataMemory.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 22:27:00 on Nov 18,2023
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture" C:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture/mainMemory.v 
-# -- Compiling module mainMemory
+# Start time: 12:04:19 on Nov 19,2023
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture" C:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture/dataMemory.sv 
+# -- Compiling module dataMemory
 # 
 # Top level modules:
-# 	mainMemory
-# End time: 22:27:00 on Nov 18,2023, Elapsed time: 0:00:00
+# 	dataMemory
+# End time: 12:04:19 on Nov 19,2023, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-# vlog -sv -work work +incdir+C:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture {C:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture/mainMemory_tb.sv}
+# vlog -sv -work work +incdir+C:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture {C:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture/dataMemory_tb.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 22:27:00 on Nov 18,2023
-# vlog -reportprogress 300 -sv -work work "+incdir+C:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture" C:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture/mainMemory_tb.sv 
-# -- Compiling module mainMemory_tb
+# Start time: 12:04:19 on Nov 19,2023
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture" C:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture/dataMemory_tb.sv 
+# -- Compiling module dataMemory_tb
 # 
 # Top level modules:
-# 	mainMemory_tb
-# End time: 22:27:00 on Nov 18,2023, Elapsed time: 0:00:00
+# 	dataMemory_tb
+# End time: 12:04:19 on Nov 19,2023, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -sv -work work +incdir+C:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture {C:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture/mainMemory.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 22:27:00 on Nov 18,2023
+# Start time: 12:04:19 on Nov 19,2023
 # vlog -reportprogress 300 -sv -work work "+incdir+C:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture" C:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture/mainMemory.sv 
 # -- Compiling module mainMemory
 # 
 # Top level modules:
 # 	mainMemory
-# End time: 22:27:01 on Nov 18,2023, Elapsed time: 0:00:01
+# End time: 12:04:19 on Nov 19,2023, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # 
-# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneiv_hssi_ver -L cycloneiv_pcie_hip_ver -L cycloneiv_ver -L rtl_work -L work -voptargs="+acc"  mainMemory_tb
-# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneiv_hssi_ver -L cycloneiv_pcie_hip_ver -L cycloneiv_ver -L rtl_work -L work -voptargs=""+acc"" mainMemory_tb 
-# Start time: 22:27:01 on Nov 18,2023
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneiv_hssi_ver -L cycloneiv_pcie_hip_ver -L cycloneiv_ver -L rtl_work -L work -voptargs="+acc"  dataMemory_tb
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneiv_hssi_ver -L cycloneiv_pcie_hip_ver -L cycloneiv_ver -L rtl_work -L work -voptargs=""+acc"" dataMemory_tb 
+# Start time: 12:04:19 on Nov 19,2023
 # Loading sv_std.std
-# Loading work.mainMemory_tb
+# Loading work.dataMemory_tb
+# Loading work.dataMemory
+# Loading work.IOMemory
 # Loading work.mainMemory
 # Loading work.mainMemorySegment
 # Loading altera_mf_ver.altsyncram
 # Loading work.mux81
+# Loading work.chipSet
+# Loading work.mux2_1
 # Loading altera_mf_ver.altsyncram_body
 # Loading altera_mf_ver.ALTERA_DEVICE_FAMILIES
 # Loading altera_mf_ver.ALTERA_MF_MEMORY_INITIALIZATION
 # ** Warning: (vsim-3015) [PCDPC] - Port size (12) does not match connection size (32) for port 'data_b'. The port definition is at: C:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture/mainMemorySegment.v(45).
-#    Time: 0 ps  Iteration: 0  Instance: /mainMemory_tb/myMainMemory/memoryA File: C:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture/mainMemory.sv Line: 20
+#    Time: 0 ps  Iteration: 0  Instance: /dataMemory_tb/myDataMemory/myMainMemory/memoryA File: C:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture/mainMemory.sv Line: 20
 # ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'wren_b'. The port definition is at: C:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture/mainMemorySegment.v(47).
-#    Time: 0 ps  Iteration: 0  Instance: /mainMemory_tb/myMainMemory/memoryA File: C:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture/mainMemory.sv Line: 20
+#    Time: 0 ps  Iteration: 0  Instance: /dataMemory_tb/myDataMemory/myMainMemory/memoryA File: C:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture/mainMemory.sv Line: 20
 # ** Warning: (vsim-3015) [PCDPC] - Port size (12) does not match connection size (32) for port 'data_b'. The port definition is at: C:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture/mainMemorySegment.v(45).
-#    Time: 0 ps  Iteration: 0  Instance: /mainMemory_tb/myMainMemory/memoryB File: C:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture/mainMemory.sv Line: 31
+#    Time: 0 ps  Iteration: 0  Instance: /dataMemory_tb/myDataMemory/myMainMemory/memoryB File: C:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture/mainMemory.sv Line: 31
 # ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'wren_b'. The port definition is at: C:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture/mainMemorySegment.v(47).
-#    Time: 0 ps  Iteration: 0  Instance: /mainMemory_tb/myMainMemory/memoryB File: C:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture/mainMemory.sv Line: 31
+#    Time: 0 ps  Iteration: 0  Instance: /dataMemory_tb/myDataMemory/myMainMemory/memoryB File: C:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture/mainMemory.sv Line: 31
 # ** Warning: (vsim-3015) [PCDPC] - Port size (12) does not match connection size (32) for port 'data_b'. The port definition is at: C:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture/mainMemorySegment.v(45).
-#    Time: 0 ps  Iteration: 0  Instance: /mainMemory_tb/myMainMemory/memoryC File: C:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture/mainMemory.sv Line: 42
+#    Time: 0 ps  Iteration: 0  Instance: /dataMemory_tb/myDataMemory/myMainMemory/memoryC File: C:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture/mainMemory.sv Line: 42
 # ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'wren_b'. The port definition is at: C:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture/mainMemorySegment.v(47).
-#    Time: 0 ps  Iteration: 0  Instance: /mainMemory_tb/myMainMemory/memoryC File: C:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture/mainMemory.sv Line: 42
+#    Time: 0 ps  Iteration: 0  Instance: /dataMemory_tb/myDataMemory/myMainMemory/memoryC File: C:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture/mainMemory.sv Line: 42
 # ** Warning: (vsim-3015) [PCDPC] - Port size (12) does not match connection size (32) for port 'data_b'. The port definition is at: C:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture/mainMemorySegment.v(45).
-#    Time: 0 ps  Iteration: 0  Instance: /mainMemory_tb/myMainMemory/memoryD File: C:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture/mainMemory.sv Line: 53
+#    Time: 0 ps  Iteration: 0  Instance: /dataMemory_tb/myDataMemory/myMainMemory/memoryD File: C:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture/mainMemory.sv Line: 53
 # ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'wren_b'. The port definition is at: C:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture/mainMemorySegment.v(47).
-#    Time: 0 ps  Iteration: 0  Instance: /mainMemory_tb/myMainMemory/memoryD File: C:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture/mainMemory.sv Line: 53
+#    Time: 0 ps  Iteration: 0  Instance: /dataMemory_tb/myDataMemory/myMainMemory/memoryD File: C:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture/mainMemory.sv Line: 53
 # ** Warning: (vsim-3015) [PCDPC] - Port size (12) does not match connection size (32) for port 'data_b'. The port definition is at: C:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture/mainMemorySegment.v(45).
-#    Time: 0 ps  Iteration: 0  Instance: /mainMemory_tb/myMainMemory/memoryE File: C:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture/mainMemory.sv Line: 64
+#    Time: 0 ps  Iteration: 0  Instance: /dataMemory_tb/myDataMemory/myMainMemory/memoryE File: C:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture/mainMemory.sv Line: 64
 # ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'wren_b'. The port definition is at: C:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture/mainMemorySegment.v(47).
-#    Time: 0 ps  Iteration: 0  Instance: /mainMemory_tb/myMainMemory/memoryE File: C:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture/mainMemory.sv Line: 64
+#    Time: 0 ps  Iteration: 0  Instance: /dataMemory_tb/myDataMemory/myMainMemory/memoryE File: C:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture/mainMemory.sv Line: 64
 # ** Warning: (vsim-3015) [PCDPC] - Port size (12) does not match connection size (32) for port 'data_b'. The port definition is at: C:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture/mainMemorySegment.v(45).
-#    Time: 0 ps  Iteration: 0  Instance: /mainMemory_tb/myMainMemory/memoryF File: C:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture/mainMemory.sv Line: 75
+#    Time: 0 ps  Iteration: 0  Instance: /dataMemory_tb/myDataMemory/myMainMemory/memoryF File: C:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture/mainMemory.sv Line: 75
 # ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'wren_b'. The port definition is at: C:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture/mainMemorySegment.v(47).
-#    Time: 0 ps  Iteration: 0  Instance: /mainMemory_tb/myMainMemory/memoryF File: C:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture/mainMemory.sv Line: 75
+#    Time: 0 ps  Iteration: 0  Instance: /dataMemory_tb/myDataMemory/myMainMemory/memoryF File: C:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture/mainMemory.sv Line: 75
 # ** Warning: (vsim-3015) [PCDPC] - Port size (12) does not match connection size (32) for port 'g'. The port definition is at: C:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture/mux81.sv(1).
-#    Time: 0 ps  Iteration: 0  Instance: /mainMemory_tb/myMainMemory/outputAMux File: C:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture/mainMemory.sv Line: 146
+#    Time: 0 ps  Iteration: 0  Instance: /dataMemory_tb/myDataMemory/myMainMemory/outputAMux File: C:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture/mainMemory.sv Line: 146
 # ** Warning: (vsim-3015) [PCDPC] - Port size (12) does not match connection size (32) for port 'h'. The port definition is at: C:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture/mux81.sv(1).
-#    Time: 0 ps  Iteration: 0  Instance: /mainMemory_tb/myMainMemory/outputAMux File: C:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture/mainMemory.sv Line: 146
+#    Time: 0 ps  Iteration: 0  Instance: /dataMemory_tb/myDataMemory/myMainMemory/outputAMux File: C:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture/mainMemory.sv Line: 146
 # ** Warning: (vsim-3015) [PCDPC] - Port size (12) does not match connection size (32) for port 'g'. The port definition is at: C:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture/mux81.sv(1).
-#    Time: 0 ps  Iteration: 0  Instance: /mainMemory_tb/myMainMemory/outputBMux File: C:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture/mainMemory.sv Line: 147
+#    Time: 0 ps  Iteration: 0  Instance: /dataMemory_tb/myDataMemory/myMainMemory/outputBMux File: C:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture/mainMemory.sv Line: 147
 # ** Warning: (vsim-3015) [PCDPC] - Port size (12) does not match connection size (32) for port 'h'. The port definition is at: C:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture/mux81.sv(1).
-#    Time: 0 ps  Iteration: 0  Instance: /mainMemory_tb/myMainMemory/outputBMux File: C:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture/mainMemory.sv Line: 147
+#    Time: 0 ps  Iteration: 0  Instance: /dataMemory_tb/myDataMemory/myMainMemory/outputBMux File: C:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture/mainMemory.sv Line: 147
 # 
 # add wave *
 # ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
 #           File in use by: luisA  Hostname: LAZH  ProcessID: 10232
-#           Attempting to use alternate WLF file "./wlfta4cn02".
+#           Attempting to use alternate WLF file "./wlft24jyqq".
 # ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
-#           Using alternate file: ./wlfta4cn02
+#           Using alternate file: ./wlft24jyqq
 # view structure
 # .main_pane.structure.interior.cs.body.struct
 # view signals
 # .main_pane.objects.interior.cs.body.tree
 # run -all
 # Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
-# Time: 0  Instance: mainMemory_tb.myMainMemory.memoryA.altsyncram_component.m_default.altsyncram_inst
+# Time: 0  Instance: dataMemory_tb.myDataMemory.myMainMemory.memoryA.altsyncram_component.m_default.altsyncram_inst
 # Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
-# Time: 0  Instance: mainMemory_tb.myMainMemory.memoryB.altsyncram_component.m_default.altsyncram_inst
+# Time: 0  Instance: dataMemory_tb.myDataMemory.myMainMemory.memoryB.altsyncram_component.m_default.altsyncram_inst
 # Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
-# Time: 0  Instance: mainMemory_tb.myMainMemory.memoryC.altsyncram_component.m_default.altsyncram_inst
+# Time: 0  Instance: dataMemory_tb.myDataMemory.myMainMemory.memoryC.altsyncram_component.m_default.altsyncram_inst
 # Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
-# Time: 0  Instance: mainMemory_tb.myMainMemory.memoryD.altsyncram_component.m_default.altsyncram_inst
+# Time: 0  Instance: dataMemory_tb.myDataMemory.myMainMemory.memoryD.altsyncram_component.m_default.altsyncram_inst
 # Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
-# Time: 0  Instance: mainMemory_tb.myMainMemory.memoryE.altsyncram_component.m_default.altsyncram_inst
+# Time: 0  Instance: dataMemory_tb.myDataMemory.myMainMemory.memoryE.altsyncram_component.m_default.altsyncram_inst
 # Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
-# Time: 0  Instance: mainMemory_tb.myMainMemory.memoryF.altsyncram_component.m_default.altsyncram_inst
-# Escritura no realizada con wren_b en bajo
-# Escritura no realizada con wren_b en bajo
-# Lectura correcta despues puerto a despues de un write
-# Lectura correcta despues puerto b despues de un write
-# Lectura correcta despues puerto a despues de un write
-# Lectura se mantuvo a pesar de escritura en puerto A
-# Lectura correcta escritura vectorial con direccion mod 6 igual a cero
-# Lectura correcta escritura vectorial con direccion mod 6 igual a uno
-# Lectura correcta escritura vectorial con direccion mod 6 igual a dos
-# Lectura correcta escritura vectorial con direccion mod 6 igual a tres
-# Lectura correcta escritura vectorial con direccion mod 6 igual a cuatro
-# Lectura correcta escritura vectorial con direccion mod 6 igual a cinco
-# Lectura correcta escritura vectorial lectura escalar primer componente 
-# Lectura correcta escritura vectorial lectura escalar segundo componente
-# Lectura correcta escritura vectorial lectura escalar tercer componente 
-# Lectura correcta escritura vectorial lectura escalar cuatro componente 
-# Lectura correcta escritura vectorial lectura escalar quinto  componente
-# Lectura correcta escritura vectorial lectura escalar sexto  componente
-# Lectura correcta vectorial despues de modificar un componente con escritura escalar
+# Time: 0  Instance: dataMemory_tb.myDataMemory.myMainMemory.memoryF.altsyncram_component.m_default.altsyncram_inst
+# Lectura switches correcta
+# Lectura de la posicion 50000 de memoria despues de la escritura fue correcta
+# Lectura de no escritura con memWrite bajo correcta
+# Lectura correcta de los GPIO escritos
+# Lectura desde el puerto dos de la posicion escrita anteriormente correcta
+# Lectura correcta de los GPIO como entradas
 # Break key hit
-# Break in Module altsyncram_body at $MODEL_TECH/../altera/verilog/src/altera_mf.v line 50116
-# End time: 22:27:16 on Nov 18,2023, Elapsed time: 0:00:15
+# Break in Module altsyncram_body at $MODEL_TECH/../altera/verilog/src/altera_mf.v line 49230
+# End time: 12:04:42 on Nov 19,2023, Elapsed time: 0:00:23
 # Errors: 0, Warnings: 18
