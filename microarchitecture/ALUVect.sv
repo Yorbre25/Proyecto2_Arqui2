@@ -11,12 +11,12 @@ module ALUVect #(parameter N = 24,parameter M=6)(
 	
 	
 	cosROM myCos (
-	.address(b[8:0]),
+	.address(b[5:0]),
 	.clock(clk),
 	.q(cosOut));
 	
 	sinROM mySin (
-	.address(b[8:0]),
+	.address(b[5:0]),
 	.clock(clk),
 	.q(sinOut));
 	
