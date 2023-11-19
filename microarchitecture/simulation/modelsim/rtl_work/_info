@@ -60,6 +60,9 @@ R6
 !s90 -reportprogress|300|-sv|-work|work|+incdir+C:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture|C:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture/dataMemory.sv|
 !i113 1
 R7
+!s107 C:/Users/yraul/OneDrive/Documentos/GitHub/Proyecto2_Arqui2/microarchitecture/ALUElement.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/yraul/OneDrive/Documentos/GitHub/Proyecto2_Arqui2/microarchitecture|C:/Users/yraul/OneDrive/Documentos/GitHub/Proyecto2_Arqui2/microarchitecture/ALUElement.sv|
+!i113 1
 R8
 R9
 ndata@memory
@@ -79,6 +82,11 @@ FC:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture/dataMemory_tb.sv
 !i122 8
 L0 2 93
 R5
+8C:/Users/yraul/OneDrive/Documentos/GitHub/Proyecto2_Arqui2/microarchitecture/buffer.sv
+FC:/Users/yraul/OneDrive/Documentos/GitHub/Proyecto2_Arqui2/microarchitecture/buffer.sv
+!i122 8
+Z11 L0 1 15
+R6
 r1
 !s85 0
 31
@@ -87,6 +95,9 @@ R6
 !s90 -reportprogress|300|-sv|-work|work|+incdir+C:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture|C:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture/dataMemory_tb.sv|
 !i113 1
 R7
+!s107 C:/Users/yraul/OneDrive/Documentos/GitHub/Proyecto2_Arqui2/microarchitecture/buffer.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/yraul/OneDrive/Documentos/GitHub/Proyecto2_Arqui2/microarchitecture|C:/Users/yraul/OneDrive/Documentos/GitHub/Proyecto2_Arqui2/microarchitecture/buffer.sv|
+!i113 1
 R8
 R9
 ndata@memory_tb
@@ -113,7 +124,6 @@ R6
 !s107 C:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture/IOMemory.sv|
 !s90 -reportprogress|300|-sv|-work|work|+incdir+C:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture|C:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture/IOMemory.sv|
 !i113 1
-R7
 R8
 R9
 n@i@o@memory
@@ -140,7 +150,6 @@ R6
 !s107 C:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture/mainMemory.sv|
 !s90 -reportprogress|300|-sv|-work|work|+incdir+C:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture|C:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture/mainMemory.sv|
 !i113 1
-R7
 R8
 R9
 nmain@memory
@@ -175,7 +184,7 @@ R2
 !i10b 1
 !s100 1cNAE;B9jI]3Xd<ba9b8O1
 R3
-IdPdNJ]DSUT9?>WPHGEkQW0
+IIT<InDc9T=ZX;kSgR]_e53
 R4
 S1
 R0
@@ -184,15 +193,14 @@ w1698026711
 FC:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture/mux21.sv
 !i122 1
 L0 1 9
-R5
+R6
 r1
 !s85 0
 31
-R6
-!s107 C:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture/mux21.sv|
-!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture|C:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture/mux21.sv|
-!i113 1
 R7
+!s107 C:/Users/yraul/OneDrive/Documentos/GitHub/Proyecto2_Arqui2/microarchitecture/mux21.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/yraul/OneDrive/Documentos/GitHub/Proyecto2_Arqui2/microarchitecture|C:/Users/yraul/OneDrive/Documentos/GitHub/Proyecto2_Arqui2/microarchitecture/mux21.sv|
+!i113 1
 R8
 R9
 vmux81
@@ -218,6 +226,5 @@ R6
 !s107 C:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture/mux81.sv|
 !s90 -reportprogress|300|-sv|-work|work|+incdir+C:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture|C:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture/mux81.sv|
 !i113 1
-R7
 R8
 R9
