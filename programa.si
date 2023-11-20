@@ -1,0 +1,174 @@
+Main:
+    mov r14,0
+draw_lines_loop:
+    cmp r14, r0    
+    beq line_1
+
+    line_1_exit:
+    mov r1, #1
+    cmp r14, r1
+    beq line_2
+    
+    line_2_exit:
+    mov r1, #3
+    cmp r14, r1
+    beq line_3
+    
+    line_3_exit:
+    mov r1, #4
+    cmp r14, r1
+    beq line_4
+    
+    line_4_exit:
+    mov r1, #5
+    cmp r14, r1
+    beq line_5
+
+    line_5_exit:
+    mov r1, #6
+    cmp r14, r1
+    beq line_6
+    
+    line_6_exit:
+    mov r1, #7
+    cmp r14, r1
+    beq line_7
+    
+    line_7_exit:
+    mov r1, #8
+    cmp r14, r1
+    beq line_8
+
+    line_8_exit:
+    mov r1, #9
+    cmp r14, r1
+    beq line_9
+    
+    line_9_exit:
+    mov r1, #10
+    cmp r14, r1
+    beq line_10
+
+    line_10_exit:
+    mov r1, #11
+    cmp r14, r1
+    beq line_11
+    
+    line_11_exit:
+    mov r1, #12
+    cmp r14, r1
+    beq line_11
+    
+    line_12_exit:
+    mov r1, #13
+    cmp r14, r1
+    beq line_12
+
+
+
+
+draw_line://r3 = x1, r4 = y1, r5 = x2, r6 = y2
+    mov r7,#0
+    mov r8,#0
+    mov r9,#0
+    mov r10,#0
+    mov r11,#0
+    mov r12,#0
+    mov r13,#0
+    //dx
+    res r7, r5, r3
+    cmp r7,r0
+    ble Mult_minus_one
+    mov r9, #-1
+    After_abs_r7:
+    //dy
+    res r8, r6, r4
+    cmp r8,r0
+    ble Abs_r8
+    mov r10, #-1
+    After_abs_r8:
+    cmp r7, r8
+    //calc error before start
+    bg Brassen_calc_err
+    mov r11, r8
+    div r11, r11,  #2
+    mul r11, r11, #-1
+    Brassen_calc:
+        // MOVE DATA TO MEMORY
+        cmp r3, r5
+        beq Brassen_pre_exit
+        Brassen_not_equal:
+            mov r12, r11
+            mul r13, r7, #-1
+            cmp r12, r13
+            Bg  set_error_dx
+        Brassen_not_equal_y:
+            cmp r12, r8
+            ble set_error_dy
+            b Brassen_calc
+
+set_error_dx:
+    sub r11, r11, r8
+    add r3, r3, r9 
+    b Brassen_not_equal_y
+
+set_error_dy:
+    add r11, r11, r7
+    add r4, r4, r10
+    b Brassen_calc
+
+Brassen_pre_exit:
+    cmp r4,r6
+    beq draw_lines_loop 
+    b Brassen_not_equal
+
+Abs_r7:
+    mul r7, r7, #-1
+    mov r9, #1
+    b After_abs_r7
+
+Abs_r8:
+    mul r8, r8, #-1
+    mov r10, #1
+    b After_abs_r8
+
+Brassen_calc_err:
+    mov r11, r7
+    div r11, r11,  #2
+    b Brassen_calc
+
+line_1:
+    mov r3, #100
+    mov r4, #200
+    mov r5, #100
+    mov r6, #450
+    add r14, r14, #1
+    b line_1_exit
+
+line_2:
+    mov r3, #500
+    mov r4, #200
+    mov r5, #500
+    mov r6, #450
+    add r14, r14, #1
+    b line_2_exit
+
+line_3:
+    mov r3, #100
+    mov r4, #200
+    mov r5, #500
+    mov r6, #200
+    add r14, r14, #1
+    b line_3_exit
+
+line_4:
+    mov r3, #100
+    mov r4, #450
+    mov r5, #500
+    mov r6, #450
+    add r14, r14, #1
+    b line_4_exit
+
+exit:
+mov r1, #0
+b exit

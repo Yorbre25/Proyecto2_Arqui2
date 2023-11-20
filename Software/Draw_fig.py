@@ -9,7 +9,7 @@ image = Image.new("RGB", (width, height), "white")
 draw = ImageDraw.Draw(image)
 data_list = []
 for i in range(360):
-    data_list.append(int(math.cos((i*math.pi)/180)*1000))
+    data_list.append(int(math.cos((i*math.pi)/180)*100))
 
 for i in range(360):
     data_list.append(int(math.sin((i*math.pi)/180)*1000))
@@ -71,22 +71,6 @@ draw_line(500, 200, 500, 450)
 draw_line(100, 200, 500, 200)
 draw_line(100, 450, 500, 450)
 
-# Techo 
-draw_triangle([(100, 200), (500, 200), (300, 50)])
-
-# puerta
-draw_line(250, 325, 250, 450)
-draw_line(350, 325, 350, 450)
-draw_line(250, 325, 350, 325)
-
-# doorknob
-draw_circle(335, 390, 7)
-
-# ventanas
-draw_ellipse(300, 130, 40, 30)
-draw_ellipse(180, 275, 40, 30)
-draw_ellipse(420, 275, 40, 30)
-
 # marcos de ventanas
 draw_line(260, 130, 339, 130)
 draw_line(300, 100, 300, 159)
@@ -96,6 +80,23 @@ draw_line(180, 245, 180, 304)
 
 draw_line(380, 275, 460, 275)
 draw_line(420, 245, 420, 304)
+
+# puerta
+draw_line(250, 325, 250, 450)
+draw_line(350, 325, 350, 450)
+draw_line(250, 325, 350, 325)
+
+# Techo 
+draw_triangle([(100, 200), (500, 200), (300, 50)])
+
+# doorknob
+draw_circle(335, 390, 7)
+
+# ventanas
+draw_ellipse(300, 130, 40, 30)
+draw_ellipse(180, 275, 40, 30)
+draw_ellipse(420, 275, 40, 30)
+
 
 # Guardar la imagen
 image.save("custom_figure.png")
