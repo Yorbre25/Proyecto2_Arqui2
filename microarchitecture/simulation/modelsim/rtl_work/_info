@@ -9,36 +9,62 @@ z2
 !i10f 100
 cModel Technology
 Z0 dC:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture/simulation/modelsim
-vchipSet
+vbuffer
 Z1 DXx6 sv_std 3 std 0 22 VYECXdT12H8WgbUP_5Y6:3
-Z2 !s110 1700417059
+Z2 !s110 1700446599
+!i10b 1
+!s100 D[H58PP[Ba2:4cK6[6f^?3
+Z3 !s11b Dg1SIo80bB@j0V0VzS_@n1
+IXVoh>6B[^dSFk[@[Oc>V42
+Z4 VDg1SIo80bB@j0V0VzS_@n1
+S1
+R0
+Z5 w1698019799
+8C:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture/buffer.sv
+FC:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture/buffer.sv
+!i122 2
+L0 1 15
+Z6 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z7 !s108 1700446599.000000
+!s107 C:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture/buffer.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture|C:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture/buffer.sv|
+!i113 1
+Z8 o-sv -work work
+Z9 !s92 -sv -work work +incdir+C:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture
+Z10 tCvgOpt 0
+vchipSet
+R1
+Z11 !s110 1700446600
 !i10b 1
 !s100 SL8:ii<6<2f>BYhbg^PDK2
-Z3 !s11b Dg1SIo80bB@j0V0VzS_@n1
+R3
 I?ff1D2BUc>j5ASGiYjF`b3
-Z4 VDg1SIo80bB@j0V0VzS_@n1
+R4
 S1
 R0
 w1699804731
 8C:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture/chipSet.sv
 FC:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture/chipSet.sv
-!i122 3
+!i122 4
 L0 1 11
-Z5 OV;L;2020.1;71
+R6
 r1
 !s85 0
 31
-Z6 !s108 1700417059.000000
+Z12 !s108 1700446600.000000
 !s107 C:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture/chipSet.sv|
 !s90 -reportprogress|300|-sv|-work|work|+incdir+C:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture|C:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture/chipSet.sv|
 !i113 1
-Z7 o-sv -work work
-Z8 !s92 -sv -work work +incdir+C:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture
-Z9 tCvgOpt 0
+R8
+R9
+R10
 nchip@set
 vdataMemory
 R1
-R2
+R11
 !i10b 1
 !s100 YJjnLCm1XX4VHJ^S7zX@l2
 R3
@@ -49,61 +75,23 @@ R0
 w1700412444
 8C:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture/dataMemory.sv
 FC:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture/dataMemory.sv
-!i122 7
+!i122 5
 L0 1 31
-R5
+R6
 r1
 !s85 0
 31
-R6
+R12
 !s107 C:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture/dataMemory.sv|
 !s90 -reportprogress|300|-sv|-work|work|+incdir+C:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture|C:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture/dataMemory.sv|
 !i113 1
-R7
-!s107 C:/Users/yraul/OneDrive/Documentos/GitHub/Proyecto2_Arqui2/microarchitecture/ALUElement.sv|
-!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/yraul/OneDrive/Documentos/GitHub/Proyecto2_Arqui2/microarchitecture|C:/Users/yraul/OneDrive/Documentos/GitHub/Proyecto2_Arqui2/microarchitecture/ALUElement.sv|
-!i113 1
 R8
 R9
+R10
 ndata@memory
-vdataMemory_tb
-R1
-R2
-!i10b 1
-!s100 7d2QeDbAdk`9@Rn`EkGOP0
-R3
-IE95ITg`8_b[B_bFfmiPk93
-R4
-S1
-R0
-w1700417032
-8C:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture/dataMemory_tb.sv
-FC:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture/dataMemory_tb.sv
-!i122 8
-L0 2 93
-R5
-8C:/Users/yraul/OneDrive/Documentos/GitHub/Proyecto2_Arqui2/microarchitecture/buffer.sv
-FC:/Users/yraul/OneDrive/Documentos/GitHub/Proyecto2_Arqui2/microarchitecture/buffer.sv
-!i122 8
-Z11 L0 1 15
-R6
-r1
-!s85 0
-31
-R6
-!s107 C:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture/dataMemory_tb.sv|
-!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture|C:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture/dataMemory_tb.sv|
-!i113 1
-R7
-!s107 C:/Users/yraul/OneDrive/Documentos/GitHub/Proyecto2_Arqui2/microarchitecture/buffer.sv|
-!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/yraul/OneDrive/Documentos/GitHub/Proyecto2_Arqui2/microarchitecture|C:/Users/yraul/OneDrive/Documentos/GitHub/Proyecto2_Arqui2/microarchitecture/buffer.sv|
-!i113 1
-R8
-R9
-ndata@memory_tb
 vIOMemory
 R1
-R2
+R11
 !i10b 1
 !s100 7?Y_EmYB]zZV6gZ42G]nH3
 R3
@@ -111,25 +99,26 @@ IHFfG`TPck]m_djUho8l]=0
 R4
 S1
 R0
-w1698019799
+R5
 8C:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture/IOMemory.sv
 FC:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture/IOMemory.sv
-!i122 2
+!i122 3
 L0 1 26
-R5
+R6
 r1
 !s85 0
 31
-R6
+R12
 !s107 C:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture/IOMemory.sv|
 !s90 -reportprogress|300|-sv|-work|work|+incdir+C:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture|C:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture/IOMemory.sv|
 !i113 1
 R8
 R9
+R10
 n@i@o@memory
 vmainMemory
 R1
-R2
+R11
 !i10b 1
 !s100 m<jFaL:Y0lNb@LPC51?ec1
 R3
@@ -140,18 +129,19 @@ R0
 w1700361521
 8C:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture/mainMemory.sv
 FC:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture/mainMemory.sv
-!i122 9
+!i122 7
 L0 1 150
-R5
+R6
 r1
 !s85 0
 31
-R6
+R12
 !s107 C:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture/mainMemory.sv|
 !s90 -reportprogress|300|-sv|-work|work|+incdir+C:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture|C:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture/mainMemory.sv|
 !i113 1
 R8
 R9
+R10
 nmain@memory
 vmainMemorySegment
 R2
@@ -161,36 +151,90 @@ R3
 IXG2T59[_mZC4]a7CfVGLP1
 R4
 R0
-w1700197243
+w1700433350
 8C:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture/mainMemorySegment.v
 FC:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture/mainMemorySegment.v
 !i122 0
 L0 40 89
-R5
+R6
 r1
 !s85 0
 31
-R6
+R7
 !s107 C:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture/mainMemorySegment.v|
 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture|C:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture/mainMemorySegment.v|
 !i113 1
 o-vlog01compat -work work
 !s92 -vlog01compat -work work +incdir+C:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture
-R9
+R10
 nmain@memory@segment
+vmemoryStage
+R1
+R11
+!i10b 1
+!s100 5UBF<fGaaYTTX<3G<h^Nb3
+R3
+IF87WL^e>7lh>:RoSO<1Ze2
+R4
+S1
+R0
+w1700446259
+8C:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture/memoryStage.sv
+FC:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture/memoryStage.sv
+!i122 9
+L0 1 14
+R6
+r1
+!s85 0
+31
+R12
+!s107 C:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture/memoryStage.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture|C:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture/memoryStage.sv|
+!i113 1
+R8
+R9
+R10
+nmemory@stage
+vmemoryStage_tb
+R1
+R11
+!i10b 1
+!s100 1P:?Wnd_=Ak]JODid8cb33
+R3
+ILCjh2AJKgDOHgMO_lOUbK3
+R4
+S1
+R0
+w1700446544
+8C:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture/memoryStage_tb.sv
+FC:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture/memoryStage_tb.sv
+!i122 10
+L0 2 75
+R6
+r1
+!s85 0
+31
+R12
+!s107 C:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture/memoryStage_tb.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture|C:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture/memoryStage_tb.sv|
+!i113 1
+R8
+R9
+R10
+nmemory@stage_tb
 vmux2_1
 R1
 R2
 !i10b 1
 !s100 1cNAE;B9jI]3Xd<ba9b8O1
 R3
-IIT<InDc9T=ZX;kSgR]_e53
+IZ7VRZeI79XT?0R7AjU]`P1
 R4
 S1
 R0
 w1698026711
-8C:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture/mux21.sv
-FC:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture/mux21.sv
+8C:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture/mux2_1.sv
+FC:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture/mux2_1.sv
 !i122 1
 L0 1 9
 R6
@@ -198,14 +242,15 @@ r1
 !s85 0
 31
 R7
-!s107 C:/Users/yraul/OneDrive/Documentos/GitHub/Proyecto2_Arqui2/microarchitecture/mux21.sv|
-!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/yraul/OneDrive/Documentos/GitHub/Proyecto2_Arqui2/microarchitecture|C:/Users/yraul/OneDrive/Documentos/GitHub/Proyecto2_Arqui2/microarchitecture/mux21.sv|
+!s107 C:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture/mux2_1.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture|C:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture/mux2_1.sv|
 !i113 1
 R8
 R9
+R10
 vmux81
 R1
-R2
+R11
 !i10b 1
 !s100 ci=2Nn8;dKAB@=RF9SC8E0
 R3
@@ -216,15 +261,16 @@ R0
 w1700188017
 8C:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture/mux81.sv
 FC:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture/mux81.sv
-!i122 6
+!i122 8
 L0 1 19
-R5
+R6
 r1
 !s85 0
 31
-R6
+R12
 !s107 C:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture/mux81.sv|
 !s90 -reportprogress|300|-sv|-work|work|+incdir+C:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture|C:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture/mux81.sv|
 !i113 1
 R8
 R9
+R10
