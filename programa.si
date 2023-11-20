@@ -4,65 +4,61 @@ draw_lines_loop:
     cmp r14, r0    
     beq line_1
 
-    line_1_exit:
     mov r1, #1
     cmp r14, r1
     beq line_2
     
-    line_2_exit:
     mov r1, #3
     cmp r14, r1
     beq line_3
     
-    line_3_exit:
     mov r1, #4
     cmp r14, r1
     beq line_4
     
-    line_4_exit:
     mov r1, #5
     cmp r14, r1
     beq line_5
 
-    line_5_exit:
     mov r1, #6
     cmp r14, r1
     beq line_6
     
-    line_6_exit:
     mov r1, #7
     cmp r14, r1
     beq line_7
     
-    line_7_exit:
     mov r1, #8
     cmp r14, r1
     beq line_8
 
-    line_8_exit:
     mov r1, #9
     cmp r14, r1
     beq line_9
     
-    line_9_exit:
     mov r1, #10
     cmp r14, r1
     beq line_10
 
-    line_10_exit:
     mov r1, #11
     cmp r14, r1
     beq line_11
     
-    line_11_exit:
     mov r1, #12
     cmp r14, r1
-    beq line_11
-    
-    line_12_exit:
+    beq line_12
+
     mov r1, #13
     cmp r14, r1
-    beq line_12
+    beq line_13
+
+    mov r1, #14
+    cmp r14, r1
+    beq line_14
+
+    mov r1, #15
+    cmp r14, r1
+    beq line_15
 
 
 
@@ -143,7 +139,7 @@ line_1:
     mov r5, #100
     mov r6, #450
     add r14, r14, #1
-    b line_1_exit
+    b draw_line
 
 line_2:
     mov r3, #500
@@ -151,7 +147,7 @@ line_2:
     mov r5, #500
     mov r6, #450
     add r14, r14, #1
-    b line_2_exit
+    b draw_line
 
 line_3:
     mov r3, #100
@@ -159,7 +155,7 @@ line_3:
     mov r5, #500
     mov r6, #200
     add r14, r14, #1
-    b line_3_exit
+    b draw_line
 
 line_4:
     mov r3, #100
@@ -167,7 +163,95 @@ line_4:
     mov r5, #500
     mov r6, #450
     add r14, r14, #1
-    b line_4_exit
+    b draw_line
+
+line_5:
+    mov r3, #260
+    mov r4, #130
+    mov r5, #339
+    mov r6, #130
+    add r14, r14, #1
+    b draw_line
+
+line_6:
+    mov r3, #300
+    mov r4, #100
+    mov r5, #300
+    mov r6, #159
+    add r14, r14, #1
+    b draw_line
+
+line_7:
+    mov r3, #140
+    mov r4, #275
+    mov r5, #220
+    mov r6, #275
+    add r14, r14, #1
+    b draw_line
+
+line_8:
+    mov r3, #180
+    mov r4, #245
+    mov r5, #420
+    mov r6, #304
+    add r14, r14, #1
+    b draw_line
+
+line_9:
+    mov r3, #180
+    mov r4, #245
+    mov r5, #420
+    mov r6, #304
+    add r14, r14, #1
+    b draw_line
+
+line_10:
+    mov r3, #380
+    mov r4, #275
+    mov r5, #460
+    mov r6, #275
+    add r14, r14, #1
+    b draw_line
+
+line_11:
+    mov r3, #420
+    mov r4, #245
+    mov r5, #420
+    mov r6, #304
+    add r14, r14, #1
+    b draw_line
+
+line_12:
+    mov r3, #250
+    mov r4, #325
+    mov r5, #250
+    mov r6, #450
+    add r14, r14, #1
+    b draw_line
+
+line_13:
+    mov r3, #100
+    mov r4, #200
+    mov r5, #500
+    mov r6, #200
+    add r14, r14, #1
+    b draw_line
+
+line_14:
+    mov r3, #500
+    mov r4, #200
+    mov r5, #300
+    mov r6, #50
+    add r14, r14, #1
+    b draw_line
+
+line_15:
+    mov r3, #300
+    mov r4, #50
+    mov r5, #100
+    mov r6, #200
+    add r14, r14, #1
+    b draw_line
 
 exit:
 mov r1, #0
