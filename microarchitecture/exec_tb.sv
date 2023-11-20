@@ -12,7 +12,7 @@ module exec_tb();
 	logic [vec_num_elem*reg_size-1:0] rdv3;
 	logic [3:0] aluControl;
 	logic [3:0] Rc; // Register number
-	logic immSrc, branchFlag, memWrite, memToReg, regWrite,modeSel;// modeSel(if its scalar or vectorial)
+	logic immSrc, branchFlag, memWrite, regWriteV, memToReg, regWrite,modeSel;// modeSel(if its scalar or vectorial)
 	logic Fa, Fb,Fc;
 	logic [1:0] opType;
 	logic [3:0] opCode;
@@ -26,7 +26,7 @@ module exec_tb();
 	.rdv3(rdv3),
 	.aluControl(aluControl),
 	.Rc(Rc), 
-	.immSrc(immSrc), .branchFlag(branchFlag), .memWrite(memWrite), .memToReg(memToReg), .regWrite(regWrite), .modeSel(modeSel),
+	.immSrc(immSrc), .branchFlag(branchFlag), .memWrite(memWrite), .regWriteV(regWriteV), .memToReg(memToReg), .regWrite(regWrite), .modeSel(modeSel),
 	.Fa(Fa), .Fb(Fb), .Fc(Fc),
 	.opType(opType),
 	.opCode(opCode),
@@ -140,11 +140,12 @@ module exec_tb();
 		rd2 = 0;
 		Rc = 15;
 		regWrite = 1;
+		regWriteV = 1;
 		memToReg = 1;
 		memWrite = 1;
 		opCode = 7;
 		opType = 2;
-		modeSel = 1;;
+		modeSel = 1;
 		
 		#10; //negedge
 		$display("\nTest inst 2: Add rd1+rd2");
@@ -194,6 +195,8 @@ module exec_tb();
 		else $error("opType value is not 4");
 		assert(bufferOut[304]== 1) $display("modeSel value is 1");
 		else $error("ModeSel value is not 1");
+		assert(bufferOut[305]== 1) $display("regWriteV value is 1");
+		else $error("regWriteV value is not 1");
 		
 		#10; //posedge
 //		Inst 5: compare (rd1-rd2)
