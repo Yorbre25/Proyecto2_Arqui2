@@ -9,62 +9,36 @@ z2
 !i10f 100
 cModel Technology
 Z0 dC:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture/simulation/modelsim
-vbuffer
-Z1 DXx6 sv_std 3 std 0 22 VYECXdT12H8WgbUP_5Y6:3
-Z2 !s110 1700446599
-!i10b 1
-!s100 D[H58PP[Ba2:4cK6[6f^?3
-Z3 !s11b Dg1SIo80bB@j0V0VzS_@n1
-IXVoh>6B[^dSFk[@[Oc>V42
-Z4 VDg1SIo80bB@j0V0VzS_@n1
-S1
-R0
-Z5 w1698019799
-8C:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture/buffer.sv
-FC:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture/buffer.sv
-!i122 2
-L0 1 15
-Z6 OV;L;2020.1;71
-r1
-!s85 0
-31
-Z7 !s108 1700446599.000000
-!s107 C:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture/buffer.sv|
-!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture|C:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture/buffer.sv|
-!i113 1
-Z8 o-sv -work work
-Z9 !s92 -sv -work work +incdir+C:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture
-Z10 tCvgOpt 0
 vchipSet
-R1
-Z11 !s110 1700446600
+Z1 DXx6 sv_std 3 std 0 22 VYECXdT12H8WgbUP_5Y6:3
+Z2 !s110 1700541984
 !i10b 1
 !s100 SL8:ii<6<2f>BYhbg^PDK2
-R3
+Z3 !s11b Dg1SIo80bB@j0V0VzS_@n1
 I?ff1D2BUc>j5ASGiYjF`b3
-R4
+Z4 VDg1SIo80bB@j0V0VzS_@n1
 S1
 R0
 w1699804731
 8C:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture/chipSet.sv
 FC:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture/chipSet.sv
-!i122 4
+!i122 3
 L0 1 11
-R6
+Z5 OV;L;2020.1;71
 r1
 !s85 0
 31
-Z12 !s108 1700446600.000000
+Z6 !s108 1700541984.000000
 !s107 C:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture/chipSet.sv|
 !s90 -reportprogress|300|-sv|-work|work|+incdir+C:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture|C:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture/chipSet.sv|
 !i113 1
-R8
-R9
-R10
+Z7 o-sv -work work
+Z8 !s92 -sv -work work +incdir+C:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture
+Z9 tCvgOpt 0
 nchip@set
 vdataMemory
 R1
-R11
+R2
 !i10b 1
 !s100 YJjnLCm1XX4VHJ^S7zX@l2
 R3
@@ -75,50 +49,77 @@ R0
 w1700412444
 8C:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture/dataMemory.sv
 FC:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture/dataMemory.sv
-!i122 5
+!i122 7
 L0 1 31
-R6
+R5
 r1
 !s85 0
 31
-R12
+R6
 !s107 C:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture/dataMemory.sv|
 !s90 -reportprogress|300|-sv|-work|work|+incdir+C:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture|C:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture/dataMemory.sv|
 !i113 1
+R7
 R8
 R9
-R10
 ndata@memory
-vIOMemory
+vdataMemory_tb
 R1
-R11
+R2
 !i10b 1
-!s100 7?Y_EmYB]zZV6gZ42G]nH3
+!s100 EX=cIk8RM^a1Xc4k5[A3g0
 R3
-IHFfG`TPck]m_djUho8l]=0
+Ik>9zbS[SLHl4G:S^9RD6[1
 R4
 S1
 R0
+w1700541919
+8C:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture/dataMemory_tb.sv
+FC:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture/dataMemory_tb.sv
+!i122 8
+L0 2 93
 R5
-8C:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture/IOMemory.sv
-FC:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture/IOMemory.sv
-!i122 3
-L0 1 26
-R6
 r1
 !s85 0
 31
-R12
+R6
+!s107 C:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture/dataMemory_tb.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture|C:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture/dataMemory_tb.sv|
+!i113 1
+R7
+R8
+R9
+ndata@memory_tb
+vIOMemory
+R1
+Z10 !s110 1700541983
+!i10b 1
+!s100 Le51lIKEl7>kl0;:gQ[R?2
+R3
+I9AF6N?7VLidm]6z;Uh@nc0
+R4
+S1
+R0
+w1700535173
+8C:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture/IOMemory.sv
+FC:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture/IOMemory.sv
+!i122 2
+L0 1 27
+R5
+r1
+!s85 0
+31
+Z11 !s108 1700541983.000000
 !s107 C:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture/IOMemory.sv|
 !s90 -reportprogress|300|-sv|-work|work|+incdir+C:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture|C:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture/IOMemory.sv|
 !i113 1
+R7
 R8
 R9
-R10
 n@i@o@memory
 vmainMemory
 R1
-R11
+R2
 !i10b 1
 !s100 m<jFaL:Y0lNb@LPC51?ec1
 R3
@@ -129,22 +130,22 @@ R0
 w1700361521
 8C:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture/mainMemory.sv
 FC:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture/mainMemory.sv
-!i122 7
+!i122 9
 L0 1 150
-R6
+R5
 r1
 !s85 0
 31
-R12
+R6
 !s107 C:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture/mainMemory.sv|
 !s90 -reportprogress|300|-sv|-work|work|+incdir+C:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture|C:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture/mainMemory.sv|
 !i113 1
+R7
 R8
 R9
-R10
 nmain@memory
 vmainMemorySegment
-R2
+R10
 !i10b 1
 !s100 fR79YkcnU6fRi@G35^M9h1
 R3
@@ -156,75 +157,21 @@ w1700433350
 FC:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture/mainMemorySegment.v
 !i122 0
 L0 40 89
-R6
+R5
 r1
 !s85 0
 31
-R7
+R11
 !s107 C:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture/mainMemorySegment.v|
 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture|C:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture/mainMemorySegment.v|
 !i113 1
 o-vlog01compat -work work
 !s92 -vlog01compat -work work +incdir+C:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture
-R10
+R9
 nmain@memory@segment
-vmemoryStage
-R1
-R11
-!i10b 1
-!s100 5UBF<fGaaYTTX<3G<h^Nb3
-R3
-IF87WL^e>7lh>:RoSO<1Ze2
-R4
-S1
-R0
-w1700446259
-8C:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture/memoryStage.sv
-FC:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture/memoryStage.sv
-!i122 9
-L0 1 14
-R6
-r1
-!s85 0
-31
-R12
-!s107 C:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture/memoryStage.sv|
-!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture|C:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture/memoryStage.sv|
-!i113 1
-R8
-R9
-R10
-nmemory@stage
-vmemoryStage_tb
-R1
-R11
-!i10b 1
-!s100 1P:?Wnd_=Ak]JODid8cb33
-R3
-ILCjh2AJKgDOHgMO_lOUbK3
-R4
-S1
-R0
-w1700446544
-8C:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture/memoryStage_tb.sv
-FC:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture/memoryStage_tb.sv
-!i122 10
-L0 2 75
-R6
-r1
-!s85 0
-31
-R12
-!s107 C:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture/memoryStage_tb.sv|
-!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture|C:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture/memoryStage_tb.sv|
-!i113 1
-R8
-R9
-R10
-nmemory@stage_tb
 vmux2_1
 R1
-R2
+R10
 !i10b 1
 !s100 1cNAE;B9jI]3Xd<ba9b8O1
 R3
@@ -237,20 +184,20 @@ w1698026711
 FC:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture/mux2_1.sv
 !i122 1
 L0 1 9
-R6
+R5
 r1
 !s85 0
 31
-R7
+R11
 !s107 C:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture/mux2_1.sv|
 !s90 -reportprogress|300|-sv|-work|work|+incdir+C:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture|C:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture/mux2_1.sv|
 !i113 1
+R7
 R8
 R9
-R10
 vmux81
 R1
-R11
+R2
 !i10b 1
 !s100 ci=2Nn8;dKAB@=RF9SC8E0
 R3
@@ -261,16 +208,16 @@ R0
 w1700188017
 8C:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture/mux81.sv
 FC:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture/mux81.sv
-!i122 8
+!i122 6
 L0 1 19
-R6
+R5
 r1
 !s85 0
 31
-R12
+R6
 !s107 C:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture/mux81.sv|
 !s90 -reportprogress|300|-sv|-work|work|+incdir+C:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture|C:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture/mux81.sv|
 !i113 1
+R7
 R8
 R9
-R10
