@@ -10,7 +10,7 @@
 # Copying C:/intelFPGA_lite/20.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
 # Modifying modelsim.ini
 # 
-# vlog -vlog01compat -work work +incdir+C:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture {C:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture/mainMemorySegment.v}
+# vlog -sv -work work +incdir+C:/Users/yraul/OneDrive/Documentos/GitHub/Proyecto2_Arqui2/microarchitecture {C:/Users/yraul/OneDrive/Documentos/GitHub/Proyecto2_Arqui2/microarchitecture/buffer.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
 # Start time: 22:46:23 on Nov 20,2023
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture" C:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture/mainMemorySegment.v 
@@ -20,7 +20,7 @@
 # 	mainMemorySegment
 # End time: 22:46:23 on Nov 20,2023, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-# vlog -sv -work work +incdir+C:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture {C:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture/mux2_1.sv}
+# vlog -sv -work work +incdir+C:/Users/yraul/OneDrive/Documentos/GitHub/Proyecto2_Arqui2/microarchitecture {C:/Users/yraul/OneDrive/Documentos/GitHub/Proyecto2_Arqui2/microarchitecture/instructionDecode.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
 # Start time: 22:46:23 on Nov 20,2023
 # vlog -reportprogress 300 -sv -work work "+incdir+C:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture" C:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture/mux2_1.sv 
@@ -40,7 +40,7 @@
 # 	IOMemory
 # End time: 22:46:23 on Nov 20,2023, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-# vlog -sv -work work +incdir+C:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture {C:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture/chipSet.sv}
+# vlog -sv -work work +incdir+C:/Users/yraul/OneDrive/Documentos/GitHub/Proyecto2_Arqui2/microarchitecture {C:/Users/yraul/OneDrive/Documentos/GitHub/Proyecto2_Arqui2/microarchitecture/controlUnit.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
 # Start time: 22:46:24 on Nov 20,2023
 # vlog -reportprogress 300 -sv -work work "+incdir+C:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture" C:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture/chipSet.sv 
@@ -50,7 +50,7 @@
 # 	chipSet
 # End time: 22:46:24 on Nov 20,2023, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-# vlog -sv -work work +incdir+C:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture {C:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture/dataMemory.sv}
+# vlog -sv -work work +incdir+C:/Users/yraul/OneDrive/Documentos/GitHub/Proyecto2_Arqui2/microarchitecture {C:/Users/yraul/OneDrive/Documentos/GitHub/Proyecto2_Arqui2/microarchitecture/immSrcControl.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
 # Start time: 22:46:24 on Nov 20,2023
 # vlog -reportprogress 300 -sv -work work "+incdir+C:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture" C:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture/dataMemory.sv 
@@ -70,7 +70,7 @@
 # 	mainMemory
 # End time: 22:46:24 on Nov 20,2023, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-# vlog -sv -work work +incdir+C:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture {C:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture/mux81.sv}
+# vlog -sv -work work +incdir+C:/Users/yraul/OneDrive/Documentos/GitHub/Proyecto2_Arqui2/microarchitecture {C:/Users/yraul/OneDrive/Documentos/GitHub/Proyecto2_Arqui2/microarchitecture/memWriteControl.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
 # Start time: 22:46:24 on Nov 20,2023
 # vlog -reportprogress 300 -sv -work work "+incdir+C:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture" C:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture/mux81.sv 
@@ -80,6 +80,11 @@
 # 	mux81
 # End time: 22:46:24 on Nov 20,2023, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/yraul/OneDrive/Documentos/GitHub/Proyecto2_Arqui2/microarchitecture {C:/Users/yraul/OneDrive/Documentos/GitHub/Proyecto2_Arqui2/microarchitecture/memToRegControl.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 14:33:08 on Nov 20,2023
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/yraul/OneDrive/Documentos/GitHub/Proyecto2_Arqui2/microarchitecture" C:/Users/yraul/OneDrive/Documentos/GitHub/Proyecto2_Arqui2/microarchitecture/memToRegControl.sv 
+# -- Compiling module memToRegControl
 # 
 # vlog -sv -work work +incdir+C:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture {C:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture/dataMemory.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020

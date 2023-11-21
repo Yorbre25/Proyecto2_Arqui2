@@ -40,9 +40,9 @@ vdataMemory
 R1
 R2
 !i10b 1
-!s100 YJjnLCm1XX4VHJ^S7zX@l2
+!s100 D[H58PP[Ba2:4cK6[6f^?3
 R3
-I>eg8AH[:5e1giO@?UF:<]3
+IkKm0]DN_[V0L]6Zkn3an`3
 R4
 S1
 R0
@@ -121,9 +121,9 @@ vmainMemory
 R1
 R2
 !i10b 1
-!s100 m<jFaL:Y0lNb@LPC51?ec1
+!s100 8MRgZhbSUF=XDO3HILClb0
 R3
-I?7WG2YHNcb0R49G6C^OJ]2
+Il8=QFl1W2bd=b^QdhjZO;0
 R4
 S1
 R0
@@ -147,10 +147,11 @@ nmain@memory
 vmainMemorySegment
 R10
 !i10b 1
-!s100 fR79YkcnU6fRi@G35^M9h1
+!s100 <mPc;5NMMGkLi>d7Wn:A=3
 R3
-IXG2T59[_mZC4]a7CfVGLP1
+IUVe25m4PRg>X_m4L]Z2<`1
 R4
+S1
 R0
 w1700433350
 8C:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture/mainMemorySegment.v
@@ -175,7 +176,7 @@ R10
 !i10b 1
 !s100 1cNAE;B9jI]3Xd<ba9b8O1
 R3
-IZ7VRZeI79XT?0R7AjU]`P1
+IEO^PoKFYA?z3zmR=1Dz^<2
 R4
 S1
 R0
@@ -199,9 +200,9 @@ vmux81
 R1
 R2
 !i10b 1
-!s100 ci=2Nn8;dKAB@=RF9SC8E0
+!s100 I5NCGK<H3eDHZg`C`_aWP2
 R3
-IcJYDH8]C3NTo7BG[ROfz53
+IlzZ77CciDKc`8=Wma@zf^0
 R4
 S1
 R0
