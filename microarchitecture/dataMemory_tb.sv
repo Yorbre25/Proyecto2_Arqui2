@@ -37,7 +37,7 @@ module dataMemory_tb();
 		#10; //negedge
 		memWrite=1;
 		address1=5000;
-		assert(qa==1) $display("Lectura switches correcta");
+		assert(qa==switches) $display("Lectura switches correcta");
 		else $error("Lectura desde switches incorrecta");
 		
 		#10; //posedge
