@@ -24,8 +24,8 @@ Instructions = {
     "ld":{"opType":"mem", "opcode":0},
     "str":{"opType":"mem", "opcode":1},
     # Operaciones de memoria vectoriales
-    "ldv":{"opType":"mem", "opcode":0},
-    "strv":{"opType":"mem", "opcode":1},
+    "ldv":{"opType":"mem", "opcode":2},
+    "strv":{"opType":"mem", "opcode":3},
 
     #Operaciones de control de flujo
     "b":{"opType":"cont", "opcode":0},
@@ -97,9 +97,18 @@ def GetFunction(functionText, registersList):
             code += GetAllRegistersOpcode(registersList[0], registersList[1], registersList[2])
     #If operation is Memory
     elif(result.get("opType") == "mem"):
-        code += "10000"
+        code += "1000"
         #If operation is load add 0, else is a store operation and add 1
-        code += "0" if functionText == "ld" else "1"
+        if(functionText == "ld"):
+            code += "00"
+        elif(functionText == "str"):
+            code += "01"
+        elif(functionText == "ldv"):
+            code += "10"
+        elif(functionText == "strv"):
+            code += "11" 
+        else: 
+            print("Funcion de memoria no reconocida")
         
         if(len(registersList) == 2):
             code += GetAllRegistersOpcode(registersList[0],registersList[1], "r0")
