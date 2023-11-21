@@ -10,121 +10,121 @@
 # Copying C:/intelFPGA_lite/20.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
 # Modifying modelsim.ini
 # 
-# vlog -vlog01compat -work work +incdir+C:/Users/yraul/OneDrive/Documentos/GitHub/Proyecto2_Arqui2/microarchitecture {C:/Users/yraul/OneDrive/Documentos/GitHub/Proyecto2_Arqui2/microarchitecture/mainMemorySegment.v}
+# vlog -vlog01compat -work work +incdir+C:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture {C:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture/mainMemorySegment.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 10:25:13 on Nov 21,2023
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/yraul/OneDrive/Documentos/GitHub/Proyecto2_Arqui2/microarchitecture" C:/Users/yraul/OneDrive/Documentos/GitHub/Proyecto2_Arqui2/microarchitecture/mainMemorySegment.v 
+# Start time: 13:19:41 on Nov 21,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture" C:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture/mainMemorySegment.v 
 # -- Compiling module mainMemorySegment
 # 
 # Top level modules:
 # 	mainMemorySegment
-# End time: 10:25:13 on Nov 21,2023, Elapsed time: 0:00:00
+# End time: 13:19:41 on Nov 21,2023, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-# vlog -sv -work work +incdir+C:/Users/yraul/OneDrive/Documentos/GitHub/Proyecto2_Arqui2/microarchitecture {C:/Users/yraul/OneDrive/Documentos/GitHub/Proyecto2_Arqui2/microarchitecture/mux2_1.sv}
+# vlog -sv -work work +incdir+C:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture {C:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture/mux2_1.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 10:25:13 on Nov 21,2023
-# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/yraul/OneDrive/Documentos/GitHub/Proyecto2_Arqui2/microarchitecture" C:/Users/yraul/OneDrive/Documentos/GitHub/Proyecto2_Arqui2/microarchitecture/mux2_1.sv 
+# Start time: 13:19:41 on Nov 21,2023
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture" C:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture/mux2_1.sv 
 # -- Compiling module mux2_1
 # 
 # Top level modules:
 # 	mux2_1
-# End time: 10:25:13 on Nov 21,2023, Elapsed time: 0:00:00
+# End time: 13:19:41 on Nov 21,2023, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-# vlog -sv -work work +incdir+C:/Users/yraul/OneDrive/Documentos/GitHub/Proyecto2_Arqui2/microarchitecture {C:/Users/yraul/OneDrive/Documentos/GitHub/Proyecto2_Arqui2/microarchitecture/buffer.sv}
+# vlog -sv -work work +incdir+C:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture {C:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture/buffer.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 10:25:13 on Nov 21,2023
-# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/yraul/OneDrive/Documentos/GitHub/Proyecto2_Arqui2/microarchitecture" C:/Users/yraul/OneDrive/Documentos/GitHub/Proyecto2_Arqui2/microarchitecture/buffer.sv 
+# Start time: 13:19:41 on Nov 21,2023
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture" C:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture/buffer.sv 
 # -- Compiling module buffer
 # 
 # Top level modules:
 # 	buffer
-# End time: 10:25:13 on Nov 21,2023, Elapsed time: 0:00:00
+# End time: 13:19:41 on Nov 21,2023, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-# vlog -sv -work work +incdir+C:/Users/yraul/OneDrive/Documentos/GitHub/Proyecto2_Arqui2/microarchitecture {C:/Users/yraul/OneDrive/Documentos/GitHub/Proyecto2_Arqui2/microarchitecture/IOMemory.sv}
+# vlog -sv -work work +incdir+C:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture {C:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture/IOMemory.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 10:25:13 on Nov 21,2023
-# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/yraul/OneDrive/Documentos/GitHub/Proyecto2_Arqui2/microarchitecture" C:/Users/yraul/OneDrive/Documentos/GitHub/Proyecto2_Arqui2/microarchitecture/IOMemory.sv 
+# Start time: 13:19:41 on Nov 21,2023
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture" C:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture/IOMemory.sv 
 # -- Compiling module IOMemory
 # 
 # Top level modules:
 # 	IOMemory
-# End time: 10:25:13 on Nov 21,2023, Elapsed time: 0:00:00
+# End time: 13:19:41 on Nov 21,2023, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-# vlog -sv -work work +incdir+C:/Users/yraul/OneDrive/Documentos/GitHub/Proyecto2_Arqui2/microarchitecture {C:/Users/yraul/OneDrive/Documentos/GitHub/Proyecto2_Arqui2/microarchitecture/chipSet.sv}
+# vlog -sv -work work +incdir+C:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture {C:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture/chipSet.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 10:25:13 on Nov 21,2023
-# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/yraul/OneDrive/Documentos/GitHub/Proyecto2_Arqui2/microarchitecture" C:/Users/yraul/OneDrive/Documentos/GitHub/Proyecto2_Arqui2/microarchitecture/chipSet.sv 
+# Start time: 13:19:41 on Nov 21,2023
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture" C:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture/chipSet.sv 
 # -- Compiling module chipSet
 # 
 # Top level modules:
 # 	chipSet
-# End time: 10:25:13 on Nov 21,2023, Elapsed time: 0:00:00
+# End time: 13:19:41 on Nov 21,2023, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-# vlog -sv -work work +incdir+C:/Users/yraul/OneDrive/Documentos/GitHub/Proyecto2_Arqui2/microarchitecture {C:/Users/yraul/OneDrive/Documentos/GitHub/Proyecto2_Arqui2/microarchitecture/dataMemory.sv}
+# vlog -sv -work work +incdir+C:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture {C:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture/dataMemory.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 10:25:13 on Nov 21,2023
-# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/yraul/OneDrive/Documentos/GitHub/Proyecto2_Arqui2/microarchitecture" C:/Users/yraul/OneDrive/Documentos/GitHub/Proyecto2_Arqui2/microarchitecture/dataMemory.sv 
+# Start time: 13:19:41 on Nov 21,2023
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture" C:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture/dataMemory.sv 
 # -- Compiling module dataMemory
 # 
 # Top level modules:
 # 	dataMemory
-# End time: 10:25:13 on Nov 21,2023, Elapsed time: 0:00:00
+# End time: 13:19:41 on Nov 21,2023, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-# vlog -sv -work work +incdir+C:/Users/yraul/OneDrive/Documentos/GitHub/Proyecto2_Arqui2/microarchitecture {C:/Users/yraul/OneDrive/Documentos/GitHub/Proyecto2_Arqui2/microarchitecture/memoryStage.sv}
+# vlog -sv -work work +incdir+C:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture {C:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture/memoryStage.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 10:25:13 on Nov 21,2023
-# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/yraul/OneDrive/Documentos/GitHub/Proyecto2_Arqui2/microarchitecture" C:/Users/yraul/OneDrive/Documentos/GitHub/Proyecto2_Arqui2/microarchitecture/memoryStage.sv 
+# Start time: 13:19:42 on Nov 21,2023
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture" C:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture/memoryStage.sv 
 # -- Compiling module memoryStage
 # 
 # Top level modules:
 # 	memoryStage
-# End time: 10:25:13 on Nov 21,2023, Elapsed time: 0:00:00
+# End time: 13:19:42 on Nov 21,2023, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-# vlog -sv -work work +incdir+C:/Users/yraul/OneDrive/Documentos/GitHub/Proyecto2_Arqui2/microarchitecture {C:/Users/yraul/OneDrive/Documentos/GitHub/Proyecto2_Arqui2/microarchitecture/mainMemory.sv}
+# vlog -sv -work work +incdir+C:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture {C:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture/mainMemory.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 10:25:13 on Nov 21,2023
-# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/yraul/OneDrive/Documentos/GitHub/Proyecto2_Arqui2/microarchitecture" C:/Users/yraul/OneDrive/Documentos/GitHub/Proyecto2_Arqui2/microarchitecture/mainMemory.sv 
+# Start time: 13:19:42 on Nov 21,2023
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture" C:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture/mainMemory.sv 
 # -- Compiling module mainMemory
 # 
 # Top level modules:
 # 	mainMemory
-# End time: 10:25:13 on Nov 21,2023, Elapsed time: 0:00:00
+# End time: 13:19:42 on Nov 21,2023, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-# vlog -sv -work work +incdir+C:/Users/yraul/OneDrive/Documentos/GitHub/Proyecto2_Arqui2/microarchitecture {C:/Users/yraul/OneDrive/Documentos/GitHub/Proyecto2_Arqui2/microarchitecture/mux81.sv}
+# vlog -sv -work work +incdir+C:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture {C:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture/mux81.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 10:25:13 on Nov 21,2023
-# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/yraul/OneDrive/Documentos/GitHub/Proyecto2_Arqui2/microarchitecture" C:/Users/yraul/OneDrive/Documentos/GitHub/Proyecto2_Arqui2/microarchitecture/mux81.sv 
+# Start time: 13:19:42 on Nov 21,2023
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture" C:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture/mux81.sv 
 # -- Compiling module mux81
 # 
 # Top level modules:
 # 	mux81
-# End time: 10:25:14 on Nov 21,2023, Elapsed time: 0:00:01
+# End time: 13:19:42 on Nov 21,2023, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # 
-# vlog -sv -work work +incdir+C:/Users/yraul/OneDrive/Documentos/GitHub/Proyecto2_Arqui2/microarchitecture {C:/Users/yraul/OneDrive/Documentos/GitHub/Proyecto2_Arqui2/microarchitecture/memoryStage.sv}
+# vlog -sv -work work +incdir+C:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture {C:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture/memoryStage.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 10:25:14 on Nov 21,2023
-# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/yraul/OneDrive/Documentos/GitHub/Proyecto2_Arqui2/microarchitecture" C:/Users/yraul/OneDrive/Documentos/GitHub/Proyecto2_Arqui2/microarchitecture/memoryStage.sv 
+# Start time: 13:19:42 on Nov 21,2023
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture" C:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture/memoryStage.sv 
 # -- Compiling module memoryStage
 # 
 # Top level modules:
 # 	memoryStage
-# End time: 10:25:14 on Nov 21,2023, Elapsed time: 0:00:00
+# End time: 13:19:42 on Nov 21,2023, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-# vlog -sv -work work +incdir+C:/Users/yraul/OneDrive/Documentos/GitHub/Proyecto2_Arqui2/microarchitecture {C:/Users/yraul/OneDrive/Documentos/GitHub/Proyecto2_Arqui2/microarchitecture/memoryStage_tb.sv}
+# vlog -sv -work work +incdir+C:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture {C:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture/memoryStage_tb.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 10:25:14 on Nov 21,2023
-# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/yraul/OneDrive/Documentos/GitHub/Proyecto2_Arqui2/microarchitecture" C:/Users/yraul/OneDrive/Documentos/GitHub/Proyecto2_Arqui2/microarchitecture/memoryStage_tb.sv 
+# Start time: 13:19:42 on Nov 21,2023
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture" C:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture/memoryStage_tb.sv 
 # -- Compiling module memoryStage_tb
 # 
 # Top level modules:
 # 	memoryStage_tb
-# End time: 10:25:14 on Nov 21,2023, Elapsed time: 0:00:00
+# End time: 13:19:42 on Nov 21,2023, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # 
 # vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneiv_hssi_ver -L cycloneiv_pcie_hip_ver -L cycloneiv_ver -L rtl_work -L work -voptargs="+acc"  memoryStage_tb
 # vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneiv_hssi_ver -L cycloneiv_pcie_hip_ver -L cycloneiv_ver -L rtl_work -L work -voptargs=""+acc"" memoryStage_tb 
-# Start time: 10:25:14 on Nov 21,2023
+# Start time: 13:19:42 on Nov 21,2023
 # Loading sv_std.std
 # Loading work.memoryStage_tb
 # Loading work.memoryStage
@@ -140,45 +140,45 @@
 # Loading altera_mf_ver.altsyncram_body
 # Loading altera_mf_ver.ALTERA_DEVICE_FAMILIES
 # Loading altera_mf_ver.ALTERA_MF_MEMORY_INITIALIZATION
-# ** Warning: (vsim-3015) [PCDPC] - Port size (12) does not match connection size (32) for port 'data_b'. The port definition is at: C:/Users/yraul/OneDrive/Documentos/GitHub/Proyecto2_Arqui2/microarchitecture/mainMemorySegment.v(45).
-#    Time: 0 ps  Iteration: 0  Instance: /memoryStage_tb/myMemoryStage/myDataMemory/myMainMemory/memoryA File: C:/Users/yraul/OneDrive/Documentos/GitHub/Proyecto2_Arqui2/microarchitecture/mainMemory.sv Line: 20
-# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'wren_b'. The port definition is at: C:/Users/yraul/OneDrive/Documentos/GitHub/Proyecto2_Arqui2/microarchitecture/mainMemorySegment.v(47).
-#    Time: 0 ps  Iteration: 0  Instance: /memoryStage_tb/myMemoryStage/myDataMemory/myMainMemory/memoryA File: C:/Users/yraul/OneDrive/Documentos/GitHub/Proyecto2_Arqui2/microarchitecture/mainMemory.sv Line: 20
-# ** Warning: (vsim-3015) [PCDPC] - Port size (12) does not match connection size (32) for port 'data_b'. The port definition is at: C:/Users/yraul/OneDrive/Documentos/GitHub/Proyecto2_Arqui2/microarchitecture/mainMemorySegment.v(45).
-#    Time: 0 ps  Iteration: 0  Instance: /memoryStage_tb/myMemoryStage/myDataMemory/myMainMemory/memoryB File: C:/Users/yraul/OneDrive/Documentos/GitHub/Proyecto2_Arqui2/microarchitecture/mainMemory.sv Line: 31
-# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'wren_b'. The port definition is at: C:/Users/yraul/OneDrive/Documentos/GitHub/Proyecto2_Arqui2/microarchitecture/mainMemorySegment.v(47).
-#    Time: 0 ps  Iteration: 0  Instance: /memoryStage_tb/myMemoryStage/myDataMemory/myMainMemory/memoryB File: C:/Users/yraul/OneDrive/Documentos/GitHub/Proyecto2_Arqui2/microarchitecture/mainMemory.sv Line: 31
-# ** Warning: (vsim-3015) [PCDPC] - Port size (12) does not match connection size (32) for port 'data_b'. The port definition is at: C:/Users/yraul/OneDrive/Documentos/GitHub/Proyecto2_Arqui2/microarchitecture/mainMemorySegment.v(45).
-#    Time: 0 ps  Iteration: 0  Instance: /memoryStage_tb/myMemoryStage/myDataMemory/myMainMemory/memoryC File: C:/Users/yraul/OneDrive/Documentos/GitHub/Proyecto2_Arqui2/microarchitecture/mainMemory.sv Line: 42
-# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'wren_b'. The port definition is at: C:/Users/yraul/OneDrive/Documentos/GitHub/Proyecto2_Arqui2/microarchitecture/mainMemorySegment.v(47).
-#    Time: 0 ps  Iteration: 0  Instance: /memoryStage_tb/myMemoryStage/myDataMemory/myMainMemory/memoryC File: C:/Users/yraul/OneDrive/Documentos/GitHub/Proyecto2_Arqui2/microarchitecture/mainMemory.sv Line: 42
-# ** Warning: (vsim-3015) [PCDPC] - Port size (12) does not match connection size (32) for port 'data_b'. The port definition is at: C:/Users/yraul/OneDrive/Documentos/GitHub/Proyecto2_Arqui2/microarchitecture/mainMemorySegment.v(45).
-#    Time: 0 ps  Iteration: 0  Instance: /memoryStage_tb/myMemoryStage/myDataMemory/myMainMemory/memoryD File: C:/Users/yraul/OneDrive/Documentos/GitHub/Proyecto2_Arqui2/microarchitecture/mainMemory.sv Line: 53
-# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'wren_b'. The port definition is at: C:/Users/yraul/OneDrive/Documentos/GitHub/Proyecto2_Arqui2/microarchitecture/mainMemorySegment.v(47).
-#    Time: 0 ps  Iteration: 0  Instance: /memoryStage_tb/myMemoryStage/myDataMemory/myMainMemory/memoryD File: C:/Users/yraul/OneDrive/Documentos/GitHub/Proyecto2_Arqui2/microarchitecture/mainMemory.sv Line: 53
-# ** Warning: (vsim-3015) [PCDPC] - Port size (12) does not match connection size (32) for port 'data_b'. The port definition is at: C:/Users/yraul/OneDrive/Documentos/GitHub/Proyecto2_Arqui2/microarchitecture/mainMemorySegment.v(45).
-#    Time: 0 ps  Iteration: 0  Instance: /memoryStage_tb/myMemoryStage/myDataMemory/myMainMemory/memoryE File: C:/Users/yraul/OneDrive/Documentos/GitHub/Proyecto2_Arqui2/microarchitecture/mainMemory.sv Line: 64
-# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'wren_b'. The port definition is at: C:/Users/yraul/OneDrive/Documentos/GitHub/Proyecto2_Arqui2/microarchitecture/mainMemorySegment.v(47).
-#    Time: 0 ps  Iteration: 0  Instance: /memoryStage_tb/myMemoryStage/myDataMemory/myMainMemory/memoryE File: C:/Users/yraul/OneDrive/Documentos/GitHub/Proyecto2_Arqui2/microarchitecture/mainMemory.sv Line: 64
-# ** Warning: (vsim-3015) [PCDPC] - Port size (12) does not match connection size (32) for port 'data_b'. The port definition is at: C:/Users/yraul/OneDrive/Documentos/GitHub/Proyecto2_Arqui2/microarchitecture/mainMemorySegment.v(45).
-#    Time: 0 ps  Iteration: 0  Instance: /memoryStage_tb/myMemoryStage/myDataMemory/myMainMemory/memoryF File: C:/Users/yraul/OneDrive/Documentos/GitHub/Proyecto2_Arqui2/microarchitecture/mainMemory.sv Line: 75
-# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'wren_b'. The port definition is at: C:/Users/yraul/OneDrive/Documentos/GitHub/Proyecto2_Arqui2/microarchitecture/mainMemorySegment.v(47).
-#    Time: 0 ps  Iteration: 0  Instance: /memoryStage_tb/myMemoryStage/myDataMemory/myMainMemory/memoryF File: C:/Users/yraul/OneDrive/Documentos/GitHub/Proyecto2_Arqui2/microarchitecture/mainMemory.sv Line: 75
-# ** Warning: (vsim-3015) [PCDPC] - Port size (12) does not match connection size (32) for port 'g'. The port definition is at: C:/Users/yraul/OneDrive/Documentos/GitHub/Proyecto2_Arqui2/microarchitecture/mux81.sv(1).
-#    Time: 0 ps  Iteration: 0  Instance: /memoryStage_tb/myMemoryStage/myDataMemory/myMainMemory/outputAMux File: C:/Users/yraul/OneDrive/Documentos/GitHub/Proyecto2_Arqui2/microarchitecture/mainMemory.sv Line: 146
-# ** Warning: (vsim-3015) [PCDPC] - Port size (12) does not match connection size (32) for port 'h'. The port definition is at: C:/Users/yraul/OneDrive/Documentos/GitHub/Proyecto2_Arqui2/microarchitecture/mux81.sv(1).
-#    Time: 0 ps  Iteration: 0  Instance: /memoryStage_tb/myMemoryStage/myDataMemory/myMainMemory/outputAMux File: C:/Users/yraul/OneDrive/Documentos/GitHub/Proyecto2_Arqui2/microarchitecture/mainMemory.sv Line: 146
-# ** Warning: (vsim-3015) [PCDPC] - Port size (12) does not match connection size (32) for port 'g'. The port definition is at: C:/Users/yraul/OneDrive/Documentos/GitHub/Proyecto2_Arqui2/microarchitecture/mux81.sv(1).
-#    Time: 0 ps  Iteration: 0  Instance: /memoryStage_tb/myMemoryStage/myDataMemory/myMainMemory/outputBMux File: C:/Users/yraul/OneDrive/Documentos/GitHub/Proyecto2_Arqui2/microarchitecture/mainMemory.sv Line: 147
-# ** Warning: (vsim-3015) [PCDPC] - Port size (12) does not match connection size (32) for port 'h'. The port definition is at: C:/Users/yraul/OneDrive/Documentos/GitHub/Proyecto2_Arqui2/microarchitecture/mux81.sv(1).
-#    Time: 0 ps  Iteration: 0  Instance: /memoryStage_tb/myMemoryStage/myDataMemory/myMainMemory/outputBMux File: C:/Users/yraul/OneDrive/Documentos/GitHub/Proyecto2_Arqui2/microarchitecture/mainMemory.sv Line: 147
+# ** Warning: (vsim-3015) [PCDPC] - Port size (12) does not match connection size (32) for port 'data_b'. The port definition is at: C:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture/mainMemorySegment.v(45).
+#    Time: 0 ps  Iteration: 0  Instance: /memoryStage_tb/myMemoryStage/myDataMemory/myMainMemory/memoryA File: C:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture/mainMemory.sv Line: 20
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'wren_b'. The port definition is at: C:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture/mainMemorySegment.v(47).
+#    Time: 0 ps  Iteration: 0  Instance: /memoryStage_tb/myMemoryStage/myDataMemory/myMainMemory/memoryA File: C:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture/mainMemory.sv Line: 20
+# ** Warning: (vsim-3015) [PCDPC] - Port size (12) does not match connection size (32) for port 'data_b'. The port definition is at: C:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture/mainMemorySegment.v(45).
+#    Time: 0 ps  Iteration: 0  Instance: /memoryStage_tb/myMemoryStage/myDataMemory/myMainMemory/memoryB File: C:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture/mainMemory.sv Line: 31
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'wren_b'. The port definition is at: C:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture/mainMemorySegment.v(47).
+#    Time: 0 ps  Iteration: 0  Instance: /memoryStage_tb/myMemoryStage/myDataMemory/myMainMemory/memoryB File: C:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture/mainMemory.sv Line: 31
+# ** Warning: (vsim-3015) [PCDPC] - Port size (12) does not match connection size (32) for port 'data_b'. The port definition is at: C:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture/mainMemorySegment.v(45).
+#    Time: 0 ps  Iteration: 0  Instance: /memoryStage_tb/myMemoryStage/myDataMemory/myMainMemory/memoryC File: C:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture/mainMemory.sv Line: 42
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'wren_b'. The port definition is at: C:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture/mainMemorySegment.v(47).
+#    Time: 0 ps  Iteration: 0  Instance: /memoryStage_tb/myMemoryStage/myDataMemory/myMainMemory/memoryC File: C:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture/mainMemory.sv Line: 42
+# ** Warning: (vsim-3015) [PCDPC] - Port size (12) does not match connection size (32) for port 'data_b'. The port definition is at: C:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture/mainMemorySegment.v(45).
+#    Time: 0 ps  Iteration: 0  Instance: /memoryStage_tb/myMemoryStage/myDataMemory/myMainMemory/memoryD File: C:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture/mainMemory.sv Line: 53
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'wren_b'. The port definition is at: C:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture/mainMemorySegment.v(47).
+#    Time: 0 ps  Iteration: 0  Instance: /memoryStage_tb/myMemoryStage/myDataMemory/myMainMemory/memoryD File: C:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture/mainMemory.sv Line: 53
+# ** Warning: (vsim-3015) [PCDPC] - Port size (12) does not match connection size (32) for port 'data_b'. The port definition is at: C:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture/mainMemorySegment.v(45).
+#    Time: 0 ps  Iteration: 0  Instance: /memoryStage_tb/myMemoryStage/myDataMemory/myMainMemory/memoryE File: C:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture/mainMemory.sv Line: 64
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'wren_b'. The port definition is at: C:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture/mainMemorySegment.v(47).
+#    Time: 0 ps  Iteration: 0  Instance: /memoryStage_tb/myMemoryStage/myDataMemory/myMainMemory/memoryE File: C:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture/mainMemory.sv Line: 64
+# ** Warning: (vsim-3015) [PCDPC] - Port size (12) does not match connection size (32) for port 'data_b'. The port definition is at: C:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture/mainMemorySegment.v(45).
+#    Time: 0 ps  Iteration: 0  Instance: /memoryStage_tb/myMemoryStage/myDataMemory/myMainMemory/memoryF File: C:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture/mainMemory.sv Line: 75
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'wren_b'. The port definition is at: C:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture/mainMemorySegment.v(47).
+#    Time: 0 ps  Iteration: 0  Instance: /memoryStage_tb/myMemoryStage/myDataMemory/myMainMemory/memoryF File: C:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture/mainMemory.sv Line: 75
+# ** Warning: (vsim-3015) [PCDPC] - Port size (12) does not match connection size (32) for port 'g'. The port definition is at: C:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture/mux81.sv(1).
+#    Time: 0 ps  Iteration: 0  Instance: /memoryStage_tb/myMemoryStage/myDataMemory/myMainMemory/outputAMux File: C:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture/mainMemory.sv Line: 146
+# ** Warning: (vsim-3015) [PCDPC] - Port size (12) does not match connection size (32) for port 'h'. The port definition is at: C:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture/mux81.sv(1).
+#    Time: 0 ps  Iteration: 0  Instance: /memoryStage_tb/myMemoryStage/myDataMemory/myMainMemory/outputAMux File: C:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture/mainMemory.sv Line: 146
+# ** Warning: (vsim-3015) [PCDPC] - Port size (12) does not match connection size (32) for port 'g'. The port definition is at: C:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture/mux81.sv(1).
+#    Time: 0 ps  Iteration: 0  Instance: /memoryStage_tb/myMemoryStage/myDataMemory/myMainMemory/outputBMux File: C:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture/mainMemory.sv Line: 147
+# ** Warning: (vsim-3015) [PCDPC] - Port size (12) does not match connection size (32) for port 'h'. The port definition is at: C:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture/mux81.sv(1).
+#    Time: 0 ps  Iteration: 0  Instance: /memoryStage_tb/myMemoryStage/myDataMemory/myMainMemory/outputBMux File: C:/TEC/Arqui2/Proyecto2_Arqui2/microarchitecture/mainMemory.sv Line: 147
 # 
 # add wave *
 # ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
 #           File in use by: luisA  Hostname: LAZH  ProcessID: 10232
-#           Attempting to use alternate WLF file "./wlftigthx9".
+#           Attempting to use alternate WLF file "./wlft0jh2xh".
 # ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
-#           Using alternate file: ./wlftigthx9
+#           Using alternate file: ./wlft0jh2xh
 # view structure
 # .main_pane.structure.interior.cs.body.struct
 # view signals
@@ -205,9 +205,10 @@
 # opType signal pass through
 # modeSel signal pass through
 # regWriteV signal pass through
-# Lectura de la posicion 50000 de memoria despues de la escritura fue correcta
-# Lectura correcta de los GPIO escritos
+# 
+#  Write/Read test
+# Right read after vectorial write
 # Break key hit
-# Break in Module altsyncram_body at $MODEL_TECH/../altera/verilog/src/altera_mf.v line 49586
-# End time: 10:25:19 on Nov 21,2023, Elapsed time: 0:00:05
+# Break in Module altsyncram_body at $MODEL_TECH/../altera/verilog/src/altera_mf.v line 49230
+# End time: 13:20:09 on Nov 21,2023, Elapsed time: 0:00:27
 # Errors: 0, Warnings: 18
