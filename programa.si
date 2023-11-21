@@ -1,4 +1,10 @@
 Main:
+    not_start_loop:
+        mov r14, #75
+        ld r14, r14,r0
+        and r14,r14, #32
+        cmp r14, r0
+        beq not_start_loop
     mov r14,0
 draw_lines_loop:
     cmp r14, r0    
