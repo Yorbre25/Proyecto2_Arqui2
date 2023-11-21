@@ -60,6 +60,54 @@ draw_lines_loop:
     cmp r14, r1
     beq line_15
 
+draw_elipses_loop:
+    mov r1, #16
+    cmp r14, r1
+    beq elipse_1
+
+    mov r1, #17
+    cmp r14, r1
+    beq elipse_2
+
+    mov r1, #18
+    cmp r14, r1
+    beq elipse_3
+
+    mov r1, #19
+    cmp r14, r1
+    beq elipse_4
+
+    b exit
+
+draw_elipse:
+    movv r7, #60
+    movv rv5, #0
+    movv rv6, #1
+    movv rv10, #1000
+    ellipse_loop:
+        cmp r7,r0
+        beq draw_elipses_loop
+        sub r7, r7, #1
+        cosv rv7, rv5
+        senv rv8, rv5
+        multv rv7, rv7, rv3
+        multv rv8, rv8, rv4
+        divv rv7, rv7, rv10
+        divv rv8, rv8, rv10
+        addv rv7, rv7, rv1
+        addv rv8, rv8, rv2
+        movv rv11, #310000
+        movv rv12, #640
+        multv rv12, rv12, rv7
+        addv rv12, rv12, rv8
+        movv rv15, #76
+        addv rv12, rv12, rv15
+        strv rv12, rv11, r0
+
+        b store_color_elipse
+        finished_store_loop:
+        addv rv5, rv5, rv6
+        b ellipse_loop
 
 
 
@@ -90,7 +138,12 @@ draw_line://r3 = x1, r4 = y1, r5 = x2, r6 = y2
     div r11, r11,  #2
     mul r11, r11, #-1
     Brassen_calc:
-        // MOVE DATA TO MEMORY
+        mov r14, #73
+        ld r13, r14, r0
+        mult r14, r3, #640
+        add r14, r14, r4
+        add r14, r14, #76
+        str r13, r14, r0 
         cmp r3, r5
         beq Brassen_pre_exit
         Brassen_not_equal:
@@ -107,6 +160,21 @@ set_error_dx:
     sub r11, r11, r8
     add r3, r3, r9 
     b Brassen_not_equal_y
+
+store_color_elipse:
+    mov r1, #310000
+    mov r2, #0
+    mov r4, #6
+    mov r15, #0
+    ld r15, #73
+    xor r15, #32
+    store_color_elipse_loop:
+        cmp r2, r4
+        bg  finished_store_loop
+        ld  r3, r1, r2
+        str r15, r3, r0
+        add r2, r2, #1
+        b store_color_elipse_loop
 
 set_error_dy:
     add r11, r11, r7
@@ -252,6 +320,38 @@ line_15:
     mov r6, #200
     add r14, r14, #1
     b draw_line
+
+elipse_1:
+    mov rv1, #335
+    mov rv2, #390
+    mov rv3, #7
+    mov rv4, #7
+    add r14, r14, #1
+    b draw_elipse
+
+elipse_2:
+    mov rv1, #300
+    mov rv2, #130
+    mov rv3, #40
+    mov rv4, #30
+    add r14, r14, #1
+    b draw_elipse
+
+elipse_3:
+    mov rv1, #180
+    mov rv2, #275
+    mov rv3, #40
+    mov rv4, #30
+    add r14, r14, #1
+    b draw_elipse
+
+elipse_4:
+    mov rv1, #420
+    mov rv2, #275
+    mov rv3, #40
+    mov rv4, #30
+    add r14, r14, #1
+    b draw_elipse
 
 exit:
 mov r1, #0
