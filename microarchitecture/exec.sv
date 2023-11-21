@@ -77,7 +77,7 @@ module exec #(parameter N= 24,parameter M=6, parameter BW=setValuesBuffer + 2*M*
 	
 	
 //divide instruction:
-//	|regWrite | modeSel | opType | opCode | aluCurrentResult | zeroFlag | negFlag | branchFlag | memWrite | memToReg | regWrite | Rc | rd3  |
+//	|regWriteV | modeSel | opType | opCode | aluCurrentResult | zeroFlag | negFlag | branchFlag | memWrite | memToReg | regWrite | Rc | rd3  |
 //Size:
 //	|   [1]   | [1]     |   [2]  |   [4]  |       [M*N]	   |  [1]     |   [1]   |    [1]     |   [1]    |    [1]   |   [1]    |[4] | [M*N]| 
 //	----------------------------------------------------------------------------------------------------------------
