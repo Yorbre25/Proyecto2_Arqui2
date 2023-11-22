@@ -43,7 +43,7 @@ instructionResult = []
 # Abrir archivo con el codigo en ensamblador
 def openFile():
     #f = open("Software/main.txt", "r")
-    f = open("programa.si", "r")
+    f = open("input copy.s", "r")
     counter = 0
     for line in f:
         if not line.isspace():

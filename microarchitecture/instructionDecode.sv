@@ -48,11 +48,11 @@ module instructionDecode(input clk,input rst,rstTotal,en, input [31:0] inst,inpu
 	assign imm=inst[17:0];
 	
 //divide instruction:
-//	  | modeSel|regW	  |RDV1	| RDV2  | RDV3	  |pc | opType | opCode |immSrc  |branchFlag| memWrite | memToReg | regWrite | aluControl  | Ra | RD1 | Rb | RD2 | Rc | RD3 | extendImm |
+//	  | modeSel|regWriteV|RDV1	| RDV2  | RDV3	  |pc | opType | opCode |immSrc  |branchFlag| memWrite | memToReg | regWrite | aluControl  | Ra | RD1 | Rb | RD2 | Rc | RD3 | extendImm |
 //Size:
-//	  |	[1]  | [1]	  |[144]|[144]   |  [144] |[N]|   [2] 	|   [4]  |  [1]   |    [1]   |   [1]    |   [1]	   |    [1]   |     [4]     | [4]| [N] |[4] |[N]  |[4] |  [N]|    [N]    | 
+//	  |	[1]  | [1]	   |[144]|[144]  |  [144] |[N]|   [2] 	|   [4]  |  [1]   |    [1]   |   [1]    |   [1]	   |    [1]   |     [4]     | [4]| [N] |[4] |[N]  |[4] |  [N]|    [N]    | 
 //	----------------------------------------------------------------------------------------------------------------------------------------
-//   |	580  |	579  |578	|434	  |290	  |146|122     |120     |116		|115		  |  114	  	 |  113		|   112    |     111     | 107|103  |79  |75   |51  |47   |23        0|
+//   |	580  |	579   |578	|434	  |290	  |146|122     |120     |116		|115		  |  114	  	 |  113		|   112    |     111     | 107|103  |79  |75   |51  |47   |23        0|
 	assign bufferInput={modeSel,regWriteV,RDV1,RDV2,RDV3,pc,opType,opCode,immSrc,branchFlag,memWrite,memToReg,regWrite,aluControl,Ra,RD1,Rb,RD2,Rc,RD3,extendImm};
 
 endmodule 

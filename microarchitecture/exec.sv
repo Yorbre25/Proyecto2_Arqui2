@@ -1,4 +1,4 @@
-parameter setValuesBuffer = 17;
+parameter setValuesBuffer = 18;
 module exec #(parameter N= 24,parameter M=6, parameter BW=setValuesBuffer + 2*M*N)(
 	input clk, rst, en, //clock, flush, stall,
 	input [N-1:0] rd1, rd2, pc, imm, // Alu entries
@@ -7,7 +7,7 @@ module exec #(parameter N= 24,parameter M=6, parameter BW=setValuesBuffer + 2*M*
 	input [M*N-1:0] rdv3,
 	input [3:0] aluControl,
 	input [3:0] Rc, // Register number
-	input immSrc, branchFlag, memWrite, memToReg, regWrite,modeSel,// modeSel(if its scalar or vectorial)
+	input immSrc, branchFlag, memWrite, memToReg, regWrite,regWriteV,modeSel,// modeSel(if its scalar or vectorial)
 	input Fa, Fb,Fc,
 	input [1:0] opType,
 	input [3:0] opCode,
@@ -77,12 +77,12 @@ module exec #(parameter N= 24,parameter M=6, parameter BW=setValuesBuffer + 2*M*
 	
 	
 //divide instruction:
-//	 | modeSel | opType | opCode | aluCurrentResult | zeroFlag | negFlag | branchFlag | memWrite | memToReg | regWrite | Rc | rd3  |
+//	|regWriteV | modeSel | opType | opCode | aluCurrentResult | zeroFlag | negFlag | branchFlag | memWrite | memToReg | regWrite | Rc | rd3  |
 //Size:
-//	 | [1]     |   [2]  |   [4]  |       [M*N]	   |  [1]     |   [1]   |    [1]     |   [1]    |    [1]   |   [1]    |[4] | [M*N]| 
+//	|   [1]   | [1]     |   [2]  |   [4]  |       [M*N]	   |  [1]     |   [1]   |    [1]     |   [1]    |    [1]   |   [1]    |[4] | [M*N]| 
 //	----------------------------------------------------------------------------------------------------------------
-//  |304      |303	  |301	  |297				   |153		  |152	   |151			 |150		   |149		  |148	    |147 |143  0|
+// | 305     |304      |303	  |301	  |297				   |153		  |152	   |151			 |150		   |149		  |148	    |147 |143  0|
 
-  	assign bufferInput={modeSel,opType,opCode,aluCurrentResultFinal,zeroFlag,negFlag,branchFlag,memWrite,memToReg,regWrite, Rc, RD3OutFinal};
+  	assign bufferInput={regWriteV,modeSel,opType,opCode,aluCurrentResultFinal,zeroFlag,negFlag,branchFlag,memWrite,memToReg,regWrite, Rc, RD3OutFinal};
 	
 endmodule

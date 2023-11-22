@@ -18,7 +18,7 @@ module ALUElement #(parameter N=24)(
 			4'b1101:out=res_add;
 			4'b1110:out=res_mult;
 			4'b1111:out=res_div;
-			default:out=0;
+			default:out=res_add;
 		
 		
 		endcase

@@ -1,7 +1,0 @@
-family_language_pairs
-cycloneivgx verilog
-cycloneivgx verilog
-cycloneivgx verilog
-cycloneivgx verilog
-cycloneivgx verilog
-end family_language pairs

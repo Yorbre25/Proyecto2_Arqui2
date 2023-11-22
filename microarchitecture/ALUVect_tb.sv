@@ -35,7 +35,7 @@ module ALUVect_tb();
 		a[119:96]=86;
 		a[143:120]=52;
 		
-		b[23:0]=65;
+		b[23:0]=37;
 		b[47:24]=12;
 		b[71:48]=36;
 		b[95:72]=41;
@@ -66,8 +66,27 @@ module ALUVect_tb();
 		
 		
 		#10; //negedge
-		assert(result==100) $display("El resultado del sin corresponde a la tabla");  //Yordi este valor no lo tenia, hay que cambiarlo por la posicion del sin.mif cuando wage lo haga
-		else $error("El resultado del sin no corresponde a la tabla");
+		//estos valores son tomados del archivo sin.mif 
+		
+			
+		assert(result[143:120]==24'b111111111111110100100101) $display("El resultado del sin corresponde a la tabla en 5");  
+		else $error("El resultado del sin no corresponde a la tabla en 5");
+		
+		assert(result[119:96]==24'b111111111111110100110001) $display("El resultado del sin corresponde a la tabla en 4");  
+		else $error("El resultado del sin no corresponde a la tabla en 4");
+		
+		assert(result[95:72]==24'b111111111111110100111101) $display("El resultado del sin corresponde a la tabla en 3");  
+		else $error("El resultado del sin no corresponde a la tabla en 3");
+		
+		assert(result[71:48]==24'b111111111111110101001010) $display("El resultado del sin corresponde a la tabla en 2");  
+		else $error("El resultado del sin no corresponde a la tabla en 2");
+		
+		assert(result[47:24]==24'b111111111111110101010111) $display("El resultado del sin corresponde a la tabla en 1");  
+		else $error("El resultado del sin no corresponde a la tabla en 1");
+		
+		assert(result[23:0]==24'b111111111111110101100011) $display("El resultado del sin corresponde a la tabla en 0");  
+		else $error("El resultado del sin no corresponde a la tabla en 0");
+		
 		
 		select=4'b1100; //cos operation
 		
@@ -75,8 +94,24 @@ module ALUVect_tb();
 		
 		
 		#10; //negedge
-		assert(result==200) $display("El resultado del sin corresponde a la tabla");  //Yordi este valor no lo tenia, hay que cambiarlo por la posicion del cos.mif cuando wage lo haga
-		else $error("El resultado del sin no corresponde a la tabla");
+		//estos valores son tomados del archivo cos.mif 
+		assert(result[143:120]==24'b111111111111110101010111) $display("El resultado del cos corresponde a la tabla en 5");  
+		else $error("El resultado del cos no corresponde a la tabla en 5");
+		
+		assert(result[119:96]==24'b111111111111110101001010) $display("El resultado del cos corresponde a la tabla en 4");  
+		else $error("El resultado del cos no corresponde a la tabla en 4");
+		
+		assert(result[95:72]==24'b111111111111110100111101) $display("El resultado del cos corresponde a la tabla en 3");  
+		else $error("El resultado del cos no corresponde a la tabla en 3");
+		
+		assert(result[71:48]==24'b111111111111110100110001) $display("El resultado del cos corresponde a la tabla en 2");  
+		else $error("El resultado del cos no corresponde a la tabla en 2");
+		
+		assert(result[47:24]==24'b111111111111110100100101) $display("El resultado del cos corresponde a la tabla en 1");  
+		else $error("El resultado del cos no corresponde a la tabla en 1");
+		
+		assert(result[23:0]==24'b111111111111110100011001) $display("El resultado del cos corresponde a la tabla en 0");  
+		else $error("El resultado del cos no corresponde a la tabla en 0");
 		
 		select=4'b1101; //add operation
 		
