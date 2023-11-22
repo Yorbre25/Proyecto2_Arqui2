@@ -125,7 +125,7 @@ draw_line:
     mov r13,#0
     sub r7, r5, r3
     cmp r7,r0
-    ble Mult_minus_one
+    ble Abs_r7
     mov r9, #-1
     After_abs_r7:
     sub r8, r6, r4
