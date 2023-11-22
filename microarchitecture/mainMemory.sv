@@ -89,7 +89,7 @@ module mainMemory(input clk,input modeSel,input [18:0] address_a,address_b,input
 	assign address_b_module= address_b % 6;
 	
 	assign address_offset0 = address_a /6;
-	assign address_offset1 = (address_a +1) /6;
+	assign address_offset1 = address_offset0 +1;
 	
 	
 	assign wren_a1 = (address_module == 3'd0 || modeSel) && wren;

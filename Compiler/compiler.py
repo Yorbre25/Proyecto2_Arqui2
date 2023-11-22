@@ -50,7 +50,8 @@ def openFile():
             try:
                 AnalyzeLine(line.lower(), counter)
             except:
-                print("Exception in line ", counter)
+                
+                print(f"###################\n###################\nException in line {counter}\n{line}\n###################\n###################\n")
         
         counter += 1
   
@@ -88,7 +89,7 @@ def GetFunction(functionText, registersList):
         opcode = format(result.get("opcode"), 'b')
         while (len(opcode) < 4): opcode = "0"+opcode
         code += opcode
-        if(functionText == "cmp" or functionText == "mov" or functionText == "not"): #It's an op of 2 operands
+        if(functionText == "cmp" or functionText == "mov" or functionText == "not" or functionText == "movv"): #It's an op of 2 operands
             if(functionText == "cmp"):
                 code += GetAllRegistersOpcode("r0", registersList[0] ,registersList[1]) 
             else:   
@@ -111,7 +112,7 @@ def GetFunction(functionText, registersList):
             print("Funcion de memoria no reconocida")
         
         if(len(registersList) == 2):
-            code += GetAllRegistersOpcode(registersList[0],registersList[1], "r0")
+            code += GetAllRegistersOpcode(registersList[0],"r0", registersList[1])
         else: 
             code += GetAllRegistersOpcode(registersList[0], registersList[1], registersList[2])
     elif(result.get("opType") == "cont"):
@@ -168,7 +169,10 @@ def GetRegisterOpcode(register):
 
 def SetBranches():
     branchLine = 0
-    
+    print("------")
+    #print(instructionResult)
+    print(functions)
+    print("------")
     for branch in instructionResult:
         
         if( "=" in branch):
@@ -182,8 +186,13 @@ def SetBranches():
             jump = functions.get(branchLabel)
             
             actualInstructionAux = branchLine
-            #print("Pc Relative ", jump)
-            #print("Actual Line ", branchLine)
+            
+            print("-------------")
+            print("Pc Relative (A donde quiero saltar): ", jump)
+            
+            print("Actual Line (En donde invoco el salto): ", branchLine)
+            print("-------------") 
+
             if(jump > branchLine):
                 while(jump > actualInstructionAux):
                     pcRelative += 4
@@ -194,9 +203,9 @@ def SetBranches():
                     actualInstructionAux -= 1
 
             resultAux = format(pcRelative, 'b')
-            print("PC Relative: ", int(resultAux, 2))
+            print("PC Relative despues de formatear: ", int(resultAux, 2))
             result = negative_to_twos_complement(int(resultAux, 2), 18)
-            
+            print("PC Relative despues del complemento a 2: ", result)
             instructionResult[branchLine] = newInstruction + result
             print("Branch code result: ", instructionResult[branchLine])
         branchLine += 1

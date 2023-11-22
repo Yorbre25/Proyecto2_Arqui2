@@ -29,7 +29,7 @@ module processor_tb();
 			rst=0;
 			
 			
-			#1050; //negedge
+			#2010; //negedge
 			switches=5'b10100;
 			parallelAddress=4;
 			
@@ -158,7 +158,7 @@ module processor_tb();
 			assert(q==33) $display("duodecima Lectura escalar correcta");
 			else $error("duodecima lectura escalar incorrecta");
 			
-			parallelAddress=16;
+			parallelAddress=30;
 			
 			
 			
@@ -172,7 +172,7 @@ module processor_tb();
 			assert(q==5+2) $display("Lectura primer componente vectorial correcta");
 			else $error("Lectura primer componente vectorial incorrecta");
 			
-			parallelAddress=17;
+			parallelAddress=31;
 			
 			
 			#10; //posedge
@@ -182,7 +182,7 @@ module processor_tb();
 			assert(q==7+4) $display("Lectura segundo componente vectorial correcta");
 			else $error("Lectura segundo componente vectorial incorrecta");
 			
-			parallelAddress=18;
+			parallelAddress=32;
 			
 			
 			
@@ -193,7 +193,7 @@ module processor_tb();
 			assert(q==13+6) $display("Lectura tercer componente vectorial correcta");
 			else $error("Lectura tercer componente vectorial incorrecta");
 			
-			parallelAddress=19;
+			parallelAddress=33;
 			
 			
 			
@@ -205,7 +205,7 @@ module processor_tb();
 			assert(q==19+7) $display("Lectura cuarto componente vectorial correcta");
 			else $error("Lectura cuarto componente vectorial incorrecta");
 			
-			parallelAddress=20;
+			parallelAddress=34;
 			
 			
 			
@@ -216,7 +216,7 @@ module processor_tb();
 			assert(q==23+9) $display("Lectura quinto componente vectorial correcta");
 			else $error("Lectura quinto componente vectorial incorrecta");
 			
-			parallelAddress=21;
+			parallelAddress=35;
 			
 			
 			
@@ -227,7 +227,7 @@ module processor_tb();
 			assert(q==24+33) $display("Lectura sexto componente vectorial correcta");
 			else $error("Lectura sexto componente vectorial incorrecta");
 			
-			parallelAddress=22;
+			parallelAddress=36;
 			
 			
 			#200;
