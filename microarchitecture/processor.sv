@@ -200,7 +200,7 @@ module processor(input rst,input clk, input [35:0] gpio1,input [23:0] parallelAd
 	.Forward2(Forward2),
 	.Forward3(Forward3),
 	.aluControl(aluControl_id_ex),
-	.Rc(Rc_id_ex),
+	.Rc(rc_id_ex),
 	.immSrc(immSrc_id_ex), 
 	.branchFlag(branchFlag_id_ex), 
 	.memWrite(memWrite_id_ex),
@@ -247,7 +247,7 @@ module processor(input rst,input clk, input [35:0] gpio1,input [23:0] parallelAd
 		.en(1'b1),
 		.opType(opType_ex_mem),
 		.opCode(opCode_ex_mem),
-		.address1(aluResult),
+		.address1(aluCurrentResultFinal_ex_mem),
 		.address2(parallelAddress), //entrada
 		.memWrite(memWrite_ex_mem),
 		.memToReg(memToReg_ex_mem),
