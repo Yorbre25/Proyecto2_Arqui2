@@ -356,4 +356,34 @@ elipse_4:
 
 exit:
 mov r1, #0
-b exit
+mov r2, #0
+mov r3, #0
+mov r4, #0
+mov r5, #0
+mov r6, #0
+mov r7, #0
+mov r8, #0
+mov r9, #0
+mov r10, #0
+mov r11, #0
+mov r12, #0
+mov r13, #0
+mov r14, #0
+mov r15, #0
+movv r0, #0
+movv r1, #0
+movv r2, #0
+movv r3, #0
+movv r4, #0
+movv r5, #0
+movv r6, #0
+movv r7, #0
+movv r8, #0
+movv r9, #0
+movv r10, #0
+movv r11, #0
+movv r12, #0
+movv r13, #0
+movv r14, #0
+movv r15, #0
+b Main
