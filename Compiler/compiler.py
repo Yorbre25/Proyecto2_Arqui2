@@ -112,7 +112,7 @@ def GetFunction(functionText, registersList):
             print("Funcion de memoria no reconocida")
         
         if(len(registersList) == 2):
-            code += GetAllRegistersOpcode(registersList[0],registersList[1], "r0")
+            code += GetAllRegistersOpcode(registersList[0],"r0", registersList[1])
         else: 
             code += GetAllRegistersOpcode(registersList[0], registersList[1], registersList[2])
     elif(result.get("opType") == "cont"):
