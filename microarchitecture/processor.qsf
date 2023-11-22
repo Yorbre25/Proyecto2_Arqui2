@@ -218,6 +218,8 @@ set_global_assignment -name EDA_TEST_BENCH_FILE processor.sv -section_id process
 set_global_assignment -name EDA_TEST_BENCH_FILE dataMemory.mif -section_id processor_tb
 set_global_assignment -name EDA_TEST_BENCH_FILE mux2_1.sv -section_id processor_tb
 set_global_assignment -name EDA_TEST_BENCH_FILE instructionMemory.mem -section_id processor_tb
+set_global_assignment -name EDA_TEST_BENCH_FILE sin.mif -section_id processor_tb
+set_global_assignment -name EDA_TEST_BENCH_FILE cos.mif -section_id processor_tb
 set_global_assignment -name EDA_TEST_BENCH_FILE controlUnit.sv -section_id controlUnit_tb
 set_global_assignment -name EDA_TEST_BENCH_FILE controlUnit_tb.sv -section_id controlUnit_tb
 set_global_assignment -name EDA_TEST_BENCH_FILE SRAM.qsys -section_id SRAM_tb

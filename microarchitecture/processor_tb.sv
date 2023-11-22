@@ -29,7 +29,9 @@ module processor_tb();
 			rst=0;
 			
 			
-			#2010; //negedge
+			#4010; //negedge
+			
+			
 			switches=5'b10100;
 			parallelAddress=4;
 			
@@ -227,7 +229,133 @@ module processor_tb();
 			assert(q==24+33) $display("Lectura sexto componente vectorial correcta");
 			else $error("Lectura sexto componente vectorial incorrecta");
 			
-			parallelAddress=36;
+			parallelAddress=124;
+			
+			
+			#10; //posedge
+			
+			
+			#10; //negedge
+			assert(q==2000) $display("Lectura primer componente coseno de 0 multiplicado por dos correcto");
+			else $error("Lectura primer componente coseno de 0 multiplicado por dos inccorrecto");
+			
+			parallelAddress=125;
+			
+			
+			#10; //posedge
+			
+			
+			#10; //negedge
+			assert(q==1998) $display("Lectura segundo componente coseno de 0 multiplicado por dos correcto");
+			else $error("Lectura segundo componente coseno de 0 multiplicado por dos inccorrecto");
+			
+			parallelAddress=126;
+			
+			
+			
+			#10; //posedge
+			
+			
+			#10; //negedge
+			assert(q==1998) $display("Lectura tercero componente coseno de 0 multiplicado por dos correcto");
+			else $error("Lectura tercero componente coseno de 0 multiplicado por dos inccorrecto");
+			
+			parallelAddress=127;
+			
+			#10; //posedge
+			
+			
+			#10; //negedge
+			assert(q==1996) $display("Lectura cuarto componente coseno de 0 multiplicado por dos correcto");
+			else $error("Lectura cuarto componente coseno de 0 multiplicado por dos inccorrecto");
+			
+			parallelAddress=128;
+			
+			
+			#10; //posedge
+			
+			
+			#10; //negedge
+			assert(q==1994) $display("Lectura quinto componente coseno de 0 multiplicado por dos correcto");
+			else $error("Lectura quinto componente coseno de 0 multiplicado por dos inccorrecto");
+			
+			parallelAddress=129;
+			
+			
+			#10; //posedge
+			
+			
+			#10; //negedge
+			assert(q==1992) $display("Lectura sexto componente coseno de 0 multiplicado por dos correcto");
+			else $error("Lectura sexto componente coseno de 0 multiplicado por dos inccorrecto");
+			
+			parallelAddress=224;
+			
+			
+			
+			#10; //posedge
+			
+			
+			#10; //negedge
+			assert(q==0) $display("Lectura primer componente seno de 0 multiplicado por dos correcto");
+			else $error("Lectura primer componente seno de 0 multiplicado por dos inccorrecto");
+			
+			parallelAddress=225;
+			
+			
+			
+			#10; //posedge
+			
+			
+			#10; //negedge
+			assert(q==34) $display("Lectura segundo componente seno de 0 multiplicado por dos correcto");
+			else $error("Lectura segundo componente seno de 0 multiplicado por dos inccorrecto");
+			
+			parallelAddress=226;
+			
+			#10; //posedge
+			
+			
+			#10; //negedge
+			assert(q==68) $display("Lectura tercero componente seno de 0 multiplicado por dos correcto");
+			else $error("Lectura tercero componente seno de 0 multiplicado por dos inccorrecto");
+			
+			parallelAddress=227;
+			
+			#10; //posedge
+			
+			
+			#10; //negedge
+			assert(q==104) $display("Lectura cuarto componente seno de 0 multiplicado por dos correcto");
+			else $error("Lectura cuarto componente seno de 0 multiplicado por dos inccorrecto");
+			
+			parallelAddress=228;
+			
+			
+			#10; //posedge
+			
+			
+			#10; //negedge
+			assert(q==138) $display("Lectura quinto componente seno de 0 multiplicado por dos correcto");
+			else $error("Lectura quinto componente seno de 0 multiplicado por dos inccorrecto");
+			
+			parallelAddress=229;
+			
+			
+			#10; //posedge
+			
+			
+			#10; //negedge
+			assert(q==174) $display("Lectura sexto componente seno de 0 multiplicado por dos correcto");
+			else $error("Lectura sexto componente seno de 0 multiplicado por dos inccorrecto");
+			
+			parallelAddress=230;
+			
+			
+			
+			
+			
+			
 			
 			
 			#200;
