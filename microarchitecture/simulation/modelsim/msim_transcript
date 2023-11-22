@@ -1,0 +1,339 @@
+# Reading pref.tcl
+# do processor_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap work rtl_work 
+# Copying C:/intelFPGA_lite/20.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vlog -vlog01compat -work work +incdir+C:/Users/yraul/OneDrive/Documentos/GitHub/Proyecto2_Arqui2/microarchitecture {C:/Users/yraul/OneDrive/Documentos/GitHub/Proyecto2_Arqui2/microarchitecture/sinROM.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 12:02:44 on Nov 14,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/yraul/OneDrive/Documentos/GitHub/Proyecto2_Arqui2/microarchitecture" C:/Users/yraul/OneDrive/Documentos/GitHub/Proyecto2_Arqui2/microarchitecture/sinROM.v 
+# -- Compiling module sinROM
+# 
+# Top level modules:
+# 	sinROM
+# End time: 12:02:44 on Nov 14,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/yraul/OneDrive/Documentos/GitHub/Proyecto2_Arqui2/microarchitecture {C:/Users/yraul/OneDrive/Documentos/GitHub/Proyecto2_Arqui2/microarchitecture/cosROM.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 12:02:44 on Nov 14,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/yraul/OneDrive/Documentos/GitHub/Proyecto2_Arqui2/microarchitecture" C:/Users/yraul/OneDrive/Documentos/GitHub/Proyecto2_Arqui2/microarchitecture/cosROM.v 
+# -- Compiling module cosROM
+# 
+# Top level modules:
+# 	cosROM
+# End time: 12:02:44 on Nov 14,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/yraul/OneDrive/Documentos/GitHub/Proyecto2_Arqui2/microarchitecture {C:/Users/yraul/OneDrive/Documentos/GitHub/Proyecto2_Arqui2/microarchitecture/execScalar.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 12:02:44 on Nov 14,2023
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/yraul/OneDrive/Documentos/GitHub/Proyecto2_Arqui2/microarchitecture" C:/Users/yraul/OneDrive/Documentos/GitHub/Proyecto2_Arqui2/microarchitecture/execScalar.sv 
+# -- Compiling module execScalar
+# 
+# Top level modules:
+# 	execScalar
+# End time: 12:02:44 on Nov 14,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/yraul/OneDrive/Documentos/GitHub/Proyecto2_Arqui2/microarchitecture {C:/Users/yraul/OneDrive/Documentos/GitHub/Proyecto2_Arqui2/microarchitecture/flagRegister.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 12:02:44 on Nov 14,2023
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/yraul/OneDrive/Documentos/GitHub/Proyecto2_Arqui2/microarchitecture" C:/Users/yraul/OneDrive/Documentos/GitHub/Proyecto2_Arqui2/microarchitecture/flagRegister.sv 
+# -- Compiling module flagRegister
+# 
+# Top level modules:
+# 	flagRegister
+# End time: 12:02:44 on Nov 14,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/yraul/OneDrive/Documentos/GitHub/Proyecto2_Arqui2/microarchitecture {C:/Users/yraul/OneDrive/Documentos/GitHub/Proyecto2_Arqui2/microarchitecture/SetFlags.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 12:02:44 on Nov 14,2023
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/yraul/OneDrive/Documentos/GitHub/Proyecto2_Arqui2/microarchitecture" C:/Users/yraul/OneDrive/Documentos/GitHub/Proyecto2_Arqui2/microarchitecture/SetFlags.sv 
+# -- Compiling module SetFlags
+# 
+# Top level modules:
+# 	SetFlags
+# End time: 12:02:44 on Nov 14,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/yraul/OneDrive/Documentos/GitHub/Proyecto2_Arqui2/microarchitecture {C:/Users/yraul/OneDrive/Documentos/GitHub/Proyecto2_Arqui2/microarchitecture/Operator.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 12:02:44 on Nov 14,2023
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/yraul/OneDrive/Documentos/GitHub/Proyecto2_Arqui2/microarchitecture" C:/Users/yraul/OneDrive/Documentos/GitHub/Proyecto2_Arqui2/microarchitecture/Operator.sv 
+# -- Compiling module Operator
+# 
+# Top level modules:
+# 	Operator
+# End time: 12:02:44 on Nov 14,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/yraul/OneDrive/Documentos/GitHub/Proyecto2_Arqui2/microarchitecture {C:/Users/yraul/OneDrive/Documentos/GitHub/Proyecto2_Arqui2/microarchitecture/Mux.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 12:02:44 on Nov 14,2023
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/yraul/OneDrive/Documentos/GitHub/Proyecto2_Arqui2/microarchitecture" C:/Users/yraul/OneDrive/Documentos/GitHub/Proyecto2_Arqui2/microarchitecture/Mux.sv 
+# -- Compiling module Mux
+# 
+# Top level modules:
+# 	Mux
+# End time: 12:02:44 on Nov 14,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/yraul/OneDrive/Documentos/GitHub/Proyecto2_Arqui2/microarchitecture {C:/Users/yraul/OneDrive/Documentos/GitHub/Proyecto2_Arqui2/microarchitecture/ALU.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 12:02:45 on Nov 14,2023
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/yraul/OneDrive/Documentos/GitHub/Proyecto2_Arqui2/microarchitecture" C:/Users/yraul/OneDrive/Documentos/GitHub/Proyecto2_Arqui2/microarchitecture/ALU.sv 
+# -- Compiling module ALU
+# 
+# Top level modules:
+# 	ALU
+# End time: 12:02:45 on Nov 14,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/yraul/OneDrive/Documentos/GitHub/Proyecto2_Arqui2/microarchitecture {C:/Users/yraul/OneDrive/Documentos/GitHub/Proyecto2_Arqui2/microarchitecture/buffer.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 12:02:45 on Nov 14,2023
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/yraul/OneDrive/Documentos/GitHub/Proyecto2_Arqui2/microarchitecture" C:/Users/yraul/OneDrive/Documentos/GitHub/Proyecto2_Arqui2/microarchitecture/buffer.sv 
+# -- Compiling module buffer
+# 
+# Top level modules:
+# 	buffer
+# End time: 12:02:45 on Nov 14,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/yraul/OneDrive/Documentos/GitHub/Proyecto2_Arqui2/microarchitecture {C:/Users/yraul/OneDrive/Documentos/GitHub/Proyecto2_Arqui2/microarchitecture/mux21.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 12:02:45 on Nov 14,2023
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/yraul/OneDrive/Documentos/GitHub/Proyecto2_Arqui2/microarchitecture" C:/Users/yraul/OneDrive/Documentos/GitHub/Proyecto2_Arqui2/microarchitecture/mux21.sv 
+# -- Compiling module mux2_1
+# 
+# Top level modules:
+# 	mux2_1
+# End time: 12:02:45 on Nov 14,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/yraul/OneDrive/Documentos/GitHub/Proyecto2_Arqui2/microarchitecture {C:/Users/yraul/OneDrive/Documentos/GitHub/Proyecto2_Arqui2/microarchitecture/operatorsAluMux.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 12:02:45 on Nov 14,2023
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/yraul/OneDrive/Documentos/GitHub/Proyecto2_Arqui2/microarchitecture" C:/Users/yraul/OneDrive/Documentos/GitHub/Proyecto2_Arqui2/microarchitecture/operatorsAluMux.sv 
+# -- Compiling module operatorsALUMux
+# 
+# Top level modules:
+# 	operatorsALUMux
+# End time: 12:02:45 on Nov 14,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/yraul/OneDrive/Documentos/GitHub/Proyecto2_Arqui2/microarchitecture {C:/Users/yraul/OneDrive/Documentos/GitHub/Proyecto2_Arqui2/microarchitecture/mux41.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 12:02:45 on Nov 14,2023
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/yraul/OneDrive/Documentos/GitHub/Proyecto2_Arqui2/microarchitecture" C:/Users/yraul/OneDrive/Documentos/GitHub/Proyecto2_Arqui2/microarchitecture/mux41.sv 
+# -- Compiling module mux41
+# 
+# Top level modules:
+# 	mux41
+# End time: 12:02:45 on Nov 14,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/yraul/OneDrive/Documentos/GitHub/Proyecto2_Arqui2/microarchitecture {C:/Users/yraul/OneDrive/Documentos/GitHub/Proyecto2_Arqui2/microarchitecture/exec.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 12:02:45 on Nov 14,2023
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/yraul/OneDrive/Documentos/GitHub/Proyecto2_Arqui2/microarchitecture" C:/Users/yraul/OneDrive/Documentos/GitHub/Proyecto2_Arqui2/microarchitecture/exec.sv 
+# -- Compiling package exec_sv_unit
+# -- Compiling module exec
+# 
+# Top level modules:
+# 	exec
+# End time: 12:02:45 on Nov 14,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/yraul/OneDrive/Documentos/GitHub/Proyecto2_Arqui2/microarchitecture {C:/Users/yraul/OneDrive/Documentos/GitHub/Proyecto2_Arqui2/microarchitecture/ALUMux.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 12:02:45 on Nov 14,2023
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/yraul/OneDrive/Documentos/GitHub/Proyecto2_Arqui2/microarchitecture" C:/Users/yraul/OneDrive/Documentos/GitHub/Proyecto2_Arqui2/microarchitecture/ALUMux.sv 
+# -- Compiling module ALUMux
+# 
+# Top level modules:
+# 	ALUMux
+# End time: 12:02:45 on Nov 14,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/yraul/OneDrive/Documentos/GitHub/Proyecto2_Arqui2/microarchitecture {C:/Users/yraul/OneDrive/Documentos/GitHub/Proyecto2_Arqui2/microarchitecture/execVect.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 12:02:45 on Nov 14,2023
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/yraul/OneDrive/Documentos/GitHub/Proyecto2_Arqui2/microarchitecture" C:/Users/yraul/OneDrive/Documentos/GitHub/Proyecto2_Arqui2/microarchitecture/execVect.sv 
+# -- Compiling package execVect_sv_unit
+# -- Compiling module execVect
+# 
+# Top level modules:
+# 	execVect
+# End time: 12:02:45 on Nov 14,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/yraul/OneDrive/Documentos/GitHub/Proyecto2_Arqui2/microarchitecture {C:/Users/yraul/OneDrive/Documentos/GitHub/Proyecto2_Arqui2/microarchitecture/ALUVect.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 12:02:45 on Nov 14,2023
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/yraul/OneDrive/Documentos/GitHub/Proyecto2_Arqui2/microarchitecture" C:/Users/yraul/OneDrive/Documentos/GitHub/Proyecto2_Arqui2/microarchitecture/ALUVect.sv 
+# -- Compiling module ALUVect
+# 
+# Top level modules:
+# 	ALUVect
+# End time: 12:02:45 on Nov 14,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/yraul/OneDrive/Documentos/GitHub/Proyecto2_Arqui2/microarchitecture {C:/Users/yraul/OneDrive/Documentos/GitHub/Proyecto2_Arqui2/microarchitecture/ALUElement.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 12:02:45 on Nov 14,2023
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/yraul/OneDrive/Documentos/GitHub/Proyecto2_Arqui2/microarchitecture" C:/Users/yraul/OneDrive/Documentos/GitHub/Proyecto2_Arqui2/microarchitecture/ALUElement.sv 
+# -- Compiling module ALUElement
+# 
+# Top level modules:
+# 	ALUElement
+# End time: 12:02:45 on Nov 14,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vlog -sv -work work +incdir+C:/Users/yraul/OneDrive/Documentos/GitHub/Proyecto2_Arqui2/microarchitecture {C:/Users/yraul/OneDrive/Documentos/GitHub/Proyecto2_Arqui2/microarchitecture/exec_tb.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 12:02:45 on Nov 14,2023
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/yraul/OneDrive/Documentos/GitHub/Proyecto2_Arqui2/microarchitecture" C:/Users/yraul/OneDrive/Documentos/GitHub/Proyecto2_Arqui2/microarchitecture/exec_tb.sv 
+# -- Compiling module exec_tb
+# 
+# Top level modules:
+# 	exec_tb
+# End time: 12:02:45 on Nov 14,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/yraul/OneDrive/Documentos/GitHub/Proyecto2_Arqui2/microarchitecture {C:/Users/yraul/OneDrive/Documentos/GitHub/Proyecto2_Arqui2/microarchitecture/exec.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 12:02:45 on Nov 14,2023
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/yraul/OneDrive/Documentos/GitHub/Proyecto2_Arqui2/microarchitecture" C:/Users/yraul/OneDrive/Documentos/GitHub/Proyecto2_Arqui2/microarchitecture/exec.sv 
+# -- Compiling package exec_sv_unit
+# -- Compiling module exec
+# 
+# Top level modules:
+# 	exec
+# End time: 12:02:45 on Nov 14,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneiv_hssi_ver -L cycloneiv_pcie_hip_ver -L cycloneiv_ver -L rtl_work -L work -voptargs="+acc"  exec_tb
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneiv_hssi_ver -L cycloneiv_pcie_hip_ver -L cycloneiv_ver -L rtl_work -L work -voptargs=""+acc"" exec_tb 
+# Start time: 12:02:45 on Nov 14,2023
+# Loading sv_std.std
+# Loading work.exec_tb
+# Loading work.exec_sv_unit
+# Loading work.exec
+# Loading work.execScalar
+# Loading work.ALUMux
+# Loading work.operatorsALUMux
+# Loading work.mux41
+# Loading work.mux2_1
+# Loading work.ALU
+# Loading work.Operator
+# Loading work.Mux
+# Loading work.SetFlags
+# Loading work.execVect_sv_unit
+# Loading work.execVect
+# Loading work.ALUVect
+# Loading work.cosROM
+# Loading altera_mf_ver.altsyncram
+# Loading work.sinROM
+# Loading work.ALUElement
+# Loading work.flagRegister
+# Loading work.buffer
+# Loading altera_mf_ver.altsyncram_body
+# Loading altera_mf_ver.ALTERA_DEVICE_FAMILIES
+# Loading altera_mf_ver.ALTERA_MF_MEMORY_INITIALIZATION
+# ** Warning: (vsim-3015) [PCDPC] - Port size (24) does not match connection size (32) for port 'd'. The port definition is at: C:/Users/yraul/OneDrive/Documentos/GitHub/Proyecto2_Arqui2/microarchitecture/mux41.sv(1).
+#    Time: 0 ps  Iteration: 0  Instance: /exec_tb/myExec/myExecScalar/AluMux1/aluMux/controlOp1Mux File: C:/Users/yraul/OneDrive/Documentos/GitHub/Proyecto2_Arqui2/microarchitecture/operatorsAluMux.sv Line: 10
+# ** Warning: (vsim-3015) [PCDPC] - Port size (24) does not match connection size (32) for port 'd'. The port definition is at: C:/Users/yraul/OneDrive/Documentos/GitHub/Proyecto2_Arqui2/microarchitecture/mux41.sv(1).
+#    Time: 0 ps  Iteration: 0  Instance: /exec_tb/myExec/myExecScalar/AluMux1/aluMux/controlOp2Mux File: C:/Users/yraul/OneDrive/Documentos/GitHub/Proyecto2_Arqui2/microarchitecture/operatorsAluMux.sv Line: 11
+# ** Warning: (vsim-3015) [PCDPC] - Port size (24) does not match connection size (25) for port 'r_mov'. The port definition is at: C:/Users/yraul/OneDrive/Documentos/GitHub/Proyecto2_Arqui2/microarchitecture/Operator.sv(4).
+#    Time: 0 ps  Iteration: 0  Instance: /exec_tb/myExec/myExecScalar/AluMux1/alu/operator File: C:/Users/yraul/OneDrive/Documentos/GitHub/Proyecto2_Arqui2/microarchitecture/ALU.sv Line: 12
+# ** Warning: (vsim-3015) [PCDPC] - Port size (24) does not match connection size (25) for port 'r_comp'. The port definition is at: C:/Users/yraul/OneDrive/Documentos/GitHub/Proyecto2_Arqui2/microarchitecture/Operator.sv(5).
+#    Time: 0 ps  Iteration: 0  Instance: /exec_tb/myExec/myExecScalar/AluMux1/alu/operator File: C:/Users/yraul/OneDrive/Documentos/GitHub/Proyecto2_Arqui2/microarchitecture/ALU.sv Line: 12
+# ** Warning: (vsim-3015) [PCDPC] - Port size (24) does not match connection size (25) for port 'r_add'. The port definition is at: C:/Users/yraul/OneDrive/Documentos/GitHub/Proyecto2_Arqui2/microarchitecture/Operator.sv(6).
+#    Time: 0 ps  Iteration: 0  Instance: /exec_tb/myExec/myExecScalar/AluMux1/alu/operator File: C:/Users/yraul/OneDrive/Documentos/GitHub/Proyecto2_Arqui2/microarchitecture/ALU.sv Line: 12
+# ** Warning: (vsim-3015) [PCDPC] - Port size (24) does not match connection size (25) for port 'r_sub'. The port definition is at: C:/Users/yraul/OneDrive/Documentos/GitHub/Proyecto2_Arqui2/microarchitecture/Operator.sv(7).
+#    Time: 0 ps  Iteration: 0  Instance: /exec_tb/myExec/myExecScalar/AluMux1/alu/operator File: C:/Users/yraul/OneDrive/Documentos/GitHub/Proyecto2_Arqui2/microarchitecture/ALU.sv Line: 12
+# ** Warning: (vsim-3015) [PCDPC] - Port size (24) does not match connection size (25) for port 'r_mul'. The port definition is at: C:/Users/yraul/OneDrive/Documentos/GitHub/Proyecto2_Arqui2/microarchitecture/Operator.sv(8).
+#    Time: 0 ps  Iteration: 0  Instance: /exec_tb/myExec/myExecScalar/AluMux1/alu/operator File: C:/Users/yraul/OneDrive/Documentos/GitHub/Proyecto2_Arqui2/microarchitecture/ALU.sv Line: 12
+# ** Warning: (vsim-3015) [PCDPC] - Port size (24) does not match connection size (25) for port 'r_div'. The port definition is at: C:/Users/yraul/OneDrive/Documentos/GitHub/Proyecto2_Arqui2/microarchitecture/Operator.sv(9).
+#    Time: 0 ps  Iteration: 0  Instance: /exec_tb/myExec/myExecScalar/AluMux1/alu/operator File: C:/Users/yraul/OneDrive/Documentos/GitHub/Proyecto2_Arqui2/microarchitecture/ALU.sv Line: 12
+# ** Warning: (vsim-3015) [PCDPC] - Port size (24) does not match connection size (25) for port 'r_xor'. The port definition is at: C:/Users/yraul/OneDrive/Documentos/GitHub/Proyecto2_Arqui2/microarchitecture/Operator.sv(10).
+#    Time: 0 ps  Iteration: 0  Instance: /exec_tb/myExec/myExecScalar/AluMux1/alu/operator File: C:/Users/yraul/OneDrive/Documentos/GitHub/Proyecto2_Arqui2/microarchitecture/ALU.sv Line: 12
+# ** Warning: (vsim-3015) [PCDPC] - Port size (24) does not match connection size (25) for port 'r_and'. The port definition is at: C:/Users/yraul/OneDrive/Documentos/GitHub/Proyecto2_Arqui2/microarchitecture/Operator.sv(11).
+#    Time: 0 ps  Iteration: 0  Instance: /exec_tb/myExec/myExecScalar/AluMux1/alu/operator File: C:/Users/yraul/OneDrive/Documentos/GitHub/Proyecto2_Arqui2/microarchitecture/ALU.sv Line: 12
+# ** Warning: (vsim-3015) [PCDPC] - Port size (24) does not match connection size (25) for port 'r_not'. The port definition is at: C:/Users/yraul/OneDrive/Documentos/GitHub/Proyecto2_Arqui2/microarchitecture/Operator.sv(12).
+#    Time: 0 ps  Iteration: 0  Instance: /exec_tb/myExec/myExecScalar/AluMux1/alu/operator File: C:/Users/yraul/OneDrive/Documentos/GitHub/Proyecto2_Arqui2/microarchitecture/ALU.sv Line: 12
+# ** Warning: (vsim-3015) [PCDPC] - Port size (24) does not match connection size (25) for port 'r_mod'. The port definition is at: C:/Users/yraul/OneDrive/Documentos/GitHub/Proyecto2_Arqui2/microarchitecture/Operator.sv(13).
+#    Time: 0 ps  Iteration: 0  Instance: /exec_tb/myExec/myExecScalar/AluMux1/alu/operator File: C:/Users/yraul/OneDrive/Documentos/GitHub/Proyecto2_Arqui2/microarchitecture/ALU.sv Line: 12
+# ** Warning: (vsim-3015) [PCDPC] - Port size (24) does not match connection size (25) for port 'r_mov'. The port definition is at: C:/Users/yraul/OneDrive/Documentos/GitHub/Proyecto2_Arqui2/microarchitecture/Mux.sv(3).
+#    Time: 0 ps  Iteration: 0  Instance: /exec_tb/myExec/myExecScalar/AluMux1/alu/mux1 File: C:/Users/yraul/OneDrive/Documentos/GitHub/Proyecto2_Arqui2/microarchitecture/ALU.sv Line: 13
+# ** Warning: (vsim-3015) [PCDPC] - Port size (24) does not match connection size (25) for port 'r_comp'. The port definition is at: C:/Users/yraul/OneDrive/Documentos/GitHub/Proyecto2_Arqui2/microarchitecture/Mux.sv(4).
+#    Time: 0 ps  Iteration: 0  Instance: /exec_tb/myExec/myExecScalar/AluMux1/alu/mux1 File: C:/Users/yraul/OneDrive/Documentos/GitHub/Proyecto2_Arqui2/microarchitecture/ALU.sv Line: 13
+# ** Warning: (vsim-3015) [PCDPC] - Port size (24) does not match connection size (25) for port 'r_add'. The port definition is at: C:/Users/yraul/OneDrive/Documentos/GitHub/Proyecto2_Arqui2/microarchitecture/Mux.sv(5).
+#    Time: 0 ps  Iteration: 0  Instance: /exec_tb/myExec/myExecScalar/AluMux1/alu/mux1 File: C:/Users/yraul/OneDrive/Documentos/GitHub/Proyecto2_Arqui2/microarchitecture/ALU.sv Line: 13
+# ** Warning: (vsim-3015) [PCDPC] - Port size (24) does not match connection size (25) for port 'r_sub'. The port definition is at: C:/Users/yraul/OneDrive/Documentos/GitHub/Proyecto2_Arqui2/microarchitecture/Mux.sv(6).
+#    Time: 0 ps  Iteration: 0  Instance: /exec_tb/myExec/myExecScalar/AluMux1/alu/mux1 File: C:/Users/yraul/OneDrive/Documentos/GitHub/Proyecto2_Arqui2/microarchitecture/ALU.sv Line: 13
+# ** Warning: (vsim-3015) [PCDPC] - Port size (24) does not match connection size (25) for port 'r_mul'. The port definition is at: C:/Users/yraul/OneDrive/Documentos/GitHub/Proyecto2_Arqui2/microarchitecture/Mux.sv(7).
+#    Time: 0 ps  Iteration: 0  Instance: /exec_tb/myExec/myExecScalar/AluMux1/alu/mux1 File: C:/Users/yraul/OneDrive/Documentos/GitHub/Proyecto2_Arqui2/microarchitecture/ALU.sv Line: 13
+# ** Warning: (vsim-3015) [PCDPC] - Port size (24) does not match connection size (25) for port 'r_div'. The port definition is at: C:/Users/yraul/OneDrive/Documentos/GitHub/Proyecto2_Arqui2/microarchitecture/Mux.sv(8).
+#    Time: 0 ps  Iteration: 0  Instance: /exec_tb/myExec/myExecScalar/AluMux1/alu/mux1 File: C:/Users/yraul/OneDrive/Documentos/GitHub/Proyecto2_Arqui2/microarchitecture/ALU.sv Line: 13
+# ** Warning: (vsim-3015) [PCDPC] - Port size (24) does not match connection size (25) for port 'r_xor'. The port definition is at: C:/Users/yraul/OneDrive/Documentos/GitHub/Proyecto2_Arqui2/microarchitecture/Mux.sv(9).
+#    Time: 0 ps  Iteration: 0  Instance: /exec_tb/myExec/myExecScalar/AluMux1/alu/mux1 File: C:/Users/yraul/OneDrive/Documentos/GitHub/Proyecto2_Arqui2/microarchitecture/ALU.sv Line: 13
+# ** Warning: (vsim-3015) [PCDPC] - Port size (24) does not match connection size (25) for port 'r_and'. The port definition is at: C:/Users/yraul/OneDrive/Documentos/GitHub/Proyecto2_Arqui2/microarchitecture/Mux.sv(10).
+#    Time: 0 ps  Iteration: 0  Instance: /exec_tb/myExec/myExecScalar/AluMux1/alu/mux1 File: C:/Users/yraul/OneDrive/Documentos/GitHub/Proyecto2_Arqui2/microarchitecture/ALU.sv Line: 13
+# ** Warning: (vsim-3015) [PCDPC] - Port size (24) does not match connection size (25) for port 'r_not'. The port definition is at: C:/Users/yraul/OneDrive/Documentos/GitHub/Proyecto2_Arqui2/microarchitecture/Mux.sv(11).
+#    Time: 0 ps  Iteration: 0  Instance: /exec_tb/myExec/myExecScalar/AluMux1/alu/mux1 File: C:/Users/yraul/OneDrive/Documentos/GitHub/Proyecto2_Arqui2/microarchitecture/ALU.sv Line: 13
+# ** Warning: (vsim-3015) [PCDPC] - Port size (24) does not match connection size (25) for port 'r_mod'. The port definition is at: C:/Users/yraul/OneDrive/Documentos/GitHub/Proyecto2_Arqui2/microarchitecture/Mux.sv(12).
+#    Time: 0 ps  Iteration: 0  Instance: /exec_tb/myExec/myExecScalar/AluMux1/alu/mux1 File: C:/Users/yraul/OneDrive/Documentos/GitHub/Proyecto2_Arqui2/microarchitecture/ALU.sv Line: 13
+# ** Warning: (vsim-3015) [PCDPC] - Port size (24) does not match connection size (25) for port 'result'. The port definition is at: C:/Users/yraul/OneDrive/Documentos/GitHub/Proyecto2_Arqui2/microarchitecture/Mux.sv(13).
+#    Time: 0 ps  Iteration: 0  Instance: /exec_tb/myExec/myExecScalar/AluMux1/alu/mux1 File: C:/Users/yraul/OneDrive/Documentos/GitHub/Proyecto2_Arqui2/microarchitecture/ALU.sv Line: 13
+# ** Warning: (vsim-3015) [PCDPC] - Port size (24) does not match connection size (25) for port 'result'. The port definition is at: C:/Users/yraul/OneDrive/Documentos/GitHub/Proyecto2_Arqui2/microarchitecture/SetFlags.sv(3).
+#    Time: 0 ps  Iteration: 0  Instance: /exec_tb/myExec/myExecScalar/AluMux1/alu/set_flags File: C:/Users/yraul/OneDrive/Documentos/GitHub/Proyecto2_Arqui2/microarchitecture/ALU.sv Line: 14
+# 
+# add wave *
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: luisA  Hostname: LAZH  ProcessID: 10232
+#           Attempting to use alternate WLF file "./wlft0n8t6w".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlft0n8t6w
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run -all
+# buffer is empty
+# 
+# Test inst 2: Add rd1+rd2
+# aluCurrentResultFinal equals 3
+# branchFlag is 0
+# negFlag is 0
+# zeroFlag is 0
+# modeSel is 0
+# 
+# Test inst 3: pass through signals
+# RC value is 15
+# regWrite value is 1
+# memToReg value is 1
+# memWrite value is 1
+# opCode value is 7
+# opType value is 2
+# modeSel value is 1
+# 
+# Test inst 4: add rdv1+rdv2
+# rdv1[0]+rdv2[0] equals 8
+# rdv1[1]+rdv2[1] equals 10
+# rdv1[2]+rdv2[2] equals 12
+# rdv1[3]+rdv2[3] equals 14
+# rdv1[4]+rdv2[4] equals 16
+# rdv1[5]+rdv2[5] equals 18
+# branchFlag is 0
+# negFlag is 0
+# zeroFlag is 0
+# 
+# Test inst 5: negFlag compare (rd1-rd2)
+# aluCurrentResultFinal equals -3
+# branchFlag is 0
+# negFlag is 1
+# zeroFlag is 0
+# 
+# Test inst 6: zeroFlag compare (rd1-rd2)
+# aluCurrentResultFinal equals 0
+# branchFlag is 0
+# negFlag is 0
+# zeroFlag is 1
+# Break key hit
+# Simulation stop requested.
+# End time: 12:02:52 on Nov 14,2023, Elapsed time: 0:00:07
+# Errors: 0, Warnings: 26
