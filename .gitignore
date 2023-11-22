@@ -28,3 +28,5 @@ vsim.dbg
 microarchitecture\simulation\modelsim\msim_transcript
 # End of https://www.toptal.com/developers/gitignore/api/modelsim
 microarchitecture/simulation/modelsim/msim_transcript
+
+microarchitecture/simulation/modelsim/

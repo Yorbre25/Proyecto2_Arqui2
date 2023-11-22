@@ -1,4 +1,4 @@
-module memoryStage(input clk,rst,en,input [1:0] opType,input [3:0] opCode,input [143:0] address1,input [23:0] address2,input memWrite,memToReg,regWrite,regWriteV,modeSel,input [3:0] Rc,input [143:0] writeData,input [3:0] switches,input [35:0] gpio1,output [35:0] gpio2,output [15:0] q,output [301:0] bufferOut);
+module memoryStage(input clk,rst,en,input [1:0] opType,input [3:0] opCode,input [143:0] address1,input [23:0] address2,input memWrite,memToReg,regWrite,regWriteV,modeSel,input [3:0] Rc,input [143:0] writeData,input [4:0] switches,input [35:0] gpio1,output [35:0] gpio2,output [15:0] q,output [301:0] bufferOut);
 
 
 

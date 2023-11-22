@@ -5,7 +5,7 @@ module processor_tb();
 		logic [35:0] gpio1,gpio2;
 		logic [23:0] parallelAddress;
 		logic [15:0] q;
-		logic [3:0] switches;
+		logic [4:0] switches;
 		processor myprocesor(.rst(rst),.clk(clk),.gpio1(gpio1),.parallelAddress(parallelAddress),.switches(switches),.gpio2(gpio2),.q(q));
 		
 		always begin
@@ -19,7 +19,7 @@ module processor_tb();
 			rst=1;
 			gpio1=0;
 			parallelAddress=179;
-			switches=4'b0001;
+			switches=5'b00001;
 			
 			#10; //posedge
 			
@@ -29,8 +29,8 @@ module processor_tb();
 			rst=0;
 			
 			
-			#250; //negedge
-			switches=4'b0100;
+			#1050; //negedge
+			switches=5'b10100;
 			parallelAddress=4;
 			
 			#10; //posedge
@@ -231,6 +231,8 @@ module processor_tb();
 			
 			
 			#200;
+			
+			$finish();
 			
 			
 			
