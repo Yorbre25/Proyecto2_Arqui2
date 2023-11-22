@@ -23,11 +23,11 @@ module MainConnection(
 wire [23:0] parallelAddress;
 reg [17:0] offset;
 
-wire [7:0] q;
+wire [15:0] q;
 //assign colors = q;
 
 processor processor(.rst(rst),
-	.clk(FPGA_CLK1_50), 
+	.clk(vgaclk), 
 	.gpio1(gpio1),
 	.parallelAddress(parallelAddress),
 	.switches(switches),

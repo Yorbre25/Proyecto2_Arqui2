@@ -10,7 +10,7 @@ module vga(input logic clk, input logic [3:0] data, output logic vgaclk, output 
 		
 		// User-defined module to determine pixel color
 		//videoGen videoGen(x, y,clk, data,  r, g, b, address);
-		videoGen videoGen(x, y,clk, data,  r, g, b, address);
+		videoGen videoGen(x, y,vgaclk, data,  r, g, b, address);
 		
 		// module videoGen(input logic [9:0] x, y, input logic clk, input logic [3:0] data, output logic [7:0] r, g, b, output logic [18:0] address);
 

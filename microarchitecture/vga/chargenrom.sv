@@ -3,7 +3,7 @@ module chargenrom( input logic [9:0] x, y,input logic inrect,borders, clk, input
 
 
 		//logic [4:0] charrom[307199:0]; // character generator ROM
-		logic [25:0] mapped;
+		logic [23:0] mapped;
 
 		// Initialize ROM with characters from text file
 		//initial begin
@@ -47,14 +47,21 @@ module chargenrom( input logic [9:0] x, y,input logic inrect,borders, clk, input
 		// is entry 0
 		// Reverse order of bits
 		//assign pixel = inrect ? charrom[100*x + y] : 7'h00;
-		
-		always @(negedge clk) begin
+		/*
+		always @(posedge clk) begin
 			r = inrect ? mapped[23:16]: 7'h00;
 			g = inrect ? mapped[15:8]: 7'h00 ;
 			b = inrect ? mapped[7:0]: 7'h00;
+		end
+		
+		always @(negedge clk) begin
 			address = inrect ? (x + y*640): 0; // 79 de offset por los gpios
 		
-		end
+		end */ 
+		assign r = inrect ? mapped[23:16]: 8'h00;
+		assign g = inrect ? mapped[15:8]: 8'h00 ;
+		assign b = inrect ? mapped[7:0]: 8'h00;
+		assign address = inrect ? (x + y*640): 0; // 79 de offset por los gpios
 		
 		
 endmodule
