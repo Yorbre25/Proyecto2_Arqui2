@@ -104,8 +104,8 @@ draw_elipse:
         addv r8, r8, r2
         movv r11, #310000
         movv r12, #640
-        multv r12, r12, r7
-        addv r12, r12, r8
+        multv r12, r12, r8
+        addv r12, r12, r7
         movv r15, #76
         addv r12, r12, r15
         movv r0, #0
@@ -141,8 +141,8 @@ draw_line:
     Brassen_calc:
         mov r15, #73
         ld r13,r15,r0
-        mult r15, r3, #640
-        add r15, r15, r4
+        mult r15, r4, #640
+        add r15, r15, r3
         add r15, r15, #76
         str r13, r15, r0 
         cmp r3, r5
