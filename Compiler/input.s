@@ -61,9 +61,11 @@ movv R1,#0
 senv R1, R1
 movv R2,#2
 multv R1, R1, R2
+movv R8, #300
+strv R1,R8
 
 
 end:
 mov r1,#0
 b end
-
+	
