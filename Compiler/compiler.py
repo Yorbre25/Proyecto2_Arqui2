@@ -43,7 +43,7 @@ instructionResult = []
 # Abrir archivo con el codigo en ensamblador
 def openFile():
     #f = open("Software/main.txt", "r")
-    f = open("input copy.s", "r")
+    f = open("Compiler/ejemplito.s", "r")
     counter = 0
     for line in f:
         if not line.isspace():
@@ -89,7 +89,7 @@ def GetFunction(functionText, registersList):
         opcode = format(result.get("opcode"), 'b')
         while (len(opcode) < 4): opcode = "0"+opcode
         code += opcode
-        if(functionText == "cmp" or functionText == "mov" or functionText == "not" or functionText == "movv"): #It's an op of 2 operands
+        if(functionText == "cmp" or functionText == "mov" or functionText == "not" or functionText == "movv" or functionText == "senv" or functionText == "cosv"): #It's an op of 2 operands
             if(functionText == "cmp"):
                 code += GetAllRegistersOpcode("r0", registersList[0] ,registersList[1]) 
             else:   
@@ -188,6 +188,7 @@ def SetBranches():
             actualInstructionAux = branchLine
             
             print("-------------")
+            print("El Branch que se intenta acceder es: ", branchLabel)
             print("Pc Relative (A donde quiero saltar): ", jump)
             
             print("Actual Line (En donde invoco el salto): ", branchLine)

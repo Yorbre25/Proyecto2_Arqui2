@@ -9,10 +9,10 @@ image = Image.new("RGB", (width, height), "white")
 draw = ImageDraw.Draw(image)
 data_list = []
 for i in range(360):
-    data_list.append(int(math.cos((i*math.pi)/180)*100))
+    data_list.append(int(math.cos((i*math.pi)/180)*1000))
 
 for i in range(360):
-    data_list.append(int(math.sin((i*math.pi)/180)*100))
+    data_list.append(int(math.sin((i*math.pi)/180)*1000))
 
 def draw_line(x1, y1, x2, y2):
     # Algoritmo de Bresenham para trazar una línea
@@ -39,8 +39,8 @@ def draw_line(x1, y1, x2, y2):
 def draw_circle(center_x, center_y, radius):
     num_points = 360  # Número de puntos para aproximar el círculo
     for i in range(num_points):
-        x = center_x + int((radius * data_list[i])/100)
-        y = center_y + int((radius * data_list[i+360])/100)
+        x = center_x + int((radius * data_list[i])/1000)
+        y = center_y + int((radius * data_list[i+360])/1000)
         draw.point((x, y), fill="black")
 
     """
@@ -60,10 +60,13 @@ def draw_triangle(vertices):
 def draw_ellipse(center_x, center_y, a, b):
     num_points = 360  # Número de puntos para aproximar el círculo
     for i in range(num_points):
-        x = center_x + int((a * data_list[i])/100)
-        y = center_y + int((b * data_list[i+360])/100)
+        x = center_x + int((a * data_list[i])/1000)
+        y = center_y + int((b * data_list[i+360])/1000)
         draw.point((x, y), fill="black")
 
+print(f"cos(0) * 2{(2 * data_list[0])/1000}")
+print(f"{(2 * data_list[0])/1000}")
+print(f"{(2 * data_list[0])/1000}")
 
 # Pared
 draw_line(100, 200, 100, 450)

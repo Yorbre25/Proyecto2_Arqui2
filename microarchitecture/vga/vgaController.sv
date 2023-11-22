@@ -1,4 +1,4 @@
-module vgaController #(parameter HACTIVE = 10'd640, HFP = 10'd36,
+module vgaController #(parameter HACTIVE = 10'd640, HFP = 10'd16,
 								HSYN = 10'd96,
 								HBP = 10'd48,
 								HMAX = HACTIVE + HFP + HSYN + HBP,

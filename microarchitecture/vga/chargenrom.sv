@@ -61,7 +61,7 @@ module chargenrom( input logic [9:0] x, y,input logic inrect,borders, clk, input
 		assign r = inrect ? mapped[23:16]: 8'h00;
 		assign g = inrect ? mapped[15:8]: 8'h00 ;
 		assign b = inrect ? mapped[7:0]: 8'h00;
-		assign address = inrect ? (x + y*640): 0; // 79 de offset por los gpios
+		assign address = inrect ? (76 + x + y*640): 0; // 79 de offset por los gpios
 		
 		
 endmodule
