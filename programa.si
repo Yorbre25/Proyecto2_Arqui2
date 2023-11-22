@@ -117,7 +117,7 @@ draw_elipse:
 
 
 
-draw_line://r3 = x1, r4 = y1, r5 = x2, r6 = y2
+draw_line:
     mov r7,#0
     mov r8,#0
     mov r9,#0
@@ -125,20 +125,17 @@ draw_line://r3 = x1, r4 = y1, r5 = x2, r6 = y2
     mov r11,#0
     mov r12,#0
     mov r13,#0
-    //dx
     res r7, r5, r3
     cmp r7,r0
     ble Mult_minus_one
     mov r9, #-1
     After_abs_r7:
-    //dy
     res r8, r6, r4
     cmp r8,r0
     ble Abs_r8
     mov r10, #-1
     After_abs_r8:
     cmp r7, r8
-    //calc error before start
     bg Brassen_calc_err
     mov r11, r8
     div r11, r11,  #2
