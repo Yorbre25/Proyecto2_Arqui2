@@ -39,7 +39,7 @@
 
 set_global_assignment -name FAMILY "Cyclone IV GX"
 set_global_assignment -name DEVICE EP4CGX150DF31C7
-set_global_assignment -name TOP_LEVEL_ENTITY MainConnection
+set_global_assignment -name TOP_LEVEL_ENTITY processor
 set_global_assignment -name ORIGINAL_QUARTUS_VERSION 20.1.0
 set_global_assignment -name PROJECT_CREATION_TIME_DATE "12:23:33  APRIL 28, 2023"
 set_global_assignment -name LAST_QUARTUS_VERSION "18.1.0 Lite Edition"
@@ -126,49 +126,6 @@ set_global_assignment -name EDA_DESIGN_INSTANCE_NAME NA -section_id exec_tb
 set_global_assignment -name EDA_TEST_BENCH_MODULE_NAME exec_tb -section_id exec_tb
 set_global_assignment -name EDA_TEST_BENCH_NAME mainMemory_tb -section_id eda_simulation
 set_global_assignment -name EDA_TEST_BENCH_NAME dataMemory_tb -section_id eda_simulation
-set_global_assignment -name EDA_TEST_BENCH_NAME memoryStage_tb -section_id eda_simulation
-set_global_assignment -name EDA_TEST_BENCH_NAME hazardUnit_tb -section_id eda_simulation
-set_global_assignment -name EDA_TEST_BENCH_FILE instructionDecode_tb.sv -section_id instructionDecode_tb
-set_global_assignment -name EDA_TEST_BENCH_FILE processor_tb.sv -section_id processor_tb
-set_global_assignment -name EDA_TEST_BENCH_FILE processor.sv -section_id processor_tb
-set_global_assignment -name EDA_TEST_BENCH_FILE dataMemory.mif -section_id processor_tb
-set_global_assignment -name EDA_TEST_BENCH_FILE mux2_1.sv -section_id processor_tb
-set_global_assignment -name EDA_TEST_BENCH_FILE instructionMemory.mem -section_id processor_tb
-set_global_assignment -name EDA_TEST_BENCH_FILE controlUnit.sv -section_id controlUnit_tb
-set_global_assignment -name EDA_TEST_BENCH_FILE controlUnit_tb.sv -section_id controlUnit_tb
-set_global_assignment -name EDA_TEST_BENCH_FILE SRAM.qsys -section_id SRAM_tb
-set_global_assignment -name EDA_TEST_BENCH_FILE SRAM_tb.sv -section_id SRAM_tb
-set_global_assignment -name EDA_TEST_BENCH_FILE SRAM/synthesis/SRAM.qip -section_id SRAM_tb
-set_global_assignment -name EDA_TEST_BENCH_FILE SRAM/simulation/SRAM.sip -section_id SRAM_tb
-set_global_assignment -name EDA_TEST_BENCH_FILE ALUVect_tb.sv -section_id ALUVect_tb
-set_global_assignment -name EDA_TEST_BENCH_FILE cosROM.qip -section_id ALUVect_tb
-set_global_assignment -name EDA_TEST_BENCH_FILE sinROM.qip -section_id ALUVect_tb
-set_global_assignment -name EDA_TEST_BENCH_FILE sinROM.v -section_id ALUVect_tb
-set_global_assignment -name EDA_TEST_BENCH_FILE cosROM.v -section_id ALUVect_tb
-set_global_assignment -name EDA_TEST_BENCH_FILE cos.mif -section_id ALUVect_tb
-set_global_assignment -name EDA_TEST_BENCH_FILE sin.mif -section_id ALUVect_tb
-set_global_assignment -name EDA_TEST_BENCH_FILE execVect.sv -section_id execVect_tb
-set_global_assignment -name EDA_TEST_BENCH_FILE execVect_tb.sv -section_id execVect_tb
-set_global_assignment -name EDA_TEST_BENCH_FILE mux2_1.sv -section_id execVect_tb
-set_global_assignment -name EDA_TEST_BENCH_FILE mux41.sv -section_id execVect_tb
-set_global_assignment -name EDA_TEST_BENCH_FILE exec_tb.sv -section_id exec_tb
-set_global_assignment -name EDA_TEST_BENCH_FILE exec.sv -section_id exec_tb
-set_global_assignment -name EDA_TEST_BENCH_FILE mainMemory.qip -section_id mainMemory_tb
-set_global_assignment -name EDA_TEST_BENCH_FILE mainMemory.v -section_id mainMemory_tb
-set_global_assignment -name EDA_TEST_BENCH_FILE mainMemory_tb.sv -section_id mainMemory_tb
-set_global_assignment -name EDA_TEST_BENCH_FILE mainMemory.sv -section_id mainMemory_tb
-set_global_assignment -name EDA_TEST_BENCH_FILE dataMemory.sv -section_id dataMemory_tb
-set_global_assignment -name EDA_TEST_BENCH_FILE dataMemory_tb.sv -section_id dataMemory_tb
-set_global_assignment -name EDA_TEST_BENCH_FILE image.mif -section_id dataMemory_tb
-set_global_assignment -name EDA_TEST_BENCH_FILE mainMemory.sv -section_id dataMemory_tb
-set_global_assignment -name EDA_TEST_BENCH_FILE mainMemorySegment.qip -section_id dataMemory_tb
-set_global_assignment -name EDA_TEST_BENCH_FILE memoryStage.sv -section_id memoryStage_tb
-set_global_assignment -name EDA_TEST_BENCH_FILE memoryStage_tb.sv -section_id memoryStage_tb
-set_global_assignment -name EDA_TEST_BENCH_FILE mainMemory.qip -section_id memoryStage_tb
-set_global_assignment -name EDA_TEST_BENCH_FILE mainMemorySegment.qip -section_id memoryStage_tb
-set_global_assignment -name PARTITION_NETLIST_TYPE SOURCE -section_id Top
-set_global_assignment -name PARTITION_FITTER_PRESERVATION_LEVEL PLACEMENT_AND_ROUTING -section_id Top
-set_global_assignment -name PARTITION_COLOR 16764057 -section_id Top
 set_location_assignment PIN_AJ16 -to FPGA_CLK1_50
 set_location_assignment PIN_C22 -to b[7]
 set_location_assignment PIN_G25 -to b[6]
@@ -332,9 +289,6 @@ set_global_assignment -name QIP_FILE mainMemorySegment.qip
 set_global_assignment -name EDA_TEST_BENCH_NAME memoryStage_tb -section_id eda_simulation
 set_global_assignment -name EDA_TEST_BENCH_NAME hazardUnit_tb -section_id eda_simulation
 set_global_assignment -name EDA_TEST_BENCH_FILE instructionDecode_tb.sv -section_id instructionDecode_tb
-set_global_assignment -name PARTITION_NETLIST_TYPE SOURCE -section_id Top
-set_global_assignment -name PARTITION_FITTER_PRESERVATION_LEVEL PLACEMENT_AND_ROUTING -section_id Top
-set_global_assignment -name PARTITION_COLOR 16764057 -section_id Top
 set_global_assignment -name EDA_TEST_BENCH_FILE processor_tb.sv -section_id processor_tb
 set_global_assignment -name EDA_TEST_BENCH_FILE processor.sv -section_id processor_tb
 set_global_assignment -name EDA_TEST_BENCH_FILE dataMemory.mif -section_id processor_tb
@@ -374,4 +328,7 @@ set_global_assignment -name EDA_TEST_BENCH_FILE memoryStage.sv -section_id memor
 set_global_assignment -name EDA_TEST_BENCH_FILE memoryStage_tb.sv -section_id memoryStage_tb
 set_global_assignment -name EDA_TEST_BENCH_FILE mainMemory.qip -section_id memoryStage_tb
 set_global_assignment -name EDA_TEST_BENCH_FILE mainMemorySegment.qip -section_id memoryStage_tb
+set_global_assignment -name PARTITION_NETLIST_TYPE SOURCE -section_id Top
+set_global_assignment -name PARTITION_FITTER_PRESERVATION_LEVEL PLACEMENT_AND_ROUTING -section_id Top
+set_global_assignment -name PARTITION_COLOR 16764057 -section_id Top
 set_instance_assignment -name PARTITION_HIERARCHY root_partition -to | -section_id Top
