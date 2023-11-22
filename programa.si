@@ -1,0 +1,389 @@
+Main:
+    not_start_loop:
+        mov r14, #75
+        ld r14, r14, r0
+        and r14,r14, #32
+        cmp r14, r0
+        beq not_start_loop
+    mov r14,0
+draw_lines_loop:
+    cmp r14, r0    
+    beq line_1
+
+    mov r1, #1
+    cmp r14, r1
+    beq line_2
+    
+    mov r1, #3
+    cmp r14, r1
+    beq line_3
+    
+    mov r1, #4
+    cmp r14, r1
+    beq line_4
+    
+    mov r1, #5
+    cmp r14, r1
+    beq line_5
+
+    mov r1, #6
+    cmp r14, r1
+    beq line_6
+    
+    mov r1, #7
+    cmp r14, r1
+    beq line_7
+    
+    mov r1, #8
+    cmp r14, r1
+    beq line_8
+
+    mov r1, #9
+    cmp r14, r1
+    beq line_9
+    
+    mov r1, #10
+    cmp r14, r1
+    beq line_10
+
+    mov r1, #11
+    cmp r14, r1
+    beq line_11
+    
+    mov r1, #12
+    cmp r14, r1
+    beq line_12
+
+    mov r1, #13
+    cmp r14, r1
+    beq line_13
+
+    mov r1, #14
+    cmp r14, r1
+    beq line_14
+
+    mov r1, #15
+    cmp r14, r1
+    beq line_15
+
+draw_elipses_loop:
+    mov r1, #16
+    cmp r14, r1
+    beq elipse_1
+
+    mov r1, #17
+    cmp r14, r1
+    beq elipse_2
+
+    mov r1, #18
+    cmp r14, r1
+    beq elipse_3
+
+    mov r1, #19
+    cmp r14, r1
+    beq elipse_4
+
+    b exit
+
+draw_elipse:
+    movv r7, #60
+    movv r5, #0
+    movv r6, #1
+    movv r10, #1000
+    ellipse_loop:
+        cmp r7,r0
+        beq draw_elipses_loop
+        sub r7, r7, #1
+        cosv r7, r5
+        senv r8, r5
+        multv r7, r7, r3
+        multv r8, r8, r4
+        divv r7, r7, r10
+        divv r8, r8, r10
+        addv r7, r7, r1
+        addv r8, r8, r2
+        movv r11, #310000
+        movv r12, #640
+        multv r12, r12, r8
+        addv r12, r12, r7
+        movv r15, #76
+        addv r12, r12, r15
+        movv r0, #0
+        strv r12,r11,r0
+        b store_color_elipse
+        finished_store_loop:
+        addv r5, r5, r6
+        b ellipse_loop
+
+draw_line:
+    mov r7,#0
+    mov r8,#0
+    mov r9,#0
+    mov r10,#0
+    mov r11,#0
+    mov r12,#0
+    mov r13,#0
+    sub r7, r5, r3
+    cmp r7,r0
+    ble Abs_r7
+    mov r9, #-1
+    After_abs_r7:
+    sub r8, r6, r4
+    cmp r8,r0
+    ble Abs_r8
+    mov r10, #-1
+    After_abs_r8:
+    cmp r7, r8
+    bg Brassen_calc_err
+    mov r11, r8
+    div r11, r11,  #2
+    mul r11, r11, #-1
+    Brassen_calc:
+        mov r15, #73
+        ld r13,r15,r0
+        mult r15, r4, #640
+        add r15, r15, r3
+        add r15, r15, #76
+        str r13, r15, r0 
+        cmp r3, r5
+        beq Brassen_pre_exit
+        Brassen_not_equal:
+            mov r12, r11
+            mul r13, r7, #-1
+            cmp r12, r13
+            Bg  set_error_dx
+        Brassen_not_equal_y:
+            cmp r12, r8
+            ble set_error_dy
+            b Brassen_calc
+
+set_error_dx:
+    sub r11, r11, r8
+    add r3, r3, r9 
+    b Brassen_not_equal_y
+
+store_color_elipse:
+    mov r1, #310000
+    mov r2, #0
+    mov r4, #6
+    mov r15, #73
+    ld r15, r15, r0
+    xor r15, #32
+    store_color_elipse_loop:
+        cmp r2, r4
+        bg  finished_store_loop
+        ld  r3, r1,r2
+        str r15,r3,r0
+        add r2, r2, #1
+        b store_color_elipse_loop
+
+set_error_dy:
+    add r11, r11, r7
+    add r4, r4, r10
+    b Brassen_calc
+
+Brassen_pre_exit:
+    cmp r4,r6
+    beq draw_lines_loop 
+    b Brassen_not_equal
+
+Abs_r7:
+    mul r7, r7, #-1
+    mov r9, #1
+    b After_abs_r7
+
+Abs_r8:
+    mul r8, r8, #-1
+    mov r10, #1
+    b After_abs_r8
+
+Brassen_calc_err:
+    mov r11, r7
+    div r11, r11,  #2
+    b Brassen_calc
+
+line_1:
+    mov r3, #100
+    mov r4, #200
+    mov r5, #100
+    mov r6, #450
+    add r14, r14, #1
+    b draw_line
+
+line_2:
+    mov r3, #500
+    mov r4, #200
+    mov r5, #500
+    mov r6, #450
+    add r14, r14, #1
+    b draw_line
+
+line_3:
+    mov r3, #100
+    mov r4, #200
+    mov r5, #500
+    mov r6, #200
+    add r14, r14, #1
+    b draw_line
+
+line_4:
+    mov r3, #100
+    mov r4, #450
+    mov r5, #500
+    mov r6, #450
+    add r14, r14, #1
+    b draw_line
+
+line_5:
+    mov r3, #260
+    mov r4, #130
+    mov r5, #339
+    mov r6, #130
+    add r14, r14, #1
+    b draw_line
+
+line_6:
+    mov r3, #300
+    mov r4, #100
+    mov r5, #300
+    mov r6, #159
+    add r14, r14, #1
+    b draw_line
+
+line_7:
+    mov r3, #140
+    mov r4, #275
+    mov r5, #220
+    mov r6, #275
+    add r14, r14, #1
+    b draw_line
+
+line_8:
+    mov r3, #180
+    mov r4, #245
+    mov r5, #420
+    mov r6, #304
+    add r14, r14, #1
+    b draw_line
+
+line_9:
+    mov r3, #180
+    mov r4, #245
+    mov r5, #420
+    mov r6, #304
+    add r14, r14, #1
+    b draw_line
+
+line_10:
+    mov r3, #380
+    mov r4, #275
+    mov r5, #460
+    mov r6, #275
+    add r14, r14, #1
+    b draw_line
+
+line_11:
+    mov r3, #420
+    mov r4, #245
+    mov r5, #420
+    mov r6, #304
+    add r14, r14, #1
+    b draw_line
+
+line_12:
+    mov r3, #250
+    mov r4, #325
+    mov r5, #250
+    mov r6, #450
+    add r14, r14, #1
+    b draw_line
+
+line_13:
+    mov r3, #100
+    mov r4, #200
+    mov r5, #500
+    mov r6, #200
+    add r14, r14, #1
+    b draw_line
+
+line_14:
+    mov r3, #500
+    mov r4, #200
+    mov r5, #300
+    mov r6, #50
+    add r14, r14, #1
+    b draw_line
+
+line_15:
+    mov r3, #300
+    mov r4, #50
+    mov r5, #100
+    mov r6, #200
+    add r14, r14, #1
+    b draw_line
+
+elipse_1:
+    mov r1, #335
+    mov r2, #390
+    mov r3, #7
+    mov r4, #7
+    add r14, r14, #1
+    b draw_elipse
+
+elipse_2:
+    mov r1, #300
+    mov r2, #130
+    mov r3, #40
+    mov r4, #30
+    add r14, r14, #1
+    b draw_elipse
+
+elipse_3:
+    mov r1, #180
+    mov r2, #275
+    mov r3, #40
+    mov r4, #30
+    add r14, r14, #1
+    b draw_elipse
+
+elipse_4:
+    mov r1, #420
+    mov r2, #275
+    mov r3, #40
+    mov r4, #30
+    add r14, r14, #1
+    b draw_elipse
+
+exit:
+mov r1, #0
+mov r2, #0
+mov r3, #0
+mov r4, #0
+mov r5, #0
+mov r6, #0
+mov r7, #0
+mov r8, #0
+mov r9, #0
+mov r10, #0
+mov r11, #0
+mov r12, #0
+mov r13, #0
+mov r14, #0
+mov r15, #0
+movv r0, #0
+movv r1, #0
+movv r2, #0
+movv r3, #0
+movv r4, #0
+movv r5, #0
+movv r6, #0
+movv r7, #0
+movv r8, #0
+movv r9, #0
+movv r10, #0
+movv r11, #0
+movv r12, #0
+movv r13, #0
+movv r14, #0
+movv r15, #0
+b Main
