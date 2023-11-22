@@ -1,4 +1,4 @@
-module dataMemory(input clk,rst,memWrite,modeSel,input [19:0] address1,address2,input [143:0] data1, input [3:0] switches,input [35:0] gpio1,output [35:0] gpio2, output [143:0] qa, output [15:0] qb);
+module dataMemory(input clk,rst,memWrite,modeSel,input [19:0] address1,address2,input [143:0] data1, input [4:0] switches,input [35:0] gpio1,output [35:0] gpio2, output [143:0] qa, output [15:0] qb);
 	
 	logic en1,en2;
 	logic memSel;

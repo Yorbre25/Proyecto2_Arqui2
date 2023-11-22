@@ -4,7 +4,7 @@ parameter IF_BW = 56;
 parameter ID_BW = 581;
 parameter EX_BW = 306;
 parameter MEM_BW = 302;
-module processor(input rst,input clk, input [35:0] gpio1,input [23:0] parallelAddress,input [3:0] switches,output [35:0] gpio2,output [7:0] q);
+module processor(input rst,input clk, input [35:0] gpio1,input [23:0] parallelAddress,input [4:0] switches,output [35:0] gpio2,output [15:0] q);
 
 
 
@@ -49,7 +49,6 @@ module processor(input rst,input clk, input [35:0] gpio1,input [23:0] parallelAd
 	
 	logic [1:0] flags_ex;
 	logic branchFlag_ex;
-	logic [23:0] aluResult;
 	logic [23:0] writeData;
 	logic [MEM_BW-1:0]bufferOut_mem;
 	
@@ -91,14 +90,14 @@ module processor(input rst,input clk, input [35:0] gpio1,input [23:0] parallelAd
 	
 	
 	hazardUnit myhazardUnit(
-		.Ra(ra_id_ex),.Rb(rb_id_ex),.Rc(Rc_id_ex),
+		.Ra(ra_id_ex),.Rb(rb_id_ex),.Rc(rc_id_ex),
 		.Rd_EXMEM(rc_ex_mem), 
 		.Rd_MEMWB(rc_mem_wb), 
 		.opTypeMem(opType_ex_mem), 
 		.opTypeWB(optype_mem_wb), 
 		.opCodeMem(opCode_ex_mem), 
 		.opCodeWB(opcode_mem_wb), 
-		.aluResult(aluResult), 
+		.aluResult(aluCurrentResultFinal_ex_mem), 
 		.Result(resultW), 
 		.branchTakenFlag(branchTakenFlag), 
 		.Fa(Fa),.Fb(Fb),.Fc(Fc),
@@ -127,7 +126,7 @@ module processor(input rst,input clk, input [35:0] gpio1,input [23:0] parallelAd
 		.en1(en),
 		.en2(en),						 
 		.branchFlag(branchTakenFlag), 
-		.branchAddr(aluResult), 
+		.branchAddr(aluCurrentResultFinal_ex_mem[23:0]), 
 		.bufferOut(bufferOut_if)
 	);
 	
@@ -283,7 +282,7 @@ module processor(input rst,input clk, input [35:0] gpio1,input [23:0] parallelAd
 	
 	
 	
-	writeBack #(.N(RW)) myWriteback(
+	writeBack #(.N(RW*N)) myWriteback(
 		.readDataW(readMemoryWB), 
 		.aluOutW(addressWB),     
 		.memToReg(memToReg_mem_wb),
