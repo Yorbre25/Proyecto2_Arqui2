@@ -1,7 +1,7 @@
 Main:
     not_start_loop:
         mov r14, #75
-        ld r14, [r14+r0]
+        ld r14, r14, r0
         and r14,r14, #32
         cmp r14, r0
         beq not_start_loop
@@ -87,32 +87,32 @@ draw_elipses_loop:
 
 draw_elipse:
     movv r7, #60
-    movv rv5, #0
-    movv rv6, #1
-    movv rv10, #1000
+    movv r5, #0
+    movv r6, #1
+    movv r10, #1000
     ellipse_loop:
         cmp r7,r0
         beq draw_elipses_loop
         sub r7, r7, #1
-        cosv rv7, rv5
-        senv rv8, rv5
-        multv rv7, rv7, rv3
-        multv rv8, rv8, rv4
-        divv rv7, rv7, rv10
-        divv rv8, rv8, rv10
-        addv rv7, rv7, rv1
-        addv rv8, rv8, rv2
-        movv rv11, #310000
-        movv rv12, #640
-        multv rv12, rv12, rv7
-        addv rv12, rv12, rv8
-        movv rv15, #76
-        addv rv12, rv12, rv15
-        movv rv0, #0
-        strv rv12, [rv11+rv0]
+        cosv r7, r5
+        senv r8, r5
+        multv r7, r7, r3
+        multv r8, r8, r4
+        divv r7, r7, r10
+        divv r8, r8, r10
+        addv r7, r7, r1
+        addv r8, r8, r2
+        movv r11, #310000
+        movv r12, #640
+        multv r12, r12, r7
+        addv r12, r12, r8
+        movv r15, #76
+        addv r12, r12, r15
+        movv r0, #0
+        str r12,r11,r0
         b store_color_elipse
         finished_store_loop:
-        addv rv5, rv5, rv6
+        addv r5, r5, r6
         b ellipse_loop
 
 draw_line:
@@ -123,12 +123,12 @@ draw_line:
     mov r11,#0
     mov r12,#0
     mov r13,#0
-    res r7, r5, r3
+    sub r7, r5, r3
     cmp r7,r0
     ble Mult_minus_one
     mov r9, #-1
     After_abs_r7:
-    res r8, r6, r4
+    sub r8, r6, r4
     cmp r8,r0
     ble Abs_r8
     mov r10, #-1
@@ -140,11 +140,11 @@ draw_line:
     mul r11, r11, #-1
     Brassen_calc:
         mov r15, #73
-        ld r13, [r15+r0]
+        ld r13,r15,r0
         mult r15, r3, #640
         add r15, r15, r4
         add r15, r15, #76
-        str r13, [r15+r0] 
+        str r13, r15, r0 
         cmp r3, r5
         beq Brassen_pre_exit
         Brassen_not_equal:
@@ -167,13 +167,13 @@ store_color_elipse:
     mov r2, #0
     mov r4, #6
     mov r15, #73
-    ld r15, [r15+r0]
+    ld r15, r15, r0
     xor r15, #32
     store_color_elipse_loop:
         cmp r2, r4
         bg  finished_store_loop
-        ld  r3, [r1+r2]
-        str r15, [r3+r0]
+        ld  r3, r1,r2
+        str r15,r3,r0
         add r2, r2, #1
         b store_color_elipse_loop
 
@@ -323,34 +323,34 @@ line_15:
     b draw_line
 
 elipse_1:
-    mov rv1, #335
-    mov rv2, #390
-    mov rv3, #7
-    mov rv4, #7
+    mov r1, #335
+    mov r2, #390
+    mov r3, #7
+    mov r4, #7
     add r14, r14, #1
     b draw_elipse
 
 elipse_2:
-    mov rv1, #300
-    mov rv2, #130
-    mov rv3, #40
-    mov rv4, #30
+    mov r1, #300
+    mov r2, #130
+    mov r3, #40
+    mov r4, #30
     add r14, r14, #1
     b draw_elipse
 
 elipse_3:
-    mov rv1, #180
-    mov rv2, #275
-    mov rv3, #40
-    mov rv4, #30
+    mov r1, #180
+    mov r2, #275
+    mov r3, #40
+    mov r4, #30
     add r14, r14, #1
     b draw_elipse
 
 elipse_4:
-    mov rv1, #420
-    mov rv2, #275
-    mov rv3, #40
-    mov rv4, #30
+    mov r1, #420
+    mov r2, #275
+    mov r3, #40
+    mov r4, #30
     add r14, r14, #1
     b draw_elipse
 
