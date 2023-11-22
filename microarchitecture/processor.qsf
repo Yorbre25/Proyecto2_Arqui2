@@ -241,7 +241,6 @@ set_location_assignment PIN_U30 -to switches[1]
 set_location_assignment PIN_V21 -to switches[2]
 set_location_assignment PIN_W15 -to switches[3]
 set_location_assignment PIN_AB30 -to switches[4]
-set_instance_assignment -name PARTITION_HIERARCHY root_partition -to | -section_id Top
 set_global_assignment -name VERILOG_FILE vga2/vga_generator.v
 set_global_assignment -name SYSTEMVERILOG_FILE vga/videoGensv.sv
 set_global_assignment -name SYSTEMVERILOG_FILE vga/vgaController.sv
@@ -330,3 +329,4 @@ set_global_assignment -name QIP_FILE cosRom.qip
 set_global_assignment -name QIP_FILE sinROM.qip
 set_global_assignment -name SYSTEMVERILOG_FILE mainMemorySegment_tb.sv
 set_global_assignment -name QIP_FILE mainMemorySegment.qip
+set_instance_assignment -name PARTITION_HIERARCHY root_partition -to | -section_id Top
